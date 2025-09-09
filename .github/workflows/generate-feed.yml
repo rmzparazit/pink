@@ -1,0 +1,62 @@
+name: Генерация YML-фида
+
+on:
+  schedule:
+    - cron: '0 21 * * *'  # Каждое воскресенье в 01:00 UTC
+  workflow_dispatch:
+
+jobs:
+  generate-feed:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: 📥 Клонировать репозиторий
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.REPO_PAT }}  # ← Обязательно: PAT с правами push
+
+      - name: 🐍 Установить Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: 📦 Установить зависимости
+        run: |
+          pip install -r requirements.txt
+          playwright install chromium
+
+      - name: 🚀 Запустить скрипт
+        run: |
+          python feed.py
+
+      - name: 🔍 Проверить, создан ли фид
+        run: |
+          if [ -f "output_pinkypunk/pinkypunk_catalog.xml" ]; then
+            echo "✅ Фид создан, размер: $(wc -c < output_pinkypunk/pinkypunk_catalog.xml) байт"
+          else
+            echo "❌ Ошибка: фид не создан"
+            ls -la
+            ls -la output/ || true
+            exit 1
+          fi
+
+      - name: 📤 Загрузить обновления
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          # Проверяем, изменился ли фид
+          if git diff --quiet output_pinkypunk/pinkypunk_catalog.xml; then
+            echo "ℹ️ Фид не изменился — коммит не нужен"
+            exit 0
+          fi
+
+          # Добавляем фид и резервную копию (опционально)
+          git add output_pinkypunk/pinkypunk_catalog.xml
+          git add output_pinkypunk/pinkypunk_catalog.xml.backup  # если есть
+          git add output_pinkypunk/progress.json
+
+          git commit -m "Обновлён фид: $(date '+%Y-%m-%d %H:%M')"
+          git push
+          echo "✅ Фид обновлён и загружен"
