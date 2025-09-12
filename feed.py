@@ -5,6 +5,7 @@ import random
 import hashlib
 import re
 import shutil
+import requests
 from datetime import datetime
 from urllib.parse import quote
 from playwright.sync_api import sync_playwright
