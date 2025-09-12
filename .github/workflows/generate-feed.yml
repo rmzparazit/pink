@@ -25,6 +25,7 @@ jobs:
       - name: 📦 Установить зависимости
         run: |
           pip install -r requirements.txt
+          pip install requests
           playwright install chromium
 
       - name: 🚀 Запустить скрипт
