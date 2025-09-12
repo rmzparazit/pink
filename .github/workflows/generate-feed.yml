@@ -57,6 +57,7 @@ jobs:
           git add output_pinkypunk/pinkypunk_catalog.xml
           git add output_pinkypunk/pinkypunk_catalog.xml.backup  # если есть
           git add output_pinkypunk/progress.json
+          git add output_pinkypunk/collection_mapping.json
 
           git commit -m "Обновлён фид: $(date '+%Y-%m-%d %H:%M')"
           git push
