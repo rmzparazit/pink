@@ -27,7 +27,9 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 log = logging.info
 
 def get_image_url(vendor_code):
-
+    """
+    Возвращает прямую ссылку на изображение в репозитории GitHub, если файл существует.
+    """
     GITHUB_USER = "rmzparazit"
     REPO_NAME = "pink"
     BRANCH = "main"
@@ -36,7 +38,6 @@ def get_image_url(vendor_code):
     raw_url = f"https://raw.githubusercontent.com/{GITHUB_USER}/{REPO_NAME}/{BRANCH}/{image_path}"
     
     # Проверяем, существует ли файл в репозитории (через HEAD-запрос)
-    # Это важно — чтобы не ломать фид, если картинки нет
     import requests
     try:
         response = requests.head(raw_url, timeout=5)
@@ -313,8 +314,7 @@ def generate_xml(products, collections):
     current_date = datetime.now().strftime("%Y-%m-%d %H:%M")
 
     # Загружаем маппинги
-    drive_mapping = load_image_mapping()           # Для товаров
-    collection_mapping = load_collection_mapping() # Для коллекций
+    collection_mapping = load_collection_mapping()  # Для коллекций
 
     header_lines = [
         '<?xml version="1.0" encoding="utf-8"?>',
@@ -352,8 +352,7 @@ def generate_xml(products, collections):
         # 🔥 ПРОВЕРКА: есть ли артикул для этой коллекции?
         if coll_id in collection_mapping:
             vendor_code = collection_mapping[coll_id]
-            # Получаем URL изображения через ту же логику, что и для товаров
-            image_url = get_image_url(vendor_code)  # ← Эта функция уже есть!
+            image_url = get_image_url(vendor_code)  # ← Используем get_image_url()
             if image_url:
                 footer_lines.append(f'        <picture>{image_url}</picture>')
                 log(f"✅ Картинка коллекции '{coll_name}' взята из артикула {vendor_code}")
@@ -379,9 +378,9 @@ def generate_xml(products, collections):
                 continue
             used_ids.add(unique_id)
 
-            # 🔥 ЗАМЕНА ИЗОБРАЖЕНИЯ ТОВАРА — через GitHub
+            # 🔥 ЗАМЕНА ИЗОБРАЖЕНИЯ ТОВАРА — ПРОВЕРКА В GitHub
             image_url = prod['image']  # По умолчанию — с сайта
-            github_image_url = get_image_url(unique_id)
+            github_image_url = get_image_url(unique_id)  # ← Здесь используется
             if github_image_url:
                 image_url = github_image_url
                 log(f"🔄 Заменено изображение для {unique_id}: {prod['image']} → {image_url}")
