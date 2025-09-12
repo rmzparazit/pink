@@ -315,7 +315,7 @@ def generate_xml(products, collections):
     current_date = datetime.now().strftime("%Y-%m-%d %H:%M")
 
     # Загружаем маппинги
-    collection_mapping = load_collection_mapping()  # Для коллекций
+    collection_mapping = load_collection_mapping()
 
     header_lines = [
         '<?xml version="1.0" encoding="utf-8"?>',
@@ -347,13 +347,16 @@ def generate_xml(products, collections):
 
         footer_lines.append(f'      <collection id="{coll_id}">')
         footer_lines.append(f'        <name>{coll_name}</name>')
+        
+        # 🔥 URL коллекции ОБЯЗАТЕЛЬНО в CDATA — содержит & и другие спецсимволы!
         if coll_url:
-            footer_lines.append(f'        <url>{coll_url.strip()}</url>')
+            url_cdata = f"<![CDATA[{coll_url.strip()}]]>"
+            footer_lines.append(f'        <url>{url_cdata}</url>')
 
-        # 🔥 ПРОВЕРКА: есть ли артикул для этой коллекции?
+        # 🔥 Изображение коллекции — берём по артикулу из images/
         if coll_id in collection_mapping:
             vendor_code = collection_mapping[coll_id]
-            image_url = get_image_url(vendor_code)  # ← Используем get_image_url()
+            image_url = get_image_url(vendor_code)  # Эта функция уже есть — проверяет наличие файла
             if image_url:
                 footer_lines.append(f'        <picture>{image_url}</picture>')
                 log(f"✅ Картинка коллекции '{coll_name}' взята из артикула {vendor_code}")
@@ -379,13 +382,24 @@ def generate_xml(products, collections):
                 continue
             used_ids.add(unique_id)
 
-            # 🔥 ЗАМЕНА ИЗОБРАЖЕНИЯ ТОВАРА — ПРОВЕРКА В GitHub
-            image_url = prod['image']  # По умолчанию — с сайта
-            github_image_url = get_image_url(unique_id)  # ← Здесь используется
-            if github_image_url:
-                image_url = github_image_url
-                log(f"🔄 Заменено изображение для {unique_id}: {prod['image']} → {image_url}")
+            # 🔥 ЗАМЕНА ИЗОБРАЖЕНИЯ ТОВАРА — ЛОГИКА: ОДИН picture
+            image_urls = []
 
+            # Проверяем: есть ли картинка в GitHub?
+            github_image_url = get_image_url(unique_id)
+            if github_image_url:
+                # Есть — используем ТОЛЬКО её
+                image_urls.append(github_image_url)
+                log(f"🔄 Заменено изображение для {unique_id}: {prod['image']} → {github_image_url}")
+            else:
+                # Нет — используем ВСЕ оригинальные картинки с сайта
+                if prod.get('image'):
+                    image_urls.append(prod['image'].strip())
+                for img in prod.get('additional_images', []):
+                    if img and img != prod.get('image'):
+                        image_urls.append(img.strip())
+
+            # --- Формируем offer ---
             offer = [
                 f'      <offer id="{unique_id}" available="true">',
                 f'        <name>{prod["name"]}</name>',
@@ -401,16 +415,13 @@ def generate_xml(products, collections):
             if prod.get('collection_id'):
                 offer.append(f'        <collectionId>{prod["collection_id"]}</collectionId>')
 
-            # 🔥 URL — без CDATA
-            offer.append(f'        <url>{prod["link"].strip()}</url>')
+            # 🔥 URL — ОБЯЗАТЕЛЬНО в CDATA (из-за символов & в параметрах!)
+            url_cdata = f"<![CDATA[{prod['link'].strip()}]]>"
+            offer.append(f'        <url>{url_cdata}</url>')
 
-            # 🔥 Изображение — без CDATA
-            offer.append(f'        <picture>{image_url}</picture>')
-
-            # Дополнительные изображения — без CDATA
-            for img in prod.get('additional_images', []):
-                if img and img != image_url:
-                    offer.append(f'        <picture>{img.strip()}</picture>')
+            # 🔥 Все изображения — без CDATA, как требуется Яндекс.Маркету
+            for img_url in image_urls:
+                offer.append(f'        <picture>{img_url}</picture>')
 
             # 🔥 Описание — ВСЁ ЕЩЁ В CDATA (т.к. может содержать & и <)
             if prod.get('description') and prod['description'].strip():
@@ -445,7 +456,6 @@ def generate_xml(products, collections):
         log(f"✅ XML-фид успешно сохранён: {XML_FILE}")
     except Exception as e:
         log(f"❌ Ошибка при сохранении фида: {e}")
-
 
 # --- ЗАПУСК СКРИПТА ---
 if __name__ == "__main__":
