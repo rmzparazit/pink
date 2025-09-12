@@ -14,6 +14,7 @@ jobs:
       - name: 📥 Клонировать репозиторий
         uses: actions/checkout@v4
         with:
+          fetch-depth: 0
           token: ${{ secrets.REPO_PAT }}  # ← Обязательно: PAT с правами push
 
       - name: 🐍 Установить Python
