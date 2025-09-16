@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<yml_catalog date="2025-09-15 21:27">
+<yml_catalog date="2025-09-16 21:27">
   <shop>
     <name>Секспедиция</name>
     <company>Секспедиция</company>
@@ -465,20 +465,6 @@
         <description><![CDATA[Впусти в себя этого симбиота]]></description>
         <sales_notes>Официальный сайт Секспедиция.</sales_notes>
       </offer>
-      <offer id="474355554" available="true">
-        <name>Фаллоимитатор "Пирамидоголовый" / Размер M</name>
-        <vendor>Секспедиция</vendor>
-        <vendorCode>474355554</vendorCode>
-        <model>Фаллоимитатор "Пирамидоголовый" / Размер M</model>
-        <price>2190</price>
-        <currencyId>RUB</currencyId>
-        <categoryId>1</categoryId>
-        <collectionId>618935101092</collectionId>
-        <url><![CDATA[https://pinkypunk.ru/konus]]></url>
-        <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/474355554.png</picture>
-        <description><![CDATA[18см - общая длина / 4,8см - диаметр у основания]]></description>
-        <sales_notes>Официальный сайт Секспедиция.</sales_notes>
-      </offer>
       <offer id="474355556" available="true">
         <name>Фаллоимитатор "Пирамидоголовый" / Размер XL</name>
         <vendor>Секспедиция</vendor>
@@ -493,18 +479,18 @@
         <description><![CDATA[26см - общая длина / 6,7см - диаметр у основания]]></description>
         <sales_notes>Официальный сайт Секспедиция.</sales_notes>
       </offer>
-      <offer id="474535082" available="true">
-        <name>Толстый член "Минипузик" S</name>
+      <offer id="474535083" available="true">
+        <name>Толстый член "Пузанчик" M</name>
         <vendor>Секспедиция</vendor>
-        <vendorCode>474535082</vendorCode>
-        <model>Толстый член "Минипузик" S</model>
-        <price>2590</price>
+        <vendorCode>474535083</vendorCode>
+        <model>Толстый член "Пузанчик" M</model>
+        <price>2990</price>
         <currencyId>RUB</currencyId>
         <categoryId>1</categoryId>
         <collectionId>618935101092</collectionId>
         <url><![CDATA[https://pinkypunk.ru/puzan]]></url>
-        <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/474535082.png</picture>
-        <description><![CDATA[Размер S - 19х5,4см]]></description>
+        <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/474535083.png</picture>
+        <description><![CDATA[Размер M - 22х6см]]></description>
         <sales_notes>Официальный сайт Секспедиция.</sales_notes>
       </offer>
       <offer id="441061506" available="true">
