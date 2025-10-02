@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<yml_catalog date="2025-09-30 21:28">
+<yml_catalog date="2025-10-01 21:27">
   <shop>
     <name>Секспедиция</name>
     <company>Секспедиция</company>
@@ -465,6 +465,20 @@
         <description><![CDATA[Впусти в себя этого симбиота]]></description>
         <sales_notes>Официальный сайт Секспедиция.</sales_notes>
       </offer>
+      <offer id="474355555" available="true">
+        <name>Фаллоимитатор "Пирамидоголовый" / Размер L</name>
+        <vendor>Секспедиция</vendor>
+        <vendorCode>474355555</vendorCode>
+        <model>Фаллоимитатор "Пирамидоголовый" / Размер L</model>
+        <price>2690</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>1</categoryId>
+        <collectionId>618935101092</collectionId>
+        <url><![CDATA[https://pinkypunk.ru/konus]]></url>
+        <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/474355555.png</picture>
+        <description><![CDATA[23см - общая длина / 5,4см - диаметр у основания]]></description>
+        <sales_notes>Официальный сайт Секспедиция.</sales_notes>
+      </offer>
       <offer id="474355556" available="true">
         <name>Фаллоимитатор "Пирамидоголовый" / Размер XL</name>
         <vendor>Секспедиция</vendor>
@@ -477,20 +491,6 @@
         <url><![CDATA[https://pinkypunk.ru/konus]]></url>
         <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/474355556.png</picture>
         <description><![CDATA[26см - общая длина / 6,7см - диаметр у основания]]></description>
-        <sales_notes>Официальный сайт Секспедиция.</sales_notes>
-      </offer>
-      <offer id="441061506" available="true">
-        <name>Ультра-реалистичный мастурбатор "Тяночка"</name>
-        <vendor>Секспедиция</vendor>
-        <vendorCode>441061506</vendorCode>
-        <model>Ультра-реалистичный мастурбатор "Тяночка"</model>
-        <price>3490</price>
-        <currencyId>RUB</currencyId>
-        <categoryId>1</categoryId>
-        <collectionId>435183164492</collectionId>
-        <url><![CDATA[https://pinkypunk.ru/premiummasturbator]]></url>
-        <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/441061506.png</picture>
-        <description><![CDATA[Чистейший силикон с максимальной детализацией и тактильностью]]></description>
         <sales_notes>Официальный сайт Секспедиция.</sales_notes>
       </offer>
     </offers>
