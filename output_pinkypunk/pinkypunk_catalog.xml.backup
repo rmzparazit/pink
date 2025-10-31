@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<yml_catalog date="2025-10-29 21:09">
+<yml_catalog date="2025-10-30 21:09">
   <shop>
     <name>Секспедиция</name>
     <company>Секспедиция</company>
@@ -479,12 +479,26 @@
         <description><![CDATA[Даже и добавить нечего.]]></description>
         <sales_notes>Официальный сайт Секспедиция.</sales_notes>
       </offer>
+      <offer id="491485011" available="true">
+        <name>Фаллоимитатор рельефный "Веном" / Размер XL</name>
+        <vendor>Секспедиция</vendor>
+        <vendorCode>491485011</vendorCode>
+        <model>Фаллоимитатор рельефный "Веном" / Размер XL</model>
+        <price>5490</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>1</categoryId>
+        <collectionId>618935101092</collectionId>
+        <url><![CDATA[https://pinkypunk.ru/venom/tproduct/1290102421-844773075152-falloimitator-relefnii-venom-razmer-xl]]></url>
+        <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/491485011.png</picture>
+        <description><![CDATA[Впусти в себя этого симбиота]]></description>
+        <sales_notes>Официальный сайт Секспедиция.</sales_notes>
+      </offer>
       <offer id="489065280" available="true">
         <name>Секс-кукла "19кг радости"</name>
         <vendor>Секспедиция</vendor>
         <vendorCode>489065280</vendorCode>
         <model>Секс-кукла "19кг радости"</model>
-        <price>57000</price>
+        <price>56000</price>
         <currencyId>RUB</currencyId>
         <categoryId>1</categoryId>
         <collectionId>435183164492</collectionId>
@@ -561,20 +575,6 @@
         <url><![CDATA[https://pinkypunk.ru/premiummasturbator]]></url>
         <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/441061506.png</picture>
         <description><![CDATA[Чистейший силикон с максимальной детализацией и тактильностью]]></description>
-        <sales_notes>Официальный сайт Секспедиция.</sales_notes>
-      </offer>
-      <offer id="491485011" available="true">
-        <name>Фаллоимитатор рельефный "Веном" / Размер XL</name>
-        <vendor>Секспедиция</vendor>
-        <vendorCode>491485011</vendorCode>
-        <model>Фаллоимитатор рельефный "Веном" / Размер XL</model>
-        <price>5490</price>
-        <currencyId>RUB</currencyId>
-        <categoryId>1</categoryId>
-        <collectionId>618935101092</collectionId>
-        <url><![CDATA[https://pinkypunk.ru/venom/tproduct/1290102421-844773075152-falloimitator-relefnii-venom-razmer-xl]]></url>
-        <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/491485011.png</picture>
-        <description><![CDATA[Впусти в себя этого симбиота]]></description>
         <sales_notes>Официальный сайт Секспедиция.</sales_notes>
       </offer>
     </offers>
