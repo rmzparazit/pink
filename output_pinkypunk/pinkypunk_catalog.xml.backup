@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<yml_catalog date="2025-11-10 21:09">
+<yml_catalog date="2025-11-11 21:09">
   <shop>
     <name>Секспедиция</name>
     <company>Секспедиция</company>
@@ -579,20 +579,6 @@
         <description><![CDATA[26см - общая длина / 6,7см - диаметр у основания]]></description>
         <sales_notes>Официальный сайт Секспедиция.</sales_notes>
       </offer>
-      <offer id="474535085" available="true">
-        <name>Толстый член "Пузан" L</name>
-        <vendor>Секспедиция</vendor>
-        <vendorCode>474535085</vendorCode>
-        <model>Толстый член "Пузан" L</model>
-        <price>3590</price>
-        <currencyId>RUB</currencyId>
-        <categoryId>1</categoryId>
-        <collectionId>618935101092</collectionId>
-        <url><![CDATA[https://pinkypunk.ru/puzan]]></url>
-        <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/474535085.png</picture>
-        <description><![CDATA[Размер L - 24х7см]]></description>
-        <sales_notes>Официальный сайт Секспедиция.</sales_notes>
-      </offer>
       <offer id="474535082" available="true">
         <name>Толстый член "Минипузик" S</name>
         <vendor>Секспедиция</vendor>
@@ -638,6 +624,29 @@
       </offer>
     </offers>
     <collections>
+      <collection id="435183164492">
+        <name>Мастурбаторы</name>
+        <url><![CDATA[https://pinkypunk.ru/catalog?tfc_storepartuid%5B757983339%5D=%D0%9C%D0%B0%D1%81%D1%82%D1%83%D1%80%D0%B1%D0%B0%D1%82%D0%BE%D1%80%D1%8B&tfc_div=:::]]></url>
+        <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/441061507.png</picture>
+      </collection>
+      <collection id="618935101092">
+        <name>Фаллоимитаторы</name>
+        <url><![CDATA[https://pinkypunk.ru/catalog?tfc_storepartuid%5B757983339%5D=%D0%A4%D0%B0%D0%BB%D0%BB%D0%BE%D0%B8%D0%BC%D0%B8%D1%82%D0%B0%D1%82%D0%BE%D1%80%D1%8B&tfc_div=:::]]></url>
+        <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/491485008.png</picture>
+      </collection>
+      <collection id="173610001502">
+        <name>Игры для пар</name>
+        <url><![CDATA[https://pinkypunk.ru/catalog?tfc_storepartuid%5B757983339%5D=%D0%98%D0%B3%D1%80%D1%8B%20%D0%B4%D0%BB%D1%8F%20%D0%BF%D0%B0%D1%80&tfc_div=:::]]></url>
+      </collection>
+      <collection id="166362679662">
+        <name>Лубрики</name>
+        <url><![CDATA[https://pinkypunk.ru/catalog?tfc_storepartuid%5B757983339%5D=%D0%9B%D1%83%D0%B1%D1%80%D0%B8%D0%BA%D0%B8&tfc_div=:::]]></url>
+      </collection>
+      <collection id="994515996962">
+        <name>Насадки</name>
+        <url><![CDATA[https://pinkypunk.ru/catalog?tfc_storepartuid%5B757983339%5D=%D0%9D%D0%B0%D1%81%D0%B0%D0%B4%D0%BA%D0%B8&tfc_div=:::]]></url>
+        <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/447983590.png</picture>
+      </collection>
     </collections>
   </shop>
 </yml_catalog>
