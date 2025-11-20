@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<yml_catalog date="2025-11-19 21:08">
+<yml_catalog date="2025-11-20 21:10">
   <shop>
     <name>Секспедиция</name>
     <company>Секспедиция</company>
@@ -12,6 +12,20 @@
       <category id="1">Секс-игрушки</category>
     </categories>
     <offers>
+      <offer id="411139393" available="true">
+        <name>Миниатюрная секс-кукла "Лилит"</name>
+        <vendor>Секспедиция</vendor>
+        <vendorCode>411139393</vendorCode>
+        <model>Миниатюрная секс-кукла "Лилит"</model>
+        <price>2560</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>1</categoryId>
+        <collectionId>435183164492</collectionId>
+        <url><![CDATA[https://pinkypunk.ru/lilit]]></url>
+        <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/411139393.png</picture>
+        <description><![CDATA[Дьявольски хороша]]></description>
+        <sales_notes>Официальный сайт Секспедиция.</sales_notes>
+      </offer>
       <offer id="287449573" available="true">
         <name>Большая попка "Мэри Сью"</name>
         <vendor>Секспедиция</vendor>
@@ -122,6 +136,34 @@
         <url><![CDATA[https://pinkypunk.ru/venom/tproduct/1290102421-551667433232-vibrator-falloimitator-na-pulte-upravlen]]></url>
         <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/128861729.png</picture>
         <description><![CDATA[Вибратор с фрикциями в виде члена! Что может быть лучше?]]></description>
+        <sales_notes>Официальный сайт Секспедиция.</sales_notes>
+      </offer>
+      <offer id="31243073" available="true">
+        <name>Реалистичный мастурбатор "Губы Бывшей": Вагина и ротик</name>
+        <vendor>Секспедиция</vendor>
+        <vendorCode>31243073</vendorCode>
+        <model>Реалистичный мастурбатор "Губы Бывшей": Вагина и ротик</model>
+        <price>1190</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>1</categoryId>
+        <collectionId>435183164492</collectionId>
+        <url><![CDATA[https://pinkypunk.ru/popamary/tproduct/1216514926-866665066712-realistichnii-masturbator-gubi-bivshei-v]]></url>
+        <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/31243073.png</picture>
+        <description><![CDATA[Мастурбатор рот и вагина - проводник в мир наслаждения.]]></description>
+        <sales_notes>Официальный сайт Секспедиция.</sales_notes>
+      </offer>
+      <offer id="128690048" available="true">
+        <name>Мастурбатор реалистичный "Фитоняшка": вагина и анус</name>
+        <vendor>Секспедиция</vendor>
+        <vendorCode>128690048</vendorCode>
+        <model>Мастурбатор реалистичный "Фитоняшка": вагина и анус</model>
+        <price>1290</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>1</categoryId>
+        <collectionId>435183164492</collectionId>
+        <url><![CDATA[https://pinkypunk.ru/popamary/tproduct/1216514926-548467214832-masturbator-realistichnii-fitonyashka-va]]></url>
+        <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/128690048.png</picture>
+        <description><![CDATA["Фитоняша" уровень 2.0 для тех, кто любит узеньких]]></description>
         <sales_notes>Официальный сайт Секспедиция.</sales_notes>
       </offer>
       <offer id="29519206" available="true">
