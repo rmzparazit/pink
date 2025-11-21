@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<yml_catalog date="2025-11-20 21:10">
+<yml_catalog date="2025-11-21 21:09">
   <shop>
     <name>Секспедиция</name>
     <company>Секспедиция</company>
@@ -527,7 +527,7 @@
         <vendor>Секспедиция</vendor>
         <vendorCode>489065280</vendorCode>
         <model>Секс-кукла "19кг радости"</model>
-        <price>56000</price>
+        <price>59000</price>
         <currencyId>RUB</currencyId>
         <categoryId>1</categoryId>
         <collectionId>435183164492</collectionId>
