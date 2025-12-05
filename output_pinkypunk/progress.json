@@ -478,6 +478,19 @@
             "description": "Третий размер, кстати",
             "collection_id": "435183164492",
             "collection": "default"
+        },
+        {
+            "name": "Член с подвижными яичками и кожей \"Шалтай-Болтай\"",
+            "vendorCode": "239871335",
+            "link": "https://pinkypunk.ru/venom/tproduct/1290102421-407286916862-chlen-s-podvizhnimi-yaichkami-i-kozhei-s",
+            "image": "https://static.tildacdn.com/stor3230-6535-4437-a335-386138656263/45705362.jpg",
+            "additional_images": [
+                "https://static.tildacdn.com/stor6131-6539-4264-b233-613232363631/38289993.jpg"
+            ],
+            "price": "2690",
+            "description": "Прямиком из лаборатории Секспедиции.",
+            "collection_id": "618935101092",
+            "collection": "default"
         }
     ]
 }
