@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<yml_catalog date="2025-12-06 21:09">
+<yml_catalog date="2025-12-07 21:09">
   <shop>
     <name>Секспедиция</name>
     <company>Секспедиция</company>
@@ -576,6 +576,34 @@
         <url><![CDATA[https://pinkypunk.ru/konus]]></url>
         <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/474355554.png</picture>
         <description><![CDATA[18см - общая длина / 4,8см - диаметр у основания]]></description>
+        <sales_notes>Официальный сайт Секспедиция.</sales_notes>
+      </offer>
+      <offer id="474355555" available="true">
+        <name>Фаллоимитатор "Пирамидоголовый" / Размер L</name>
+        <vendor>Секспедиция</vendor>
+        <vendorCode>474355555</vendorCode>
+        <model>Фаллоимитатор "Пирамидоголовый" / Размер L</model>
+        <price>2690</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>1</categoryId>
+        <collectionId>618935101092</collectionId>
+        <url><![CDATA[https://pinkypunk.ru/konus]]></url>
+        <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/474355555.png</picture>
+        <description><![CDATA[23см - общая длина / 5,4см - диаметр у основания]]></description>
+        <sales_notes>Официальный сайт Секспедиция.</sales_notes>
+      </offer>
+      <offer id="474355556" available="true">
+        <name>Фаллоимитатор "Пирамидоголовый" / Размер XL</name>
+        <vendor>Секспедиция</vendor>
+        <vendorCode>474355556</vendorCode>
+        <model>Фаллоимитатор "Пирамидоголовый" / Размер XL</model>
+        <price>3590</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>1</categoryId>
+        <collectionId>618935101092</collectionId>
+        <url><![CDATA[https://pinkypunk.ru/konus]]></url>
+        <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/474355556.png</picture>
+        <description><![CDATA[26см - общая длина / 6,7см - диаметр у основания]]></description>
         <sales_notes>Официальный сайт Секспедиция.</sales_notes>
       </offer>
       <offer id="474535082" available="true">
