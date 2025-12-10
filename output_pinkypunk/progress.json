@@ -374,6 +374,19 @@
             "description": "Уникальная своего рода херня, то ли дилдо, то ли пробка, то ли игрушка",
             "collection_id": "618935101092",
             "collection": "default"
+        },
+        {
+            "name": "Секспедиция: Trip to Amsterdam",
+            "vendorCode": "29519205",
+            "link": "https://pinkypunk.ru/venom/tproduct/1290102421-427536218642-sekspeditsiya-trip-to-amsterdam",
+            "image": "https://static.tildacdn.com/stor3533-6264-4134-a230-336665393236/45277784.jpg",
+            "additional_images": [
+                "https://static.tildacdn.com/stor6235-6537-4762-b261-333431363162/93563152.jpg"
+            ],
+            "price": "990",
+            "description": "Вторая игра в нашей линейке, для тех кто любит ролевые игры",
+            "collection_id": "173610001502",
+            "collection": "default"
         }
     ]
 }
