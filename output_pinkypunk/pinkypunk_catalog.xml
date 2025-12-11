@@ -1,563 +1,555 @@
-<?xml version="1.0" encoding="utf-8"?>
-<yml_catalog date="2025-12-10 21:12">
+<?xml version="1.0" encoding="UTF-8"?>
+<yml_catalog date="2025-12-11 15:45">
   <shop>
     <name>Секспедиция</name>
     <company>Секспедиция</company>
     <url>https://pinkypunk.ru</url>
     <platform>Tilda</platform>
+    <version>1.0</version>
     <currencies>
       <currency id="RUB" rate="1"/>
     </currencies>
     <categories>
       <category id="1">Секс-игрушки</category>
     </categories>
+    <collections>
+      <collection id="166362679662">
+        <name>Лубрики</name>
+        <url><![CDATA[https://pinkypunk.ru/catalog?tfc_storepartuid%5B757983339%5D=%D0%9B%D1%83%D0%B1%D1%80%D0%B8%D0%BA%D0%B8&tfc_div=:::]]></url>
+        <image>https://static.tildacdn.com/stor3232-3738-4861-b163-363665666262/69507832.jpg</image>
+      </collection>
+      <collection id="173610001502">
+        <name>Игры для пар</name>
+        <url><![CDATA[https://pinkypunk.ru/catalog?tfc_storepartuid%5B757983339%5D=%D0%98%D0%B3%D1%80%D1%8B%20%D0%B4%D0%BB%D1%8F%20%D0%BF%D0%B0%D1%80&tfc_div=:::]]></url>
+        <image>https://static.tildacdn.com/stor3366-6261-4862-b935-636633616264/53222096.jpg</image>
+      </collection>
+      <collection id="435183164492">
+        <name>Мастурбаторы</name>
+        <url><![CDATA[https://pinkypunk.ru/catalog?tfc_storepartuid%5B757983339%5D=%D0%9C%D0%B0%D1%81%D1%82%D1%83%D1%80%D0%B1%D0%B0%D1%82%D0%BE%D1%80%D1%8B&tfc_div=:::]]></url>
+        <image>https://raw.githubusercontent.com/rmzparazit/pink/main/images/287449573.png</image>
+      </collection>
+      <collection id="618935101092">
+        <name>Фаллоимитаторы</name>
+        <url><![CDATA[https://pinkypunk.ru/catalog?tfc_storepartuid%5B757983339%5D=%D0%A4%D0%B0%D0%BB%D0%BB%D0%BE%D0%B8%D0%BC%D0%B8%D1%82%D0%B0%D1%82%D0%BE%D1%80%D1%8B&tfc_div=:::]]></url>
+        <image>https://raw.githubusercontent.com/rmzparazit/pink/main/images/330285526.png</image>
+      </collection>
+    </collections>
     <offers>
       <offer id="287449573" available="true">
         <name>Большая попка "Мэри Сью"</name>
         <vendor>Секспедиция</vendor>
         <vendorCode>287449573</vendorCode>
-        <model>Большая попка "Мэри Сью"</model>
         <price>14900</price>
         <currencyId>RUB</currencyId>
         <categoryId>1</categoryId>
+        <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/287449573.png</picture>
         <collectionId>435183164492</collectionId>
         <url><![CDATA[https://pinkypunk.ru/popamary]]></url>
-        <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/287449573.png</picture>
         <description><![CDATA[Невозможно описать словами те эмоции, которая дарит Мэри]]></description>
         <sales_notes>Официальный сайт Секспедиция.</sales_notes>
+        <custom_label_0>Большая попка "Мэри Сью"</custom_label_0>
       </offer>
       <offer id="449723250" available="true">
         <name>Реалистичная попка "Хани Дью"</name>
         <vendor>Секспедиция</vendor>
         <vendorCode>449723250</vendorCode>
-        <model>Реалистичная попка "Хани Дью"</model>
         <price>12500</price>
         <currencyId>RUB</currencyId>
         <categoryId>1</categoryId>
+        <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/449723250.png</picture>
         <collectionId>435183164492</collectionId>
         <url><![CDATA[https://pinkypunk.ru/popamary/tproduct/1216514926-912583328112-realistichnaya-popka-hani-dyu]]></url>
-        <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/449723250.png</picture>
         <description><![CDATA[Нежная и невероятно развратная]]></description>
         <sales_notes>Официальный сайт Секспедиция.</sales_notes>
+        <custom_label_0>Реалистичная попка "Хани Дью"</custom_label_0>
       </offer>
       <offer id="449791367" available="true">
         <name>Мастурбатор грудь с вагиной "ПисьДаСись"</name>
         <vendor>Секспедиция</vendor>
         <vendorCode>449791367</vendorCode>
-        <model>Мастурбатор грудь с вагиной "ПисьДаСись"</model>
         <price>13900</price>
         <currencyId>RUB</currencyId>
         <categoryId>1</categoryId>
+        <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/449791367.png</picture>
         <collectionId>435183164492</collectionId>
         <url><![CDATA[https://pinkypunk.ru/popamary/tproduct/1216514926-394621851712-masturbator-grud-s-vaginoi-pisdasis]]></url>
-        <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/449791367.png</picture>
         <description><![CDATA[Третий размер, кстати]]></description>
         <sales_notes>Официальный сайт Секспедиция.</sales_notes>
+        <custom_label_0>Мастурбатор грудь с вагиной "ПисьДаСись"</custom_label_0>
       </offer>
       <offer id="390792717" available="true">
         <name>Фаллоимитатор "Мини Годзиллкин"</name>
         <vendor>Секспедиция</vendor>
         <vendorCode>390792717</vendorCode>
-        <model>Фаллоимитатор "Мини Годзиллкин"</model>
         <price>2490</price>
         <currencyId>RUB</currencyId>
         <categoryId>1</categoryId>
-        <collectionId>618935101092</collectionId>
-        <url><![CDATA[https://pinkypunk.ru/toys/dildogodzilla/tproduct/1139048326-296673978312-falloimitator-mini-godzillkin]]></url>
         <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/390792717.png</picture>
+        <url><![CDATA[https://pinkypunk.ru/toys/dildogodzilla/tproduct/1139048326-296673978312-falloimitator-mini-godzillkin]]></url>
         <description><![CDATA[Самый маленький в семействе Годзилловичей]]></description>
         <sales_notes>Официальный сайт Секспедиция.</sales_notes>
+        <custom_label_0>Фаллоимитатор "Мини Годзиллкин"</custom_label_0>
       </offer>
       <offer id="215477104" available="true">
         <name>Большой фаллоимитатор Годзиллович 25х7см</name>
         <vendor>Секспедиция</vendor>
         <vendorCode>215477104</vendorCode>
-        <model>Большой фаллоимитатор Годзиллович 25х7см</model>
         <price>3390</price>
         <currencyId>RUB</currencyId>
         <categoryId>1</categoryId>
-        <collectionId>618935101092</collectionId>
-        <url><![CDATA[https://pinkypunk.ru/toys/dildogodzilla/tproduct/1139048326-406096066732-bolshoi-falloimitator-godzillovich-25h7s]]></url>
         <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/215477104.png</picture>
+        <url><![CDATA[https://pinkypunk.ru/toys/dildogodzilla/tproduct/1139048326-406096066732-bolshoi-falloimitator-godzillovich-25h7s]]></url>
         <description><![CDATA[Средний в семье Годзилловичей]]></description>
         <sales_notes>Официальный сайт Секспедиция.</sales_notes>
+        <custom_label_0>Большой фаллоимитатор Годзиллович 25х7см</custom_label_0>
       </offer>
       <offer id="399937364" available="true">
         <name>Огромный фаллоимитатор "Босс Годзиллдос" 30х8см</name>
         <vendor>Секспедиция</vendor>
         <vendorCode>399937364</vendorCode>
-        <model>Огромный фаллоимитатор "Босс Годзиллдос" 30х8см</model>
         <price>5590</price>
         <currencyId>RUB</currencyId>
         <categoryId>1</categoryId>
-        <collectionId>618935101092</collectionId>
-        <url><![CDATA[https://pinkypunk.ru/toys/dildogodzilla/tproduct/1139048326-947015277102-ogromnii-falloimitator-boss-godzilldos-3]]></url>
         <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/399937364.png</picture>
+        <url><![CDATA[https://pinkypunk.ru/toys/dildogodzilla/tproduct/1139048326-947015277102-ogromnii-falloimitator-boss-godzilldos-3]]></url>
         <description><![CDATA[Название говорит само за себя]]></description>
         <sales_notes>Официальный сайт Секспедиция.</sales_notes>
+        <custom_label_0>Огромный фаллоимитатор "Босс Годзиллдос" 30х8см</custom_label_0>
       </offer>
       <offer id="330285526" available="true">
         <name>Фаллоимитатор "Акробат" 18см х 4,5см</name>
         <vendor>Секспедиция</vendor>
         <vendorCode>330285526</vendorCode>
-        <model>Фаллоимитатор "Акробат" 18см х 4,5см</model>
         <price>2590</price>
         <currencyId>RUB</currencyId>
         <categoryId>1</categoryId>
+        <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/330285526.png</picture>
         <collectionId>618935101092</collectionId>
         <url><![CDATA[https://pinkypunk.ru/venom/tproduct/1290102421-226077694712-falloimitator-akrobat-18sm-h-45sm]]></url>
-        <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/330285526.png</picture>
         <description><![CDATA[Гнущийся фаллоимитатор с металлическим каркасом внутри]]></description>
         <sales_notes>Официальный сайт Секспедиция.</sales_notes>
+        <custom_label_0>Фаллоимитатор "Акробат" 18см х 4,5см</custom_label_0>
       </offer>
       <offer id="29519206" available="true">
         <name>Эротическая игра: Секспедиция</name>
         <vendor>Секспедиция</vendor>
         <vendorCode>29519206</vendorCode>
-        <model>Эротическая игра: Секспедиция</model>
         <price>690</price>
         <currencyId>RUB</currencyId>
         <categoryId>1</categoryId>
+        <picture>https://static.tildacdn.com/stor3366-6261-4862-b935-636633616264/53222096.jpg</picture>
         <collectionId>173610001502</collectionId>
         <url><![CDATA[https://pinkypunk.ru/venom/tproduct/1290102421-942937686282-eroticheskaya-igra-sekspeditsiya]]></url>
-        <picture>https://static.tildacdn.com/stor3366-6261-4862-b935-636633616264/53222096.jpg</picture>
-        <picture>https://static.tildacdn.com/stor6133-6337-4166-b736-656238326437/64190957.jpg</picture>
         <description><![CDATA[Секс игра для пары, которая уже стала культовой]]></description>
         <sales_notes>Официальный сайт Секспедиция.</sales_notes>
-      </offer>
-      <offer id="431433166" available="true">
-        <name>Фаллоимитатор малыш "Правнук Шляпника"</name>
-        <vendor>Секспедиция</vendor>
-        <vendorCode>431433166</vendorCode>
-        <model>Фаллоимитатор малыш "Правнук Шляпника"</model>
-        <price>1690</price>
-        <currencyId>RUB</currencyId>
-        <categoryId>1</categoryId>
-        <collectionId>618935101092</collectionId>
-        <url><![CDATA[https://pinkypunk.ru/venom/tproduct/1290102421-135688904372-falloimitator-malish-pravnuk-shlyapnika]]></url>
-        <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/431433166.png</picture>
-        <description><![CDATA[Самый маленький дилдо в семействе Шляпников]]></description>
-        <sales_notes>Официальный сайт Секспедиция.</sales_notes>
-      </offer>
-      <offer id="330270966" available="true">
-        <name>Фаллоимитатор "Внук Шляпника"</name>
-        <vendor>Секспедиция</vendor>
-        <vendorCode>330270966</vendorCode>
-        <model>Фаллоимитатор "Внук Шляпника"</model>
-        <price>1990</price>
-        <currencyId>RUB</currencyId>
-        <categoryId>1</categoryId>
-        <collectionId>618935101092</collectionId>
-        <url><![CDATA[https://pinkypunk.ru/venom/tproduct/1290102421-475079659962-falloimitator-vnuk-shlyapnika]]></url>
-        <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/330270966.png</picture>
-        <description><![CDATA[Долгожданный дилдо, самый маленький в семействе]]></description>
-        <sales_notes>Официальный сайт Секспедиция.</sales_notes>
-      </offer>
-      <offer id="262501204" available="true">
-        <name>Фаллоимитатор "Сын Шляпника"</name>
-        <vendor>Секспедиция</vendor>
-        <vendorCode>262501204</vendorCode>
-        <model>Фаллоимитатор "Сын Шляпника"</model>
-        <price>2590</price>
-        <currencyId>RUB</currencyId>
-        <categoryId>1</categoryId>
-        <collectionId>618935101092</collectionId>
-        <url><![CDATA[https://pinkypunk.ru/venom/tproduct/1290102421-314146391302-falloimitator-sin-shlyapnika]]></url>
-        <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/262501204.png</picture>
-        <description><![CDATA[Пока пытаешься осилить Шляпника, поиграй с его сыном.]]></description>
-        <sales_notes>Официальный сайт Секспедиция.</sales_notes>
-      </offer>
-      <offer id="474611005" available="true">
-        <name>Фаллоимитатор "Старший сын Шляпника"</name>
-        <vendor>Секспедиция</vendor>
-        <vendorCode>474611005</vendorCode>
-        <model>Фаллоимитатор "Старший сын Шляпника"</model>
-        <price>3290</price>
-        <currencyId>RUB</currencyId>
-        <categoryId>1</categoryId>
-        <collectionId>618935101092</collectionId>
-        <url><![CDATA[https://pinkypunk.ru/venom/tproduct/1290102421-927965183162-falloimitator-starshii-sin-shlyapnika]]></url>
-        <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/474611005.png</picture>
-        <description><![CDATA[На помощь, чтобы осилить Шляпника]]></description>
-        <sales_notes>Официальный сайт Секспедиция.</sales_notes>
-      </offer>
-      <offer id="239859701" available="true">
-        <name>Большой фаллоимитатор "Шляпник"</name>
-        <vendor>Секспедиция</vendor>
-        <vendorCode>239859701</vendorCode>
-        <model>Большой фаллоимитатор "Шляпник"</model>
-        <price>3490</price>
-        <currencyId>RUB</currencyId>
-        <categoryId>1</categoryId>
-        <collectionId>618935101092</collectionId>
-        <url><![CDATA[https://pinkypunk.ru/venom/tproduct/1290102421-858730095162-bolshoi-falloimitator-shlyapnik]]></url>
-        <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/239859701.png</picture>
-        <description><![CDATA[Тот самый дилдо Шляпник, с которого началось семейство]]></description>
-        <sales_notes>Официальный сайт Секспедиция.</sales_notes>
-      </offer>
-      <offer id="262501210" available="true">
-        <name>Фаллоимитатор гигант "Отец Шляпника"</name>
-        <vendor>Секспедиция</vendor>
-        <vendorCode>262501210</vendorCode>
-        <model>Фаллоимитатор гигант "Отец Шляпника"</model>
-        <price>5690</price>
-        <currencyId>RUB</currencyId>
-        <categoryId>1</categoryId>
-        <collectionId>618935101092</collectionId>
-        <url><![CDATA[https://pinkypunk.ru/venom/tproduct/1290102421-789860578062-falloimitator-gigant-otets-shlyapnika]]></url>
-        <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/262501210.png</picture>
-        <description><![CDATA[Батя в здании и он пришел раздать не по-детски]]></description>
-        <sales_notes>Официальный сайт Секспедиция.</sales_notes>
-      </offer>
-      <offer id="52819167" available="true">
-        <name>Интимная гель-смазка Классическая 100мл</name>
-        <vendor>Секспедиция</vendor>
-        <vendorCode>52819167</vendorCode>
-        <model>Интимная гель-смазка Классическая 100мл</model>
-        <price>490</price>
-        <currencyId>RUB</currencyId>
-        <categoryId>1</categoryId>
-        <collectionId>166362679662</collectionId>
-        <url><![CDATA[https://pinkypunk.ru/venom/tproduct/1290102421-188604955482-intimnaya-gel-smazka-klassicheskaya-100m]]></url>
-        <picture>https://static.tildacdn.com/stor3232-3738-4861-b163-363665666262/69507832.jpg</picture>
-        <picture>https://static.tildacdn.com/stor3064-6636-4666-a336-316332323534/37966212.jpg</picture>
-        <description><![CDATA[Строгая классика, никаких добавок, только чистый кайф]]></description>
-        <sales_notes>Официальный сайт Секспедиция.</sales_notes>
-      </offer>
-      <offer id="466514947" available="true">
-        <name>Интимная гель-смазка Вишневая 100мл</name>
-        <vendor>Секспедиция</vendor>
-        <vendorCode>466514947</vendorCode>
-        <model>Интимная гель-смазка Вишневая 100мл</model>
-        <price>490</price>
-        <currencyId>RUB</currencyId>
-        <categoryId>1</categoryId>
-        <collectionId>166362679662</collectionId>
-        <url><![CDATA[https://pinkypunk.ru/venom/tproduct/1290102421-378410353192-intimnaya-gel-smazka-vishnevaya-100ml]]></url>
-        <picture>https://static.tildacdn.com/stor6137-6563-4161-b933-316165353539/96236198.jpg</picture>
-        <picture>https://static.tildacdn.com/stor3139-3565-4162-a566-663731666539/71893886.jpg</picture>
-        <description><![CDATA[Сладенького захотелось?]]></description>
-        <sales_notes>Официальный сайт Секспедиция.</sales_notes>
-      </offer>
-      <offer id="DvaLubrika" available="true">
-        <name>Два лубрика: Вишня + Классика</name>
-        <vendor>Секспедиция</vendor>
-        <vendorCode>DvaLubrika</vendorCode>
-        <model>Два лубрика: Вишня + Классика</model>
-        <price>790</price>
-        <currencyId>RUB</currencyId>
-        <categoryId>1</categoryId>
-        <collectionId>166362679662</collectionId>
-        <url><![CDATA[https://pinkypunk.ru/venom/tproduct/1290102421-580796667272-dva-lubrika-vishnya-klassika]]></url>
-        <picture>https://static.tildacdn.com/stor6136-3632-4435-b061-303834303265/52401313.jpg</picture>
-        <description><![CDATA[Зачем брать один, когда можно взять сразу два по охерительной цене? А?]]></description>
-        <sales_notes>Официальный сайт Секспедиция.</sales_notes>
-      </offer>
-      <offer id="239871335" available="true">
-        <name>Член с подвижными яичками и кожей "Шалтай-Болтай"</name>
-        <vendor>Секспедиция</vendor>
-        <vendorCode>239871335</vendorCode>
-        <model>Член с подвижными яичками и кожей "Шалтай-Болтай"</model>
-        <price>2690</price>
-        <currencyId>RUB</currencyId>
-        <categoryId>1</categoryId>
-        <collectionId>618935101092</collectionId>
-        <url><![CDATA[https://pinkypunk.ru/venom/tproduct/1290102421-407286916862-chlen-s-podvizhnimi-yaichkami-i-kozhei-s]]></url>
-        <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/239871335.png</picture>
-        <description><![CDATA[Прямиком из лаборатории Секспедиции.]]></description>
-        <sales_notes>Официальный сайт Секспедиция.</sales_notes>
-      </offer>
-      <offer id="471859805" available="true">
-        <name>Секс-кукла "30кг радости"</name>
-        <vendor>Секспедиция</vendor>
-        <vendorCode>471859805</vendorCode>
-        <model>Секс-кукла "30кг радости"</model>
-        <price>85000</price>
-        <currencyId>RUB</currencyId>
-        <categoryId>1</categoryId>
-        <collectionId>435183164492</collectionId>
-        <url><![CDATA[https://pinkypunk.ru/body]]></url>
-        <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/471859805.png</picture>
-        <description><![CDATA[Даже и добавить нечего.]]></description>
-        <sales_notes>Официальный сайт Секспедиция.</sales_notes>
-      </offer>
-      <offer id="474354054" available="true">
-        <name>Фаллоимитатор "Пирамидоголовый" / Размер S</name>
-        <vendor>Секспедиция</vendor>
-        <vendorCode>474354054</vendorCode>
-        <model>Фаллоимитатор "Пирамидоголовый" / Размер S</model>
-        <price>1790</price>
-        <currencyId>RUB</currencyId>
-        <categoryId>1</categoryId>
-        <collectionId>618935101092</collectionId>
-        <url><![CDATA[https://pinkypunk.ru/konus]]></url>
-        <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/474354054.png</picture>
-        <description><![CDATA[16см - общая длина / 4см - диаметр у основания]]></description>
-        <sales_notes>Официальный сайт Секспедиция.</sales_notes>
-      </offer>
-      <offer id="474535082" available="true">
-        <name>Толстый член "Минипузик" S</name>
-        <vendor>Секспедиция</vendor>
-        <vendorCode>474535082</vendorCode>
-        <model>Толстый член "Минипузик" S</model>
-        <price>2590</price>
-        <currencyId>RUB</currencyId>
-        <categoryId>1</categoryId>
-        <collectionId>618935101092</collectionId>
-        <url><![CDATA[https://pinkypunk.ru/puzan]]></url>
-        <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/474535082.png</picture>
-        <description><![CDATA[Размер S - 19х5,4см]]></description>
-        <sales_notes>Официальный сайт Секспедиция.</sales_notes>
-      </offer>
-      <offer id="441061507" available="true">
-        <name>Ультра-реалистичный мастурбатор "Милфуша"</name>
-        <vendor>Секспедиция</vendor>
-        <vendorCode>441061507</vendorCode>
-        <model>Ультра-реалистичный мастурбатор "Милфуша"</model>
-        <price>3490</price>
-        <currencyId>RUB</currencyId>
-        <categoryId>1</categoryId>
-        <collectionId>435183164492</collectionId>
-        <url><![CDATA[https://pinkypunk.ru/premiummasturbator]]></url>
-        <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/441061507.png</picture>
-        <description><![CDATA[Чистейший силикон с максимальной детализацией и тактильностью]]></description>
-        <sales_notes>Официальный сайт Секспедиция.</sales_notes>
-      </offer>
-      <offer id="482197593" available="true">
-        <name>Фаллоимитатор член темнокожий "Чумба"</name>
-        <vendor>Секспедиция</vendor>
-        <vendorCode>482197593</vendorCode>
-        <model>Фаллоимитатор член темнокожий "Чумба"</model>
-        <price>2590</price>
-        <currencyId>RUB</currencyId>
-        <categoryId>1</categoryId>
-        <collectionId>618935101092</collectionId>
-        <url><![CDATA[https://pinkypunk.ru/venom/tproduct/1290102421-860701424152-falloimitator-chlen-temnokozhii-chumba]]></url>
-        <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/482197593.png</picture>
-        <description><![CDATA[23 х 5,8 см]]></description>
-        <sales_notes>Официальный сайт Секспедиция.</sales_notes>
-      </offer>
-      <offer id="491482618" available="true">
-        <name>Фаллоимитатор с лобком "Легкий Трофейный"</name>
-        <vendor>Секспедиция</vendor>
-        <vendorCode>491482618</vendorCode>
-        <model>Фаллоимитатор с лобком "Легкий Трофейный"</model>
-        <price>2390</price>
-        <currencyId>RUB</currencyId>
-        <categoryId>1</categoryId>
-        <collectionId>618935101092</collectionId>
-        <url><![CDATA[https://pinkypunk.ru/trofi]]></url>
-        <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/491482618.png</picture>
-        <description><![CDATA[Охота за трофеями началась]]></description>
-        <sales_notes>Официальный сайт Секспедиция.</sales_notes>
-      </offer>
-      <offer id="491485008" available="true">
-        <name>Фаллоимитатор рельефный "Веном" / Размер S</name>
-        <vendor>Секспедиция</vendor>
-        <vendorCode>491485008</vendorCode>
-        <model>Фаллоимитатор рельефный "Веном" / Размер S</model>
-        <price>2490</price>
-        <currencyId>RUB</currencyId>
-        <categoryId>1</categoryId>
-        <collectionId>618935101092</collectionId>
-        <url><![CDATA[https://pinkypunk.ru/venom/tproduct/1290102421-986899942032-falloimitator-relefnii-venom-razmer-s]]></url>
-        <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/491485008.png</picture>
-        <description><![CDATA[Впусти в себя этого симбиота]]></description>
-        <sales_notes>Официальный сайт Секспедиция.</sales_notes>
-      </offer>
-      <offer id="491485009" available="true">
-        <name>Фаллоимитатор рельефный "Веном" / Размер M</name>
-        <vendor>Секспедиция</vendor>
-        <vendorCode>491485009</vendorCode>
-        <model>Фаллоимитатор рельефный "Веном" / Размер M</model>
-        <price>3190</price>
-        <currencyId>RUB</currencyId>
-        <categoryId>1</categoryId>
-        <collectionId>618935101092</collectionId>
-        <url><![CDATA[https://pinkypunk.ru/venom/tproduct/1290102421-328821130092-falloimitator-relefnii-venom-razmer-m]]></url>
-        <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/491485009.png</picture>
-        <description><![CDATA[Впусти в себя этого симбиота]]></description>
-        <sales_notes>Официальный сайт Секспедиция.</sales_notes>
-      </offer>
-      <offer id="491485010" available="true">
-        <name>Фаллоимитатор рельефный "Веном" / Размер L</name>
-        <vendor>Секспедиция</vendor>
-        <vendorCode>491485010</vendorCode>
-        <model>Фаллоимитатор рельефный "Веном" / Размер L</model>
-        <price>3890</price>
-        <currencyId>RUB</currencyId>
-        <categoryId>1</categoryId>
-        <collectionId>618935101092</collectionId>
-        <url><![CDATA[https://pinkypunk.ru/venom/tproduct/1290102421-458135651192-falloimitator-relefnii-venom-razmer-l]]></url>
-        <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/491485010.png</picture>
-        <description><![CDATA[Впусти в себя этого симбиота]]></description>
-        <sales_notes>Официальный сайт Секспедиция.</sales_notes>
-      </offer>
-      <offer id="491485011" available="true">
-        <name>Фаллоимитатор рельефный "Веном" / Размер XL</name>
-        <vendor>Секспедиция</vendor>
-        <vendorCode>491485011</vendorCode>
-        <model>Фаллоимитатор рельефный "Веном" / Размер XL</model>
-        <price>5490</price>
-        <currencyId>RUB</currencyId>
-        <categoryId>1</categoryId>
-        <collectionId>618935101092</collectionId>
-        <url><![CDATA[https://pinkypunk.ru/venom/tproduct/1290102421-844773075152-falloimitator-relefnii-venom-razmer-xl]]></url>
-        <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/491485011.png</picture>
-        <description><![CDATA[Впусти в себя этого симбиота]]></description>
-        <sales_notes>Официальный сайт Секспедиция.</sales_notes>
-      </offer>
-      <offer id="605007729" available="true">
-        <name>Трахминог / Тёмный</name>
-        <vendor>Секспедиция</vendor>
-        <vendorCode>605007729</vendorCode>
-        <model>Трахминог / Тёмный</model>
-        <price>2390</price>
-        <currencyId>RUB</currencyId>
-        <categoryId>1</categoryId>
-        <collectionId>618935101092</collectionId>
-        <url><![CDATA[https://pinkypunk.ru/trahminog]]></url>
-        <picture>https://static.tildacdn.com/stor6433-3533-4233-b931-343338366536/a5d57d43653ceed4ab7a60fc63fe6481.jpg</picture>
-        <picture>https://static.tildacdn.com/stor3633-6230-4130-b563-343732623731/92c4bdecea702b308008ed78a26dcc7c.jpg</picture>
-        <description><![CDATA[Уникальная своего рода херня, то ли дилдо, то ли пробка, то ли игрушка]]></description>
-        <sales_notes>Официальный сайт Секспедиция.</sales_notes>
+        <custom_label_0>Эротическая игра: Секспедиция</custom_label_0>
       </offer>
       <offer id="29519205" available="true">
         <name>Секспедиция: Trip to Amsterdam</name>
         <vendor>Секспедиция</vendor>
         <vendorCode>29519205</vendorCode>
-        <model>Секспедиция: Trip to Amsterdam</model>
         <price>990</price>
         <currencyId>RUB</currencyId>
         <categoryId>1</categoryId>
+        <picture>https://static.tildacdn.com/stor3533-6264-4134-a230-336665393236/45277784.jpg</picture>
         <collectionId>173610001502</collectionId>
         <url><![CDATA[https://pinkypunk.ru/venom/tproduct/1290102421-427536218642-sekspeditsiya-trip-to-amsterdam]]></url>
-        <picture>https://static.tildacdn.com/stor3533-6264-4134-a230-336665393236/45277784.jpg</picture>
-        <picture>https://static.tildacdn.com/stor6235-6537-4762-b261-333431363162/93563152.jpg</picture>
         <description><![CDATA[Вторая игра в нашей линейке, для тех кто любит ролевые игры]]></description>
         <sales_notes>Официальный сайт Секспедиция.</sales_notes>
+        <custom_label_0>Секспедиция: Trip to Amsterdam</custom_label_0>
+      </offer>
+      <offer id="431433166" available="true">
+        <name>Фаллоимитатор малыш "Правнук Шляпника"</name>
+        <vendor>Секспедиция</vendor>
+        <vendorCode>431433166</vendorCode>
+        <price>1690</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>1</categoryId>
+        <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/431433166.png</picture>
+        <collectionId>618935101092</collectionId>
+        <url><![CDATA[https://pinkypunk.ru/venom/tproduct/1290102421-135688904372-falloimitator-malish-pravnuk-shlyapnika]]></url>
+        <description><![CDATA[Самый маленький дилдо в семействе Шляпников]]></description>
+        <sales_notes>Официальный сайт Секспедиция.</sales_notes>
+        <custom_label_0>Фаллоимитатор малыш "Правнук Шляпника"</custom_label_0>
+      </offer>
+      <offer id="330270966" available="true">
+        <name>Фаллоимитатор "Внук Шляпника"</name>
+        <vendor>Секспедиция</vendor>
+        <vendorCode>330270966</vendorCode>
+        <price>1990</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>1</categoryId>
+        <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/330270966.png</picture>
+        <collectionId>618935101092</collectionId>
+        <url><![CDATA[https://pinkypunk.ru/venom/tproduct/1290102421-475079659962-falloimitator-vnuk-shlyapnika]]></url>
+        <description><![CDATA[Долгожданный дилдо, самый маленький в семействе]]></description>
+        <sales_notes>Официальный сайт Секспедиция.</sales_notes>
+        <custom_label_0>Фаллоимитатор "Внук Шляпника"</custom_label_0>
+      </offer>
+      <offer id="262501204" available="true">
+        <name>Фаллоимитатор "Сын Шляпника"</name>
+        <vendor>Секспедиция</vendor>
+        <vendorCode>262501204</vendorCode>
+        <price>2590</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>1</categoryId>
+        <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/262501204.png</picture>
+        <collectionId>618935101092</collectionId>
+        <url><![CDATA[https://pinkypunk.ru/venom/tproduct/1290102421-314146391302-falloimitator-sin-shlyapnika]]></url>
+        <description><![CDATA[Пока пытаешься осилить Шляпника, поиграй с его сыном.]]></description>
+        <sales_notes>Официальный сайт Секспедиция.</sales_notes>
+        <custom_label_0>Фаллоимитатор "Сын Шляпника"</custom_label_0>
+      </offer>
+      <offer id="474611005" available="true">
+        <name>Фаллоимитатор "Старший сын Шляпника"</name>
+        <vendor>Секспедиция</vendor>
+        <vendorCode>474611005</vendorCode>
+        <price>3290</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>1</categoryId>
+        <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/474611005.png</picture>
+        <collectionId>618935101092</collectionId>
+        <url><![CDATA[https://pinkypunk.ru/venom/tproduct/1290102421-927965183162-falloimitator-starshii-sin-shlyapnika]]></url>
+        <description><![CDATA[На помощь, чтобы осилить Шляпника]]></description>
+        <sales_notes>Официальный сайт Секспедиция.</sales_notes>
+        <custom_label_0>Фаллоимитатор "Старший сын Шляпника"</custom_label_0>
+      </offer>
+      <offer id="239859701" available="true">
+        <name>Большой фаллоимитатор "Шляпник"</name>
+        <vendor>Секспедиция</vendor>
+        <vendorCode>239859701</vendorCode>
+        <price>3490</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>1</categoryId>
+        <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/239859701.png</picture>
+        <collectionId>618935101092</collectionId>
+        <url><![CDATA[https://pinkypunk.ru/venom/tproduct/1290102421-858730095162-bolshoi-falloimitator-shlyapnik]]></url>
+        <description><![CDATA[Тот самый дилдо Шляпник, с которого началось семейство]]></description>
+        <sales_notes>Официальный сайт Секспедиция.</sales_notes>
+        <custom_label_0>Большой фаллоимитатор "Шляпник"</custom_label_0>
+      </offer>
+      <offer id="262501210" available="true">
+        <name>Фаллоимитатор гигант "Отец Шляпника"</name>
+        <vendor>Секспедиция</vendor>
+        <vendorCode>262501210</vendorCode>
+        <price>5690</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>1</categoryId>
+        <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/262501210.png</picture>
+        <collectionId>618935101092</collectionId>
+        <url><![CDATA[https://pinkypunk.ru/venom/tproduct/1290102421-789860578062-falloimitator-gigant-otets-shlyapnika]]></url>
+        <description><![CDATA[Батя в здании и он пришел раздать не по-детски]]></description>
+        <sales_notes>Официальный сайт Секспедиция.</sales_notes>
+        <custom_label_0>Фаллоимитатор гигант "Отец Шляпника"</custom_label_0>
+      </offer>
+      <offer id="52819167" available="true">
+        <name>Интимная гель-смазка Классическая 100мл</name>
+        <vendor>Секспедиция</vendor>
+        <vendorCode>52819167</vendorCode>
+        <price>490</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>1</categoryId>
+        <picture>https://static.tildacdn.com/stor3232-3738-4861-b163-363665666262/69507832.jpg</picture>
+        <collectionId>166362679662</collectionId>
+        <url><![CDATA[https://pinkypunk.ru/venom/tproduct/1290102421-188604955482-intimnaya-gel-smazka-klassicheskaya-100m]]></url>
+        <description><![CDATA[Строгая классика, никаких добавок, только чистый кайф]]></description>
+        <sales_notes>Официальный сайт Секспедиция.</sales_notes>
+        <custom_label_0>Интимная гель-смазка Классическая 100мл</custom_label_0>
+      </offer>
+      <offer id="466514947" available="true">
+        <name>Интимная гель-смазка Вишневая 100мл</name>
+        <vendor>Секспедиция</vendor>
+        <vendorCode>466514947</vendorCode>
+        <price>490</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>1</categoryId>
+        <picture>https://static.tildacdn.com/stor6137-6563-4161-b933-316165353539/96236198.jpg</picture>
+        <collectionId>166362679662</collectionId>
+        <url><![CDATA[https://pinkypunk.ru/venom/tproduct/1290102421-378410353192-intimnaya-gel-smazka-vishnevaya-100ml]]></url>
+        <description><![CDATA[Сладенького захотелось?]]></description>
+        <sales_notes>Официальный сайт Секспедиция.</sales_notes>
+        <custom_label_0>Интимная гель-смазка Вишневая 100мл</custom_label_0>
+      </offer>
+      <offer id="DvaLubrika" available="true">
+        <name>Два лубрика: Вишня + Классика</name>
+        <vendor>Секспедиция</vendor>
+        <vendorCode>DvaLubrika</vendorCode>
+        <price>790</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>1</categoryId>
+        <picture>https://static.tildacdn.com/stor6136-3632-4435-b061-303834303265/52401313.jpg</picture>
+        <collectionId>166362679662</collectionId>
+        <url><![CDATA[https://pinkypunk.ru/venom/tproduct/1290102421-580796667272-dva-lubrika-vishnya-klassika]]></url>
+        <description><![CDATA[Зачем брать один, когда можно взять сразу два по охерительной цене? А?]]></description>
+        <sales_notes>Официальный сайт Секспедиция.</sales_notes>
+        <custom_label_0>Два лубрика: Вишня + Классика</custom_label_0>
+      </offer>
+      <offer id="239871335" available="true">
+        <name>Член с подвижными яичками и кожей "Шалтай-Болтай"</name>
+        <vendor>Секспедиция</vendor>
+        <vendorCode>239871335</vendorCode>
+        <price>2690</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>1</categoryId>
+        <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/239871335.png</picture>
+        <collectionId>618935101092</collectionId>
+        <url><![CDATA[https://pinkypunk.ru/venom/tproduct/1290102421-407286916862-chlen-s-podvizhnimi-yaichkami-i-kozhei-s]]></url>
+        <description><![CDATA[Прямиком из лаборатории Секспедиции.]]></description>
+        <sales_notes>Официальный сайт Секспедиция.</sales_notes>
+        <custom_label_0>Член с подвижными яичками и кожей "Шалтай-Болтай"</custom_label_0>
+      </offer>
+      <offer id="471859805" available="true">
+        <name>Секс-кукла "30кг радости"</name>
+        <vendor>Секспедиция</vendor>
+        <vendorCode>471859805</vendorCode>
+        <price>85000</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>1</categoryId>
+        <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/471859805.png</picture>
+        <collectionId>435183164492</collectionId>
+        <url><![CDATA[https://pinkypunk.ru/body]]></url>
+        <description><![CDATA[Даже и добавить нечего.]]></description>
+        <sales_notes>Официальный сайт Секспедиция.</sales_notes>
+        <custom_label_0>Секс-кукла "30кг радости"</custom_label_0>
       </offer>
       <offer id="489065280" available="true">
         <name>Секс-кукла "19кг радости"</name>
         <vendor>Секспедиция</vendor>
         <vendorCode>489065280</vendorCode>
-        <model>Секс-кукла "19кг радости"</model>
         <price>59000</price>
         <currencyId>RUB</currencyId>
         <categoryId>1</categoryId>
+        <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/489065280.png</picture>
         <collectionId>435183164492</collectionId>
         <url><![CDATA[https://pinkypunk.ru/body]]></url>
-        <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/489065280.png</picture>
         <description><![CDATA[19кг - это как 30, но на 11 легче :)]]></description>
         <sales_notes>Официальный сайт Секспедиция.</sales_notes>
+        <custom_label_0>Секс-кукла "19кг радости"</custom_label_0>
+      </offer>
+      <offer id="474354054" available="true">
+        <name>Фаллоимитатор "Пирамидоголовый" / Размер S</name>
+        <vendor>Секспедиция</vendor>
+        <vendorCode>474354054</vendorCode>
+        <price>1790</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>1</categoryId>
+        <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/474354054.png</picture>
+        <collectionId>618935101092</collectionId>
+        <url><![CDATA[https://pinkypunk.ru/konus]]></url>
+        <description><![CDATA[16см - общая длина / 4см - диаметр у основания]]></description>
+        <sales_notes>Официальный сайт Секспедиция.</sales_notes>
+        <custom_label_0>Фаллоимитатор "Пирамидоголовый" / Размер S</custom_label_0>
       </offer>
       <offer id="474355554" available="true">
         <name>Фаллоимитатор "Пирамидоголовый" / Размер M</name>
         <vendor>Секспедиция</vendor>
         <vendorCode>474355554</vendorCode>
-        <model>Фаллоимитатор "Пирамидоголовый" / Размер M</model>
         <price>2190</price>
         <currencyId>RUB</currencyId>
         <categoryId>1</categoryId>
+        <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/474355554.png</picture>
         <collectionId>618935101092</collectionId>
         <url><![CDATA[https://pinkypunk.ru/konus]]></url>
-        <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/474355554.png</picture>
         <description><![CDATA[18см - общая длина / 4,8см - диаметр у основания]]></description>
         <sales_notes>Официальный сайт Секспедиция.</sales_notes>
+        <custom_label_0>Фаллоимитатор "Пирамидоголовый" / Размер M</custom_label_0>
       </offer>
       <offer id="474355555" available="true">
         <name>Фаллоимитатор "Пирамидоголовый" / Размер L</name>
         <vendor>Секспедиция</vendor>
         <vendorCode>474355555</vendorCode>
-        <model>Фаллоимитатор "Пирамидоголовый" / Размер L</model>
         <price>2690</price>
         <currencyId>RUB</currencyId>
         <categoryId>1</categoryId>
+        <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/474355555.png</picture>
         <collectionId>618935101092</collectionId>
         <url><![CDATA[https://pinkypunk.ru/konus]]></url>
-        <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/474355555.png</picture>
         <description><![CDATA[23см - общая длина / 5,4см - диаметр у основания]]></description>
         <sales_notes>Официальный сайт Секспедиция.</sales_notes>
+        <custom_label_0>Фаллоимитатор "Пирамидоголовый" / Размер L</custom_label_0>
       </offer>
       <offer id="474355556" available="true">
         <name>Фаллоимитатор "Пирамидоголовый" / Размер XL</name>
         <vendor>Секспедиция</vendor>
         <vendorCode>474355556</vendorCode>
-        <model>Фаллоимитатор "Пирамидоголовый" / Размер XL</model>
         <price>3590</price>
         <currencyId>RUB</currencyId>
         <categoryId>1</categoryId>
+        <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/474355556.png</picture>
         <collectionId>618935101092</collectionId>
         <url><![CDATA[https://pinkypunk.ru/konus]]></url>
-        <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/474355556.png</picture>
         <description><![CDATA[26см - общая длина / 6,7см - диаметр у основания]]></description>
         <sales_notes>Официальный сайт Секспедиция.</sales_notes>
+        <custom_label_0>Фаллоимитатор "Пирамидоголовый" / Размер XL</custom_label_0>
+      </offer>
+      <offer id="474535082" available="true">
+        <name>Толстый член "Минипузик" S</name>
+        <vendor>Секспедиция</vendor>
+        <vendorCode>474535082</vendorCode>
+        <price>2590</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>1</categoryId>
+        <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/474535082.png</picture>
+        <collectionId>618935101092</collectionId>
+        <url><![CDATA[https://pinkypunk.ru/puzan]]></url>
+        <description><![CDATA[Размер S - 19х5,4см]]></description>
+        <sales_notes>Официальный сайт Секспедиция.</sales_notes>
+        <custom_label_0>Толстый член "Минипузик" S</custom_label_0>
+      </offer>
+      <offer id="441061507" available="true">
+        <name>Ультра-реалистичный мастурбатор "Милфуша"</name>
+        <vendor>Секспедиция</vendor>
+        <vendorCode>441061507</vendorCode>
+        <price>3490</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>1</categoryId>
+        <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/441061507.png</picture>
+        <collectionId>435183164492</collectionId>
+        <url><![CDATA[https://pinkypunk.ru/premiummasturbator]]></url>
+        <description><![CDATA[Чистейший силикон с максимальной детализацией и тактильностью]]></description>
+        <sales_notes>Официальный сайт Секспедиция.</sales_notes>
+        <custom_label_0>Ультра-реалистичный мастурбатор "Милфуша"</custom_label_0>
       </offer>
       <offer id="441061506" available="true">
         <name>Ультра-реалистичный мастурбатор "Тяночка"</name>
         <vendor>Секспедиция</vendor>
         <vendorCode>441061506</vendorCode>
-        <model>Ультра-реалистичный мастурбатор "Тяночка"</model>
         <price>3490</price>
         <currencyId>RUB</currencyId>
         <categoryId>1</categoryId>
+        <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/441061506.png</picture>
         <collectionId>435183164492</collectionId>
         <url><![CDATA[https://pinkypunk.ru/premiummasturbator]]></url>
-        <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/441061506.png</picture>
         <description><![CDATA[Чистейший силикон с максимальной детализацией и тактильностью]]></description>
         <sales_notes>Официальный сайт Секспедиция.</sales_notes>
+        <custom_label_0>Ультра-реалистичный мастурбатор "Тяночка"</custom_label_0>
+      </offer>
+      <offer id="482197593" available="true">
+        <name>Фаллоимитатор член темнокожий "Чумба"</name>
+        <vendor>Секспедиция</vendor>
+        <vendorCode>482197593</vendorCode>
+        <price>2590</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>1</categoryId>
+        <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/482197593.png</picture>
+        <collectionId>618935101092</collectionId>
+        <url><![CDATA[https://pinkypunk.ru/venom/tproduct/1290102421-860701424152-falloimitator-chlen-temnokozhii-chumba]]></url>
+        <description><![CDATA[23 х 5,8 см]]></description>
+        <sales_notes>Официальный сайт Секспедиция.</sales_notes>
+        <custom_label_0>Фаллоимитатор член темнокожий "Чумба"</custom_label_0>
+      </offer>
+      <offer id="491482618" available="true">
+        <name>Фаллоимитатор с лобком "Легкий Трофейный"</name>
+        <vendor>Секспедиция</vendor>
+        <vendorCode>491482618</vendorCode>
+        <price>2390</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>1</categoryId>
+        <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/491482618.png</picture>
+        <collectionId>618935101092</collectionId>
+        <url><![CDATA[https://pinkypunk.ru/trofi]]></url>
+        <description><![CDATA[Охота за трофеями началась]]></description>
+        <sales_notes>Официальный сайт Секспедиция.</sales_notes>
+        <custom_label_0>Фаллоимитатор с лобком "Легкий Трофейный"</custom_label_0>
       </offer>
       <offer id="491482619" available="true">
         <name>Фаллоимитатор с лобком "Средний Трофейный"</name>
         <vendor>Секспедиция</vendor>
         <vendorCode>491482619</vendorCode>
-        <model>Фаллоимитатор с лобком "Средний Трофейный"</model>
         <price>3190</price>
         <currencyId>RUB</currencyId>
         <categoryId>1</categoryId>
+        <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/491482619.png</picture>
         <collectionId>618935101092</collectionId>
         <url><![CDATA[https://pinkypunk.ru/trofi]]></url>
-        <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/491482619.png</picture>
         <description><![CDATA[Охота за трофеями началась]]></description>
         <sales_notes>Официальный сайт Секспедиция.</sales_notes>
+        <custom_label_0>Фаллоимитатор с лобком "Средний Трофейный"</custom_label_0>
+      </offer>
+      <offer id="491485008" available="true">
+        <name>Фаллоимитатор рельефный "Веном" / Размер S</name>
+        <vendor>Секспедиция</vendor>
+        <vendorCode>491485008</vendorCode>
+        <price>2490</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>1</categoryId>
+        <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/491485008.png</picture>
+        <collectionId>618935101092</collectionId>
+        <url><![CDATA[https://pinkypunk.ru/venom/tproduct/1290102421-986899942032-falloimitator-relefnii-venom-razmer-s]]></url>
+        <description><![CDATA[Впусти в себя этого симбиота]]></description>
+        <sales_notes>Официальный сайт Секспедиция.</sales_notes>
+        <custom_label_0>Фаллоимитатор рельефный "Веном" / Размер S</custom_label_0>
+      </offer>
+      <offer id="491485009" available="true">
+        <name>Фаллоимитатор рельефный "Веном" / Размер M</name>
+        <vendor>Секспедиция</vendor>
+        <vendorCode>491485009</vendorCode>
+        <price>3190</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>1</categoryId>
+        <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/491485009.png</picture>
+        <collectionId>618935101092</collectionId>
+        <url><![CDATA[https://pinkypunk.ru/venom/tproduct/1290102421-328821130092-falloimitator-relefnii-venom-razmer-m]]></url>
+        <description><![CDATA[Впусти в себя этого симбиота]]></description>
+        <sales_notes>Официальный сайт Секспедиция.</sales_notes>
+        <custom_label_0>Фаллоимитатор рельефный "Веном" / Размер M</custom_label_0>
+      </offer>
+      <offer id="491485010" available="true">
+        <name>Фаллоимитатор рельефный "Веном" / Размер L</name>
+        <vendor>Секспедиция</vendor>
+        <vendorCode>491485010</vendorCode>
+        <price>3890</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>1</categoryId>
+        <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/491485010.png</picture>
+        <collectionId>618935101092</collectionId>
+        <url><![CDATA[https://pinkypunk.ru/venom/tproduct/1290102421-458135651192-falloimitator-relefnii-venom-razmer-l]]></url>
+        <description><![CDATA[Впусти в себя этого симбиота]]></description>
+        <sales_notes>Официальный сайт Секспедиция.</sales_notes>
+        <custom_label_0>Фаллоимитатор рельефный "Веном" / Размер L</custom_label_0>
+      </offer>
+      <offer id="491485011" available="true">
+        <name>Фаллоимитатор рельефный "Веном" / Размер XL</name>
+        <vendor>Секспедиция</vendor>
+        <vendorCode>491485011</vendorCode>
+        <price>5490</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>1</categoryId>
+        <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/491485011.png</picture>
+        <collectionId>618935101092</collectionId>
+        <url><![CDATA[https://pinkypunk.ru/venom/tproduct/1290102421-844773075152-falloimitator-relefnii-venom-razmer-xl]]></url>
+        <description><![CDATA[Впусти в себя этого симбиота]]></description>
+        <sales_notes>Официальный сайт Секспедиция.</sales_notes>
+        <custom_label_0>Фаллоимитатор рельефный "Веном" / Размер XL</custom_label_0>
+      </offer>
+      <offer id="605007729" available="true">
+        <name>Трахминог / Тёмный</name>
+        <vendor>Секспедиция</vendor>
+        <vendorCode>605007729</vendorCode>
+        <price>2390</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>1</categoryId>
+        <picture>https://static.tildacdn.com/stor6433-3533-4233-b931-343338366536/a5d57d43653ceed4ab7a60fc63fe6481.jpg</picture>
+        <collectionId>618935101092</collectionId>
+        <url><![CDATA[https://pinkypunk.ru/trahminog]]></url>
+        <description><![CDATA[Уникальная своего рода херня, то ли дилдо, то ли пробка, то ли игрушка]]></description>
+        <sales_notes>Официальный сайт Секспедиция.</sales_notes>
+        <custom_label_0>Трахминог / Тёмный</custom_label_0>
       </offer>
       <offer id="605007728" available="true">
         <name>Трахминог / Светлый</name>
         <vendor>Секспедиция</vendor>
         <vendorCode>605007728</vendorCode>
-        <model>Трахминог / Светлый</model>
         <price>2390</price>
         <currencyId>RUB</currencyId>
         <categoryId>1</categoryId>
+        <picture>https://static.tildacdn.com/stor3938-6334-4262-b836-313333343430/770f86e8b492290df78353b4f87a448a.jpg</picture>
         <collectionId>618935101092</collectionId>
         <url><![CDATA[https://pinkypunk.ru/trahminog]]></url>
-        <picture>https://static.tildacdn.com/stor3938-6334-4262-b836-313333343430/770f86e8b492290df78353b4f87a448a.jpg</picture>
-        <picture>https://static.tildacdn.com/stor3633-6539-4263-b663-313336353436/146f427d5f04f805d42e6102cc6b700b.jpg</picture>
         <description><![CDATA[Уникальная своего рода херня, то ли дилдо, то ли пробка, то ли игрушка]]></description>
         <sales_notes>Официальный сайт Секспедиция.</sales_notes>
+        <custom_label_0>Трахминог / Светлый</custom_label_0>
       </offer>
     </offers>
-    <collections>
-      <collection id="Мастурбаторы">
-        <name>Мастурбаторы</name>
-        <url><![CDATA[https://pinkypunk.ru/catalog?tfc_storepartuid%5B757983339%5D=%D0%9C%D0%B0%D1%81%D1%82%D1%83%D1%80%D0%B1%D0%B0%D1%82%D0%BE%D1%80%D1%8B&tfc_div=:::]]></url>
-      </collection>
-      <collection id="Фаллоимитаторы">
-        <name>Фаллоимитаторы</name>
-        <url><![CDATA[https://pinkypunk.ru/catalog?tfc_storepartuid%5B757983339%5D=%D0%A4%D0%B0%D0%BB%D0%BB%D0%BE%D0%B8%D0%BC%D0%B8%D1%82%D0%B0%D1%82%D0%BE%D1%80%D1%8B&tfc_div=:::]]></url>
-      </collection>
-      <collection id="Игры для пар">
-        <name>Игры для пар</name>
-        <url><![CDATA[https://pinkypunk.ru/catalog?tfc_storepartuid%5B757983339%5D=%D0%98%D0%B3%D1%80%D1%8B%20%D0%B4%D0%BB%D1%8F%20%D0%BF%D0%B0%D1%80&tfc_div=:::]]></url>
-      </collection>
-      <collection id="Лубрики">
-        <name>Лубрики</name>
-        <url><![CDATA[https://pinkypunk.ru/catalog?tfc_storepartuid%5B757983339%5D=%D0%9B%D1%83%D0%B1%D1%80%D0%B8%D0%BA%D0%B8&tfc_div=:::]]></url>
-      </collection>
-      <collection id="Насадки">
-        <name>Насадки</name>
-        <url><![CDATA[https://pinkypunk.ru/catalog?tfc_storepartuid%5B757983339%5D=%D0%9D%D0%B0%D1%81%D0%B0%D0%B4%D0%BA%D0%B8&tfc_div=:::]]></url>
-      </collection>
-    </collections>
   </shop>
 </yml_catalog>
