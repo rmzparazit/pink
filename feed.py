@@ -1,7 +1,6 @@
 import os
 import json
 import time
-import random
 import hashlib
 import re
 import shutil
@@ -13,13 +12,15 @@ from playwright.sync_api import sync_playwright
 # --- НАСТРОЙКИ ---
 OUTPUT_DIR = "output_pinkypunk"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
-
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
 BASE_URL = "https://pinkypunk.ru/catalog"
+GITHUB_USER = "rmzparazit"
+REPO_NAME = "pink"
+BRANCH = "main"
 
-# Пути к файлам (Теперь XML!)
+# Пути к файлам
 PROGRESS_FILE = os.path.join(OUTPUT_DIR, "progress.json")
-XML_FILE = os.path.join(OUTPUT_DIR, "pinkypunk_catalog.xml")  # Изменено на .xml
+XML_FILE = os.path.join(OUTPUT_DIR, "pinkypunk_catalog.xml")
 TEMP_XML_FILE = XML_FILE + ".tmp"
 
 # Настройка логирования
@@ -27,472 +28,336 @@ import logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 log = logging.info
 
-def get_image_url(vendor_code):
+def get_custom_image_url(vendor_code):
     """
-    Возвращает прямую ссылку на изображение в репозитории GitHub, если файл существует.
+    Возвращает ссылку на кастомное изображение в GitHub, если оно существует.
     """
-    GITHUB_USER = "rmzparazit"
-    REPO_NAME = "pink"
-    BRANCH = "main"
+    if not vendor_code:
+        return None
     
     image_path = f"images/{vendor_code}.png"
     raw_url = f"https://raw.githubusercontent.com/{GITHUB_USER}/{REPO_NAME}/{BRANCH}/{image_path}"
     
-    # Проверяем, существует ли файл в репозитории (через HEAD-запрос)
-    import requests
     try:
-        response = requests.head(raw_url, timeout=5)
+        response = requests.head(raw_url, timeout=3)
         if response.status_code == 200:
-            log(f"✅ Найдено изображение для {vendor_code}: {raw_url}")
+            log(f"✅ Найдено кастомное изображение для {vendor_code}")
             return raw_url
-        else:
-            log(f"🖼️ Изображение не найдено для {vendor_code} (HTTP {response.status_code})")
-            return None
-    except Exception as e:
-        log(f"⚠️ Ошибка проверки изображения {vendor_code}: {e}")
-        return None
+    except requests.exceptions.RequestException as e:
+        log(f"⚠️ Ошибка проверки кастомного изображения для {vendor_code}: {e}")
 
-def load_collection_mapping():
-    """Загружает маппинг collection_id → vendorCode для получения картинок из images/."""
-    mapping_file = os.path.join(OUTPUT_DIR, "collection_mapping.json")
-    if os.path.exists(mapping_file):
+    return None
+
+def normalize_collection_id(val):
+    """Нормализует ID коллекции."""
+    if not val:
+        return ""
+    s_val = str(val)
+    if 'e' in s_val.lower():
         try:
-            with open(mapping_file, 'r', encoding='utf-8') as f:
-                return json.load(f)
-        except Exception as e:
-            log(f"⚠️ Ошибка загрузки collection_mapping.json: {e}")
-    return {}
+            return str(int(float(s_val)))
+        except:
+            pass
+    if isinstance(val, (int, float)):
+        return str(int(val))
+    if '.' in s_val and s_val.replace('.', '').isdigit():
+        try:
+            return str(int(float(s_val)))
+        except:
+            pass
+    return s_val
 
 def load_progress():
     """Загружает прогресс парсинга из файла."""
     if os.path.exists(PROGRESS_FILE):
         try:
             with open(PROGRESS_FILE, 'r', encoding='utf-8') as f:
-                return json.load(f)
+                data = json.load(f)
+                for p in data.get("products", []):
+                    if p.get('collection_id'):
+                        p['collection_id'] = normalize_collection_id(p['collection_id'])
+                return data
         except Exception as e:
             log(f"❌ Ошибка загрузки прогресса: {e}")
     return {"products": []}
 
-
 def save_progress(products):
     """Сохраняет прогресс парсинга в файл."""
     try:
-        clean = [p for p in products if p.get('vendorCode') and p.get('name') and p.get('link')]
-        seen = set()
-        unique = []
-        for p in clean:
-            link = p['link'].strip().split('#')[0]
-            if not link or '#order' in link or link.endswith('/'):
-                continue
-            if link not in seen:
-                seen.add(link)
-                unique.append(p)
+        unique_products = []
+        seen_vendors = set()
+        for p in products:
+            vendor_code = p.get('vendorCode')
+            if vendor_code and vendor_code not in seen_vendors:
+                if p.get('collection_id'):
+                    p['collection_id'] = normalize_collection_id(p['collection_id'])
+                unique_products.append(p)
+                seen_vendors.add(vendor_code)
+        
         with open(PROGRESS_FILE, 'w', encoding='utf-8') as f:
-            json.dump({"products": unique}, f, ensure_ascii=False, indent=4)
-        log(f"✅ Прогресс сохранён: {len(unique)} товаров")
+            json.dump({"products": unique_products}, f, ensure_ascii=False, indent=4)
+        log(f"✅ Прогресс сохранён: {len(unique_products)} товаров")
     except Exception as e:
         log(f"❌ Ошибка сохранения: {e}")
 
-
 def extract_collections(page):
-    """Извлекает список коллекций (категорий) с их ID, названиями и ссылками."""
+    """Извлекает список коллекций с сайта."""
     collections = []
     try:
-        # Находим все кнопки-переключатели коллекций, кроме "Все"
+        page.wait_for_selector('.js-store-parts-switcher', timeout=5000)
         switchers = page.query_selector_all('.js-store-parts-switcher:not(.t-store__parts-switch-btn-all)')
+        
         for switcher in switchers:
             name = switcher.inner_text().strip()
             uid = switcher.get_attribute('data-storepart-uid') or ""
             link_fragment = switcher.get_attribute('data-storepart-link') or ""
-            if name and uid and name != "Все":
-                # Конвертируем fragment в реальный URL
-                # Пример: "#!/tstore/r/757983339/c/435183164492-Мастурбаторы"
-                # -> https://pinkypunk.ru/catalog?tfc_storepartuid%5B757983339%5D=Мастурбаторы&tfc_div=:::
-                if '/c/' in link_fragment:
-                    # Извлекаем название коллекции после UID
-                    collection_name_in_url = link_fragment.split('-')[-1] if '-' in link_fragment else name
-                    # URL-кодируем название
-                    encoded_name = quote(collection_name_in_url)
-                    full_url = f"https://pinkypunk.ru/catalog?tfc_storepartuid%5B757983339%5D={encoded_name}&tfc_div=:::"
-                else:
-                    full_url = f"https://pinkypunk.ru/catalog"
+            
+            if '/c/' in link_fragment:
+                try:
+                    uid_candidate = link_fragment.split('/c/')[1].split('-')[0]
+                    if uid_candidate.isdigit():
+                        uid = uid_candidate
+                except: pass
 
-                collections.append({
-                    'id': uid,
-                    'name': name,
-                    'url': full_url.strip()
-                })
-        log(f"📚 Найдено {len(collections)} коллекций: {[c['name'] for c in collections]}")
+            final_id = normalize_collection_id(uid)
+            
+            if name and name != "Все":
+                full_url = f"https://pinkypunk.ru/catalog"
+                if '/c/' in link_fragment:
+                    try:
+                        encoded_name = quote(link_fragment.split('-')[-1])
+                        full_url = f"https://pinkypunk.ru/catalog?tfc_storepartuid%5B757983339%5D={encoded_name}&tfc_div=:::"
+                    except: pass
+                
+                collections.append({'id': final_id, 'name': name, 'url': full_url.strip()})
+                if final_id.isdigit():
+                    log(f"🏷️ Найдена коллекция: {name} -> ID: {final_id}")
+                else:
+                    log(f"⚠️ Коллекция '{name}': ID не найден, будет восстановлен из товаров")
+                    
     except Exception as e:
         log(f"⚠️ Ошибка при извлечении коллекций: {e}")
     return collections
 
-
 def parse_catalog_page(page):
-    """Быстро и надёжно парсит каталог и коллекции, только с главных страниц."""
-    log("📦 Начинаем парсинг каталога и коллекций...")
+    """Парсит каталог и возвращает список товаров и коллекций."""
+    log("📦 Начинаем парсинг каталога...")
     all_products = []
-    collections = []
-
-    try:
-        # --- ШАГ 1: Получаем коллекции ---
-        page.goto(BASE_URL, timeout=60000)
-        page.wait_for_timeout(5000)
-        collections = extract_collections(page)
-
-        # --- ШАГ 2: Парсим главную страницу и все коллекции — ОДИН РАЗ! ---
-        for coll in [None] + collections:  # None = главная страница
-            if coll is None:
-                url = BASE_URL
-                log("➡️ Парсим главную страницу каталога...")
-            else:
-                url = coll.get('url')
-                log(f"➡️ Парсим коллекцию: {coll['name']} ({url})")
-                page.goto(url, timeout=60000)
-                page.wait_for_timeout(3000)
-
-            # Прокручиваем страницу вниз — чтобы загрузились все товары
-            last_height = page.evaluate("document.body.scrollHeight")
-            while True:
-                page.evaluate("window.scrollTo(0, document.body.scrollHeight);")
-                time.sleep(2)
-                new_height = page.evaluate("document.body.scrollHeight")
-                if new_height == last_height:
-                    break
-                last_height = new_height
-
-            # Ищем все карточки товаров
-            product_elements = page.query_selector_all('.js-product.t-store__card')
-            log(f"🔍 Найдено {len(product_elements)} карточек товаров.")
-
-            for card in product_elements:
-                try:
-                    # 🔥 КРИТИЧЕСКАЯ ПРОВЕРКА: "Нет в наличии"?
-                    buy_button = card.query_selector('.js-store-prod-btn2')
-                    if not buy_button:
-                        continue
-                    button_text = buy_button.inner_text().strip()
-                    is_disabled = "t-store__prod-popup__btn_disabled" in (buy_button.get_attribute("class") or "")
-                    if is_disabled or button_text == "Нет в наличии":
-                        log("🚫 Пропускаем товар — нет в наличии.")
-                        continue
-
-                    # --- Извлекаем данные прямо из карточки ---
-                    name_el = card.query_selector('.js-store-prod-name')
-                    name = name_el.inner_text().strip() if name_el else ""
-                    if not name:
-                        continue
-
-                    sku_el = card.query_selector('.js-store-prod-sku')
-                    vendorCode = sku_el.inner_text().replace('Артикул:', '').strip() if sku_el else ""
-                    if not vendorCode:
-                        hash_input = f"{name}_{int(time.time())}"
-                        vendorCode = f"PP_{hashlib.md5(hash_input.encode()).hexdigest()[:8].upper()}"
-
-                    link_el = card.query_selector('a[href]:not([href="#order"])')
-                    link = link_el.get_attribute('href').strip() if link_el else ""
-                    if not link or link == BASE_URL or link.endswith('#') or '#order' in link:
-                        continue
-
-                    price_el = card.query_selector('.js-product-price')
-                    price = "0"
-                    if price_el:
-                        data_price = price_el.get_attribute('data-product-price-def')
-                        if data_price and data_price != '0':
-                            price = data_price
-                        else:
-                            text = price_el.inner_text().replace(' ', '').replace('р.', '').replace('₽', '')
-                            match = re.search(r'\d+', text)
-                            if match:
-                                price = match.group(0)
-
-                    img_el = card.query_selector('.js-product-img')
-                    image = img_el.get_attribute('data-original') or img_el.get_attribute('src') or "" if img_el else ""
-                    image = image.strip()
-
-                    additional_images = []
-                    second_img = card.query_selector('.t-store__card__bgimg_second')
-                    if second_img:
-                        second_src = second_img.get_attribute('data-original') or second_img.get_attribute('src') or ""
-                        second_src = second_src.strip()
-                        if second_src and second_src != image:
-                            additional_images.append(second_src)
-
-                    descr_el = card.query_selector('.js-store-prod-descr')
-                    description = descr_el.inner_text().strip() if descr_el else ""
-
-                    part_uid = card.get_attribute('data-product-part-uid') or ""
-                    collection_id = part_uid.split(',')[0].strip() if part_uid else ""
-
-                    product_data = {
-                        'name': name,
-                        'vendorCode': vendorCode,
-                        'link': link,
-                        'image': image,
-                        'additional_images': additional_images,
-                        'price': price,
-                        'description': description,
-                        'collection_id': collection_id,
-                        'collection': 'default'
-                    }
-
-                    all_products.append(product_data)
-                    log(f"✅ Добавлен товар: {name} | Арт: {vendorCode} | Цена: {price} ₽")
-
-                except Exception as e:
-                    log(f"⚠️ Ошибка при парсинге карточки: {e}")
-                    continue
-
-        # --- ШАГ 3: Удаляем дубликаты по vendorCode ---
-        seen_codes = set()
-        unique_products = []
-        for prod in all_products:
-            code = prod.get('vendorCode')
-            if code and code not in seen_codes:
-                seen_codes.add(code)
-                unique_products.append(prod)
-            else:
-                log(f"🔄 Удалён дубликат товара: {prod.get('name')} (артикул: {code})")
-
-        log(f"📦 Всего успешно извлечено {len(unique_products)} уникальных товаров (в наличии).")
-        return unique_products, collections
-
-    except Exception as e:
-        log(f"❌ Ошибка при парсинге каталога: {e}")
-        return [], []
-
-def parse_product_cards(page):
-    """Извлекает только ссылки на товары с главной страницы и коллекций — без проверки наличия."""
-    products = []
-    try:
-        product_elements = page.query_selector_all('.js-product.t-store__card')
-        log(f"🔍 Найдено {len(product_elements)} карточек товаров на странице.")
-
-        for card in product_elements:
-            try:
-                # --- Извлекаем только ссылку и vendorCode ---
-                link_el = card.query_selector('a[href]:not([href="#order"])')
-                link = link_el.get_attribute('href').strip() if link_el else ""
-                if not link or link == BASE_URL or link.endswith('#') or '#order' in link:
-                    continue
-
-                sku_el = card.query_selector('.js-store-prod-sku')
-                vendorCode = sku_el.inner_text().replace('Артикул:', '').strip() if sku_el else ""
-                if not vendorCode:
-                    name_el = card.query_selector('.js-store-prod-name')
-                    name = name_el.inner_text().strip() if name_el else ""
-                    hash_input = f"{name}_{int(time.time())}"
-                    vendorCode = f"PP_{hashlib.md5(hash_input.encode()).hexdigest()[:8].upper()}"
-
-                # Добавляем только ссылку и артикул — всё остальное будет собрано позже
-                product_data = {
-                    'link': link,
-                    'vendorCode': vendorCode,
-                    'name': '',  # будет заполнено при детальном парсинге
-                    'image': '',
-                    'additional_images': [],
-                    'price': '0',
-                    'description': '',
-                    'collection_id': '',
-                    'collection': 'default'
-                }
-
-                products.append(product_data)
-
-            except Exception as e:
-                log(f"⚠️ Ошибка при извлечении ссылки карточки: {e}")
+    
+    page.goto(BASE_URL, timeout=60000)
+    page.wait_for_timeout(5000)
+    collections = extract_collections(page)
+    
+    last_height = page.evaluate("document.body.scrollHeight")
+    for _ in range(15):
+        page.evaluate("window.scrollTo(0, document.body.scrollHeight);")
+        time.sleep(2)
+        new_height = page.evaluate("document.body.scrollHeight")
+        if new_height == last_height:
+            break
+        last_height = new_height
+        
+    product_elements = page.query_selector_all('.js-product.t-store__card')
+    log(f"🔍 Найдено {len(product_elements)} карточек товаров на странице.")
+    
+    for card in product_elements:
+        try:
+            buy_button = card.query_selector('.js-store-prod-btn2')
+            if not buy_button or "t-store__prod-popup__btn_disabled" in (buy_button.get_attribute("class") or ""):
                 continue
+            
+            name_el = card.query_selector('.js-store-prod-name')
+            name = name_el.inner_text().strip() if name_el else ""
+            if not name: continue
+            
+            sku_el = card.query_selector('.js-store-prod-sku')
+            vendorCode = sku_el.inner_text().replace('Артикул:', '').strip() if sku_el else ""
+            
+            link_el = card.query_selector('a[href]')
+            link = link_el.get_attribute('href').strip() if link_el else ""
+            
+            price_el = card.query_selector('.js-product-price')
+            price = "0"
+            if price_el:
+                price = price_el.get_attribute('data-product-price-def') or re.search(r'\d+', price_el.inner_text().replace(' ',''))[0]
 
-    except Exception as e:
-        log(f"❌ Ошибка при парсинге карточек: {e}")
+            img_el = card.query_selector('.js-product-img')
+            image = (img_el.get_attribute('data-original') if img_el else "").strip()
 
-    return products
+            descr_el = card.query_selector('.js-store-prod-descr')
+            description = descr_el.inner_text().strip() if descr_el else ""
 
+            collection_id = normalize_collection_id(card.get_attribute('data-product-part-uid'))
+
+            all_products.append({
+                'name': name, 'vendorCode': vendorCode, 'link': link, 'price': price,
+                'image': image, 'collection_id': collection_id, 'description': description, 'additional_images': []
+            })
+        except Exception:
+            continue
+            
+    return all_products, collections
+
+def build_collection_image_info(products):
+    """Создает маппинг: ID коллекции -> {артикул, картинка-фолбэк}."""
+    collection_info = {}
+    for prod in products:
+        coll_id = prod.get('collection_id')
+        if coll_id and coll_id.isdigit() and coll_id not in collection_info:
+            vendor_code = prod.get('vendorCode')
+            fallback_image = prod.get('image', '')
+            if vendor_code:
+                collection_info[coll_id] = {
+                    'vendor_code': vendor_code,
+                    'fallback_image': fallback_image
+                }
+    return collection_info
+
+def clean_text_for_xml(text):
+    """Экранирует только критические символы для XML, оставляя кавычки как есть."""
+    if not text:
+        return ""
+    text = text.replace("&", "&amp;")
+    text = text.replace("<", "&lt;")
+    text = text.replace(">", "&gt;")
+    # НЕ заменяем кавычки: text = text.replace('"', '&quot;')
+    return text
 
 def generate_xml(products, collections):
-    """Генерирует XML-фид на основе собранных данных о товарах."""
+    """Генерирует XML-фид вручную, блок collections в конце."""
     log("📝 Генерация XML-фида...")
     current_date = datetime.now().strftime("%Y-%m-%d %H:%M")
-
-    # Загружаем маппинги
-    collection_mapping = load_collection_mapping()
-
-    header_lines = [
-        '<?xml version="1.0" encoding="utf-8"?>',
-        f'<yml_catalog date="{current_date}">',
-        '  <shop>',
-        '    <name>Секспедиция</name>',
-        '    <company>Секспедиция</company>',
-        '    <url>https://pinkypunk.ru</url>',
-        '    <platform>Tilda</platform>',
-        '    <currencies>',
-        '      <currency id="RUB" rate="1"/>',
-        '    </currencies>',
-        '    <categories>',
-        '      <category id="1">Секс-игрушки</category>',
-        '    </categories>',
-        '    <offers>'
-    ]
-
-    footer_lines = [
-        '    </offers>',
-        '    <collections>',  # Добавлено
-    ]
-
-    # 🔥 ДОБАВЛЯЕМ КАРТИНКИ КОЛЛЕКЦИЙ — БЕРЕМ ИХ ИЗ images/ ПО vendorCode
-    for coll in collections:
-        coll_id = coll["id"]
-        coll_name = coll["name"]
-        coll_url = coll.get("url", "")
-
-        footer_lines.append(f'      <collection id="{coll_id}">')
-        footer_lines.append(f'        <name>{coll_name}</name>')
-        
-        # 🔥 URL коллекции ОБЯЗАТЕЛЬНО в CDATA — содержит & и другие спецсимволы!
-        if coll_url:
-            url_cdata = f"<![CDATA[{coll_url.strip()}]]>"
-            footer_lines.append(f'        <url>{url_cdata}</url>')
-
-        # 🔥 Изображение коллекции — берём по артикулу из images/
-        if coll_id in collection_mapping:
-            vendor_code = collection_mapping[coll_id]
-            image_url = get_image_url(vendor_code)  # Эта функция уже есть — проверяет наличие файла
-            if image_url:
-                footer_lines.append(f'        <picture>{image_url}</picture>')
-                log(f"✅ Картинка коллекции '{coll_name}' взята из артикула {vendor_code}")
-
-        footer_lines.append('      </collection>')
-
-    footer_lines.extend([
-        '    </collections>',  # Закрываем collections
-        '  </shop>',
-        '</yml_catalog>'
-    ])
-
-    offer_lines = []
-    used_ids = set()
-
+    
+    active_collection_ids = set()
     for prod in products:
-        try:
-            if not prod.get('vendorCode') or not prod.get('name'):
-                continue
+        cid = prod.get('collection_id')
+        if cid and cid.isdigit():
+            active_collection_ids.add(cid)
+            
+    collection_image_info = build_collection_image_info(products)
+    
+    final_collections = {}
+    for c in collections:
+        cid = str(c.get('id', ''))
+        if cid and cid.isdigit() and cid in active_collection_ids:
+            final_collections[cid] = c
 
-            unique_id = prod["vendorCode"]
-            if unique_id in used_ids:
-                continue
-            used_ids.add(unique_id)
+    for cid in active_collection_ids:
+        if cid not in final_collections:
+            final_collections[cid] = {'id': cid, 'name': f"Коллекция {cid}", 'url': BASE_URL}
 
-            # 🔥 ЗАМЕНА ИЗОБРАЖЕНИЯ ТОВАРА — ЛОГИКА: ОДИН picture
-            image_urls = []
+    xml_lines = []
+    xml_lines.append('<?xml version="1.0" encoding="UTF-8"?>')
+    xml_lines.append(f'<yml_catalog date="{current_date}">')
+    xml_lines.append('  <shop>')
+    
+    xml_lines.append('    <name>Секспедиция</name>')
+    xml_lines.append('    <company>Секспедиция</company>')
+    xml_lines.append('    <url>https://pinkypunk.ru</url>')
+    xml_lines.append('    <platform>Tilda</platform>')
+    xml_lines.append('    <version>1.0</version>')
+    
+    xml_lines.append('    <currencies>')
+    xml_lines.append('      <currency id="RUB" rate="1"/>')
+    xml_lines.append('    </currencies>')
+    
+    xml_lines.append('    <categories>')
+    xml_lines.append('      <category id="1">Секс-игрушки</category>')
+    xml_lines.append('    </categories>')
+    
+    # 1. Offers
+    xml_lines.append('    <offers>')
+    
+    for prod in products:
+        vendor_code = prod.get('vendorCode')
+        if not vendor_code: continue
+        
+        xml_lines.append(f'      <offer id="{vendor_code}" available="true">')
+        xml_lines.append(f'        <name>{clean_text_for_xml(prod["name"])}</name>')
+        xml_lines.append('        <vendor>Секспедиция</vendor>')
+        xml_lines.append(f'        <vendorCode>{vendor_code}</vendorCode>')
+        xml_lines.append(f'        <price>{prod["price"]}</price>')
+        xml_lines.append('        <currencyId>RUB</currencyId>')
+        xml_lines.append('        <categoryId>1</categoryId>')
+        
+        custom_image = get_custom_image_url(vendor_code)
+        pic_url = custom_image if custom_image else prod.get("image")
+        if pic_url:
+            xml_lines.append(f'        <picture>{pic_url}</picture>')
+            
+        cid = prod.get("collection_id", "")
+        if cid and cid.isdigit() and cid in active_collection_ids:
+             xml_lines.append(f'        <collectionId>{cid}</collectionId>')
+             
+        xml_lines.append(f'        <url><![CDATA[{prod["link"]}]]></url>')
+        
+        if prod.get("description"):
+             xml_lines.append(f'        <description><![CDATA[{prod["description"]}]]></description>')
+             
+        xml_lines.append('        <sales_notes>Официальный сайт Секспедиция.</sales_notes>')
+        xml_lines.append(f'        <custom_label_0>{clean_text_for_xml(prod["name"])}</custom_label_0>')
+        
+        xml_lines.append('      </offer>')
 
-            # Проверяем: есть ли картинка в GitHub?
-            github_image_url = get_image_url(unique_id)
-            if github_image_url:
-                # Есть — используем ТОЛЬКО её
-                image_urls.append(github_image_url)
-                log(f"🔄 Заменено изображение для {unique_id}: {prod['image']} → {github_image_url}")
-            else:
-                # Нет — используем ВСЕ оригинальные картинки с сайта
-                if prod.get('image'):
-                    image_urls.append(prod['image'].strip())
-                for img in prod.get('additional_images', []):
-                    if img and img != prod.get('image'):
-                        image_urls.append(img.strip())
+    xml_lines.append('    </offers>')
+    
+    # 2. Collections (с тегом picture вместо image)
+    if final_collections:
+        xml_lines.append('    <collections>')
+        for coll_id, coll_data in sorted(final_collections.items()):
+            image_url = ""
+            if coll_id in collection_image_info:
+                info = collection_image_info[coll_id]
+                image_url = get_custom_image_url(info['vendor_code']) or info['fallback_image']
+            
+            xml_lines.append(f'      <collection id="{coll_id}">')
+            xml_lines.append(f'        <name>{clean_text_for_xml(coll_data["name"])}</name>')
+            xml_lines.append(f'        <url><![CDATA[{coll_data["url"]}]]></url>')
+            if image_url:
+                xml_lines.append(f'        <picture>{image_url}</picture>')
+            xml_lines.append('      </collection>')
+        xml_lines.append('    </collections>')
 
-            # --- Формируем offer ---
-            offer = [
-                f'      <offer id="{unique_id}" available="true">',
-                f'        <name>{prod["name"]}</name>',
-                f'        <vendor>Секспедиция</vendor>',
-                f'        <vendorCode>{prod["vendorCode"]}</vendorCode>',
-                f'        <model>{prod["name"]}</model>',
-                f'        <price>{prod["price"]}</price>',
-                f'        <currencyId>RUB</currencyId>',
-                f'        <categoryId>1</categoryId>'
-            ]
+    xml_lines.append('  </shop>')
+    xml_lines.append('</yml_catalog>')
 
-            # Добавляем collectionId, если есть
-            if prod.get('collection_id'):
-                offer.append(f'        <collectionId>{prod["collection_id"]}</collectionId>')
-
-            # 🔥 URL — ОБЯЗАТЕЛЬНО в CDATA (из-за символов & в параметрах!)
-            url_cdata = f"<![CDATA[{prod['link'].strip()}]]>"
-            offer.append(f'        <url>{url_cdata}</url>')
-
-            # 🔥 Все изображения — без CDATA, как требуется Яндекс.Маркету
-            for img_url in image_urls:
-                offer.append(f'        <picture>{img_url}</picture>')
-
-            # 🔥 Описание — ВСЁ ЕЩЁ В CDATA (т.к. может содержать & и <)
-            if prod.get('description') and prod['description'].strip():
-                desc_cdata = f"<![CDATA[{prod['description'].strip()}]]>"
-                offer.append(f'        <description>{desc_cdata}</description>')
-
-            # sales_notes
-            sales_notes = "Официальный сайт Секспедиция."
-            offer.append(f'        <sales_notes>{sales_notes}</sales_notes>')
-
-            offer.append('      </offer>')
-            offer_lines.extend(offer)
-
-        except Exception as e:
-            log(f"❌ Ошибка при генерации offer для {prod.get('name', 'unknown')}: {e}")
-            continue
-
-    # Формирование финального фида
-    full_lines = header_lines + offer_lines + footer_lines
-
-    # Резервная копия
-    if os.path.exists(XML_FILE):
-        backup_name = XML_FILE + ".backup"
-        shutil.copy2(XML_FILE, backup_name)
-        log(f"📁 Создана резервная копия: {backup_name}")
-
-    # Атомарная запись
     try:
-        with open(TEMP_XML_FILE, 'w', encoding='utf-8') as f:
-            f.write('\n'.join(full_lines))
+        with open(TEMP_XML_FILE, "w", encoding="utf-8") as f:
+            f.write('\n'.join(xml_lines))
+            
+        if os.path.exists(XML_FILE):
+            shutil.copy2(XML_FILE, XML_FILE + ".backup")
         os.replace(TEMP_XML_FILE, XML_FILE)
-        log(f"✅ XML-фид успешно сохранён: {XML_FILE}")
+        log(f"✅ XML сохранён: {XML_FILE}")
     except Exception as e:
-        log(f"❌ Ошибка при сохранении фида: {e}")
+        log(f"❌ Ошибка сохранения XML: {e}")
 
-# --- ЗАПУСК СКРИПТА ---
+# --- ОСНОВНОЙ ЗАПУСК ---
 if __name__ == "__main__":
-    log("🚀 Запуск парсера pinkypunk.ru")
-    progress = load_progress()
-    all_products = progress["products"]
-    # 🔥 Исправлено: используем vendorCode вместо link для дедупликации
-    seen_codes = {p['vendorCode'] for p in all_products if p.get('vendorCode')}
-
+    log("🚀 Запуск парсера pinkypunk.ru (v8 - picture in collections)")
+    
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=True)
         context = browser.new_context(user_agent=USER_AGENT)
         page = context.new_page()
-
+        
         try:
-            # Парсим каталог и коллекции
-            product_list, collections = parse_catalog_page(page)
-            # 🔥 Исправлено: фильтруем по vendorCode
-            new_items = [item for item in product_list if item.get('vendorCode') and item['vendorCode'] not in seen_codes]
-            log(f"🆕 Новых товаров для парсинга: {len(new_items)}")
-
-            # Просто добавляем новые товары
-            for item in new_items:
-                all_products.append(item)
-                save_progress(all_products)
-
-            log(f"🎉 Собрано {len(new_items)} новых товаров из каталога.")
-
-            # Генерируем фид
-            generate_xml(all_products, collections)
-            log(f"🎉 Готово! Всего товаров в фиде: {len(all_products)}")
-
+            current_products, collections = parse_catalog_page(page)
+            
+            progress = load_progress()
+            products_map = {p['vendorCode']: p for p in progress.get("products", [])}
+            
+            for prod in current_products:
+                products_map[prod['vendorCode']] = prod
+            
+            final_products = list(products_map.values())
+            save_progress(final_products)
+            generate_xml(final_products, collections)
+            
+            log(f"🎉 Готово! Всего товаров в фиде: {len(final_products)}")
+            
         except Exception as e:
-            log(f"❌ Ошибка: {e}")
-            save_progress(all_products)
+            log(f"❌ Критическая ошибка: {e}")
         finally:
             browser.close()
             log("✅ Браузер закрыт.")
-
-    log("✅ Готово! Проверьте папку 'output_pinkypunk'.")
