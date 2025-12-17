@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<yml_catalog date="2025-12-15 21:10">
+<yml_catalog date="2025-12-16 21:11">
   <shop>
     <name>Секспедиция</name>
     <company>Секспедиция</company>
@@ -527,6 +527,20 @@
         <description><![CDATA[Уникальная своего рода херня, то ли дилдо, то ли пробка, то ли игрушка]]></description>
         <sales_notes>Официальный сайт Секспедиция.</sales_notes>
         <custom_label_0>Трахминог / Светлый</custom_label_0>
+      </offer>
+      <offer id="474535085" available="true">
+        <name>Толстый член "Пузан" L</name>
+        <vendor>Секспедиция</vendor>
+        <vendorCode>474535085</vendorCode>
+        <price>3590</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>1</categoryId>
+        <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/474535085.png</picture>
+        <collectionId>618935101092</collectionId>
+        <url><![CDATA[https://pinkypunk.ru/puzan]]></url>
+        <description><![CDATA[Размер L - 24х7см]]></description>
+        <sales_notes>Официальный сайт Секспедиция.</sales_notes>
+        <custom_label_0>Толстый член "Пузан" L</custom_label_0>
       </offer>
     </offers>
     <collections>
