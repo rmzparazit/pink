@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<yml_catalog date="2025-12-17 21:10">
+<yml_catalog date="2025-12-18 21:10">
   <shop>
     <name>Секспедиция</name>
     <company>Секспедиция</company>
@@ -541,6 +541,45 @@
         <description><![CDATA[Размер L - 24х7см]]></description>
         <sales_notes>Официальный сайт Секспедиция.</sales_notes>
         <custom_label_0>Толстый член "Пузан" L</custom_label_0>
+      </offer>
+      <offer id="474613281" available="true">
+        <name>Мальчик с пальчик S</name>
+        <vendor>Секспедиция</vendor>
+        <vendorCode>474613281</vendorCode>
+        <price>1490</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>1</categoryId>
+        <picture>https://static.tildacdn.com/stor6633-3261-4831-b532-613431666531/110e89b3b328f9a2504d386e412833bf.png</picture>
+        <url><![CDATA[https://pinkypunk.ru/venom/tproduct/1290102421-315605133462-malchik-s-palchik-s]]></url>
+        <description><![CDATA[14 см общая длина / 2,5 см диаметр]]></description>
+        <sales_notes>Официальный сайт Секспедиция.</sales_notes>
+        <custom_label_0>Мальчик с пальчик S</custom_label_0>
+      </offer>
+      <offer id="474613282" available="true">
+        <name>Мальчик с пальчик M</name>
+        <vendor>Секспедиция</vendor>
+        <vendorCode>474613282</vendorCode>
+        <price>1590</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>1</categoryId>
+        <picture>https://static.tildacdn.com/stor3332-6635-4637-a330-396565353435/e11514c0c6ce4e2d387b123e5dfd860f.png</picture>
+        <url><![CDATA[https://pinkypunk.ru/venom/tproduct/1290102421-262655602682-malchik-s-palchik-m]]></url>
+        <description><![CDATA[15 см общая длина / 3.2 см диаметр]]></description>
+        <sales_notes>Официальный сайт Секспедиция.</sales_notes>
+        <custom_label_0>Мальчик с пальчик M</custom_label_0>
+      </offer>
+      <offer id="474613283" available="true">
+        <name>Мальчик с пальчик L</name>
+        <vendor>Секспедиция</vendor>
+        <vendorCode>474613283</vendorCode>
+        <price>1690</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>1</categoryId>
+        <picture>https://static.tildacdn.com/stor3832-6531-4865-b936-363061333538/a5baab26715db7858c6da04fff692e20.png</picture>
+        <url><![CDATA[https://pinkypunk.ru/venom/tproduct/1290102421-944572166802-malchik-s-palchik-l]]></url>
+        <description><![CDATA[16 см общая длина / 3.5 см диаметр]]></description>
+        <sales_notes>Официальный сайт Секспедиция.</sales_notes>
+        <custom_label_0>Мальчик с пальчик L</custom_label_0>
       </offer>
     </offers>
     <collections>
