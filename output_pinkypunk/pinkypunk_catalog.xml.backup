@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<yml_catalog date="2026-01-07 21:11">
+<yml_catalog date="2026-01-08 21:11">
   <shop>
     <name>Секспедиция</name>
     <company>Секспедиция</company>
@@ -667,6 +667,20 @@
         <description><![CDATA[Поиграйся с ним, чтобы плавно перейти от Шляпника к Отцу]]></description>
         <sales_notes>Официальный сайт Секспедиция.</sales_notes>
         <custom_label_0>Большой фаллоимитатор «Дядя Шляпника»</custom_label_0>
+      </offer>
+      <offer id="692433213" available="true">
+        <name>Бесценный мастурбатор "Первая Любовь"</name>
+        <vendor>Секспедиция</vendor>
+        <vendorCode>692433213</vendorCode>
+        <price>4290</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>1</categoryId>
+        <picture>https://static.tildacdn.com/stor6437-6165-4465-b735-633338613439/d59633c36470cb63385d040f7d7158e3.jpg</picture>
+        <collectionId>435183164492</collectionId>
+        <url><![CDATA[https://pinkypunk.ru/body/tproduct/1716030181-340982279252-bestsennii-masturbator-pervaya-lyubov]]></url>
+        <description><![CDATA[То самое чувство, когда первый раз залез в трусики]]></description>
+        <sales_notes>Официальный сайт Секспедиция.</sales_notes>
+        <custom_label_0>Бесценный мастурбатор "Первая Любовь"</custom_label_0>
       </offer>
     </offers>
     <collections>
