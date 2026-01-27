@@ -194,7 +194,7 @@
             "name": "Секс-кукла \"30кг радости\"",
             "vendorCode": "471859805",
             "link": "https://pinkypunk.ru/body",
-            "price": "79000",
+            "price": "75900",
             "image": "https://static.tildacdn.com/stor3733-3738-4131-b930-376464373231/67625212.jpg",
             "collection_id": "435183164492",
             "description": "Даже и добавить нечего.",
@@ -488,6 +488,16 @@
             "image": "https://static.tildacdn.com/stor6437-6165-4465-b735-633338613439/d59633c36470cb63385d040f7d7158e3.jpg",
             "collection_id": "435183164492",
             "description": "То самое чувство, когда первый раз залез в трусики",
+            "additional_images": []
+        },
+        {
+            "name": "Секс-кукла \"9кг радости\"",
+            "vendorCode": "744029576",
+            "link": "https://pinkypunk.ru/body",
+            "price": "24900",
+            "image": "https://static.tildacdn.com/stor3366-3734-4664-b965-616536346635/adf50969945d84f37b76c2f119d564b5.png",
+            "collection_id": "435183164492",
+            "description": "9кг - это как 19, но на 10 по-легче :)",
             "additional_images": []
         }
     ]
