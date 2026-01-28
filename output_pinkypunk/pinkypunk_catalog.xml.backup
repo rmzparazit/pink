@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<yml_catalog date="2026-01-26 21:13">
+<yml_catalog date="2026-01-27 21:09">
   <shop>
     <name>Секспедиция</name>
     <company>Секспедиция</company>
@@ -280,7 +280,7 @@
         <name>Секс-кукла "30кг радости"</name>
         <vendor>Секспедиция</vendor>
         <vendorCode>471859805</vendorCode>
-        <price>79000</price>
+        <price>75900</price>
         <currencyId>RUB</currencyId>
         <categoryId>1</categoryId>
         <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/471859805.png</picture>
@@ -695,6 +695,20 @@
         <description><![CDATA[То самое чувство, когда первый раз залез в трусики]]></description>
         <sales_notes>Официальный сайт Секспедиция.</sales_notes>
         <custom_label_0>Бесценный мастурбатор "Первая Любовь"</custom_label_0>
+      </offer>
+      <offer id="744029576" available="true">
+        <name>Секс-кукла "9кг радости"</name>
+        <vendor>Секспедиция</vendor>
+        <vendorCode>744029576</vendorCode>
+        <price>24900</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>1</categoryId>
+        <picture>https://static.tildacdn.com/stor3366-3734-4664-b965-616536346635/adf50969945d84f37b76c2f119d564b5.png</picture>
+        <collectionId>435183164492</collectionId>
+        <url><![CDATA[https://pinkypunk.ru/body]]></url>
+        <description><![CDATA[9кг - это как 19, но на 10 по-легче :)]]></description>
+        <sales_notes>Официальный сайт Секспедиция.</sales_notes>
+        <custom_label_0>Секс-кукла "9кг радости"</custom_label_0>
       </offer>
     </offers>
     <collections>
