@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<yml_catalog date="2026-02-18 21:26">
+<yml_catalog date="2026-02-19 21:21">
   <shop>
     <name>Секспедиция</name>
     <company>Секспедиция</company>
@@ -709,6 +709,20 @@
         <description><![CDATA[9кг - это как 19, но на 10 по-легче :)]]></description>
         <sales_notes>Официальный сайт Секспедиция.</sales_notes>
         <custom_label_0>Секс-кукла "9кг радости"</custom_label_0>
+      </offer>
+      <offer id="491483306" available="true">
+        <name>Фаллоимитатор "Глубина" с мошонкой</name>
+        <vendor>Секспедиция</vendor>
+        <vendorCode>491483306</vendorCode>
+        <price>3690</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>1</categoryId>
+        <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/491483306.png</picture>
+        <collectionId>618935101092</collectionId>
+        <url><![CDATA[https://pinkypunk.ru/tproduct/1792510401-344429102882-falloimitator-glubina-s-moshonkoi]]></url>
+        <description><![CDATA[Не член, а буровая установка.]]></description>
+        <sales_notes>Официальный сайт Секспедиция.</sales_notes>
+        <custom_label_0>Фаллоимитатор "Глубина" с мошонкой</custom_label_0>
       </offer>
     </offers>
     <collections>
