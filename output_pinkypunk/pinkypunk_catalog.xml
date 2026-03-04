@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<yml_catalog date="2026-03-03 21:22">
+<yml_catalog date="2026-03-04 21:22">
   <shop>
     <name>Секспедиция</name>
     <company>Секспедиция</company>
@@ -737,6 +737,20 @@
         <description><![CDATA[Мастурбатор будет сухой и счастливый]]></description>
         <sales_notes>Официальный сайт Секспедиция.</sales_notes>
         <custom_label_0>Палочка для сушки</custom_label_0>
+      </offer>
+      <offer id="833467546" available="true">
+        <name>"Сунь-Подсунь" тонкий и длинный фаллоимитатор</name>
+        <vendor>Секспедиция</vendor>
+        <vendorCode>833467546</vendorCode>
+        <price>2290</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>1</categoryId>
+        <picture>https://static.tildacdn.com/stor3966-3134-4436-a431-343962356333/35825dbdc7bd8136d10ba7ca90cf6200.png</picture>
+        <collectionId>618935101092</collectionId>
+        <url><![CDATA[https://pinkypunk.ru/venom/tproduct/1290102421-469040194292-sun-podsun-tonkii-i-dlinnii-falloimitato]]></url>
+        <description><![CDATA[Сунь-Подсунь куда угодно для новых ощущений :)]]></description>
+        <sales_notes>Официальный сайт Секспедиция.</sales_notes>
+        <custom_label_0>"Сунь-Подсунь" тонкий и длинный фаллоимитатор</custom_label_0>
       </offer>
     </offers>
     <collections>
