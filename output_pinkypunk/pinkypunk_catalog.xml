@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<yml_catalog date="2026-03-11 21:21">
+<yml_catalog date="2026-03-12 21:22">
   <shop>
     <name>Секспедиция</name>
     <company>Секспедиция</company>
@@ -780,6 +780,34 @@
         <sales_notes>Официальный сайт Секспедиция.</sales_notes>
         <custom_label_0>Фаллоимитатор "Сутулый". Эпизод II.</custom_label_0>
       </offer>
+      <offer id="876932251" available="true">
+        <name>"Сам себе Шляпник" Размер M-L</name>
+        <vendor>Секспедиция</vendor>
+        <vendorCode>876932251</vendorCode>
+        <price>1390</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>1</categoryId>
+        <picture>https://static.tildacdn.com/stor3966-3964-4431-b837-346263666132/b8dfec1aef9dde9f134e62445db7e4fc.jpg</picture>
+        <collectionId>994515996962</collectionId>
+        <url><![CDATA[https://pinkypunk.ru/nasadki/tproduct/2016592041-319161075902-sam-sebe-shlyapnik-razmer-m-l]]></url>
+        <description><![CDATA[Силиконовая насадка на член]]></description>
+        <sales_notes>Официальный сайт Секспедиция.</sales_notes>
+        <custom_label_0>"Сам себе Шляпник" Размер M-L</custom_label_0>
+      </offer>
+      <offer id="876932250" available="true">
+        <name>"Сам себе Шляпник" Размер S-M</name>
+        <vendor>Секспедиция</vendor>
+        <vendorCode>876932250</vendorCode>
+        <price>1290</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>1</categoryId>
+        <picture>https://static.tildacdn.com/stor3931-6536-4564-b634-646161316561/875f0afe276935a166c7cff28a019937.jpg</picture>
+        <collectionId>994515996962</collectionId>
+        <url><![CDATA[https://pinkypunk.ru/nasadki/tproduct/2016592041-809404111722-sam-sebe-shlyapnik-razmer-s-m]]></url>
+        <description><![CDATA[Силиконовая насадка на член]]></description>
+        <sales_notes>Официальный сайт Секспедиция.</sales_notes>
+        <custom_label_0>"Сам себе Шляпник" Размер S-M</custom_label_0>
+      </offer>
     </offers>
     <collections>
       <collection id="166362679662">
@@ -806,6 +834,11 @@
         <name>Пробки</name>
         <url><![CDATA[https://pinkypunk.ru/catalog?tfc_storepartuid%5B757983339%5D=%D0%9F%D1%80%D0%BE%D0%B1%D0%BA%D0%B8&tfc_div=:::]]></url>
         <picture>https://static.tildacdn.com/stor3963-3434-4864-b663-303939653066/f5549b70ce8882b56d9e1deefac18b4d.jpg</picture>
+      </collection>
+      <collection id="994515996962">
+        <name>Насадки</name>
+        <url><![CDATA[https://pinkypunk.ru/catalog?tfc_storepartuid%5B757983339%5D=%D0%9D%D0%B0%D1%81%D0%B0%D0%B4%D0%BA%D0%B8&tfc_div=:::]]></url>
+        <picture>https://static.tildacdn.com/stor3966-3964-4431-b837-346263666132/b8dfec1aef9dde9f134e62445db7e4fc.jpg</picture>
       </collection>
     </collections>
   </shop>
