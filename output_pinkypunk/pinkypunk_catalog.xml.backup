@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<yml_catalog date="2026-05-03 21:30">
+<yml_catalog date="2026-05-04 21:51">
   <shop>
     <name>Секспедиция</name>
     <company>Секспедиция</company>
@@ -821,6 +821,20 @@
         <description><![CDATA[Потянешь? :)]]></description>
         <sales_notes>Официальный сайт Секспедиция.</sales_notes>
         <custom_label_0>Фаллоимитатор огромный "Голиаф"</custom_label_0>
+      </offer>
+      <offer id="982257003" available="true">
+        <name>Сквозной мастурбатор "Сквозняк"</name>
+        <vendor>Секспедиция</vendor>
+        <vendorCode>982257003</vendorCode>
+        <price>3300</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>1</categoryId>
+        <picture>https://static.tildacdn.com/stor6531-6632-4363-b839-626538643936/1069de527a58f64f5c1a083fb2f04c2a.jpg</picture>
+        <collectionId>435183164492</collectionId>
+        <url><![CDATA[https://pinkypunk.ru/popamary/tproduct/1216514926-414627159972-skvoznoi-masturbator-skvoznyak]]></url>
+        <description><![CDATA[Два входа - два сценария]]></description>
+        <sales_notes>Официальный сайт Секспедиция.</sales_notes>
+        <custom_label_0>Сквозной мастурбатор "Сквозняк"</custom_label_0>
       </offer>
     </offers>
     <collections>
