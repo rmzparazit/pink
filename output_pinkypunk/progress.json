@@ -589,6 +589,36 @@
             "collection_id": "435183164492",
             "description": "Два входа - два сценария",
             "additional_images": []
+        },
+        {
+            "name": "Фаллоимитатор \"Турбо 01\"",
+            "vendorCode": "982236453",
+            "link": "https://pinkypunk.ru/nasadki/tproduct/2016592041-971663414112-falloimitator-turbo-01",
+            "price": "2600",
+            "image": "https://static.tildacdn.com/stor6164-3762-4632-b562-633662636432/391cdf0d40776a8d2acbcf34d01bfe9a.jpg",
+            "collection_id": "618935101092",
+            "description": "В отряде Секспедиции — лучшие из лучших",
+            "additional_images": []
+        },
+        {
+            "name": "Фаллоимитатор \"Турбо 02\"",
+            "vendorCode": "982236452",
+            "link": "https://pinkypunk.ru/nasadki/tproduct/2016592041-163433900202-falloimitator-turbo-02",
+            "price": "3300",
+            "image": "https://static.tildacdn.com/stor6466-3934-4332-b937-303064633439/2654a44c2ca52056e6801aeff604ad17.jpg",
+            "collection_id": "618935101092",
+            "description": "В отряде Секспедиции — лучшие из лучших",
+            "additional_images": []
+        },
+        {
+            "name": "Фаллоимитатор с крупной головкой \"Дурная голова\"",
+            "vendorCode": "982248350",
+            "link": "https://pinkypunk.ru/nasadki/tproduct/2016592041-686267057812-falloimitator-s-krupnoi-golovkoi-durnaya",
+            "price": "2700",
+            "image": "https://static.tildacdn.com/stor6461-6139-4162-a233-623131623935/8ccb69d9a091bab981d8c69324acacb0.jpg",
+            "collection_id": "618935101092",
+            "description": "Крупная головка для приятного растяжения",
+            "additional_images": []
         }
     ]
 }
