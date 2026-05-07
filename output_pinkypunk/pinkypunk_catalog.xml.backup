@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<yml_catalog date="2026-05-06 09:04">
+<yml_catalog date="2026-05-06 21:50">
   <shop>
     <name>Секспедиция</name>
     <company>Секспедиция</company>
@@ -835,6 +835,48 @@
         <description><![CDATA[Два входа - два сценария]]></description>
         <sales_notes>Официальный сайт Секспедиция.</sales_notes>
         <custom_label_0>Сквозной мастурбатор "Сквозняк"</custom_label_0>
+      </offer>
+      <offer id="982236453" available="true">
+        <name>Фаллоимитатор "Турбо 01"</name>
+        <vendor>Секспедиция</vendor>
+        <vendorCode>982236453</vendorCode>
+        <price>2600</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>1</categoryId>
+        <picture>https://static.tildacdn.com/stor6164-3762-4632-b562-633662636432/391cdf0d40776a8d2acbcf34d01bfe9a.jpg</picture>
+        <collectionId>618935101092</collectionId>
+        <url><![CDATA[https://pinkypunk.ru/nasadki/tproduct/2016592041-971663414112-falloimitator-turbo-01]]></url>
+        <description><![CDATA[В отряде Секспедиции — лучшие из лучших]]></description>
+        <sales_notes>Официальный сайт Секспедиция.</sales_notes>
+        <custom_label_0>Фаллоимитатор "Турбо 01"</custom_label_0>
+      </offer>
+      <offer id="982236452" available="true">
+        <name>Фаллоимитатор "Турбо 02"</name>
+        <vendor>Секспедиция</vendor>
+        <vendorCode>982236452</vendorCode>
+        <price>3300</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>1</categoryId>
+        <picture>https://static.tildacdn.com/stor6466-3934-4332-b937-303064633439/2654a44c2ca52056e6801aeff604ad17.jpg</picture>
+        <collectionId>618935101092</collectionId>
+        <url><![CDATA[https://pinkypunk.ru/nasadki/tproduct/2016592041-163433900202-falloimitator-turbo-02]]></url>
+        <description><![CDATA[В отряде Секспедиции — лучшие из лучших]]></description>
+        <sales_notes>Официальный сайт Секспедиция.</sales_notes>
+        <custom_label_0>Фаллоимитатор "Турбо 02"</custom_label_0>
+      </offer>
+      <offer id="982248350" available="true">
+        <name>Фаллоимитатор с крупной головкой "Дурная голова"</name>
+        <vendor>Секспедиция</vendor>
+        <vendorCode>982248350</vendorCode>
+        <price>2700</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>1</categoryId>
+        <picture>https://static.tildacdn.com/stor6461-6139-4162-a233-623131623935/8ccb69d9a091bab981d8c69324acacb0.jpg</picture>
+        <collectionId>618935101092</collectionId>
+        <url><![CDATA[https://pinkypunk.ru/nasadki/tproduct/2016592041-686267057812-falloimitator-s-krupnoi-golovkoi-durnaya]]></url>
+        <description><![CDATA[Крупная головка для приятного растяжения]]></description>
+        <sales_notes>Официальный сайт Секспедиция.</sales_notes>
+        <custom_label_0>Фаллоимитатор с крупной головкой "Дурная голова"</custom_label_0>
       </offer>
     </offers>
     <collections>
