@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<yml_catalog date="2026-05-15 21:46">
+<yml_catalog date="2026-05-16 21:37">
   <shop>
     <name>Секспедиция</name>
     <company>Секспедиция</company>
@@ -955,6 +955,20 @@
         <url><![CDATA[https://pinkypunk.ru/noname/tproduct/2243743021-246097572772-proekt-neznakomtsi-obekt-3-razmer-03]]></url>
         <sales_notes>Официальный сайт Секспедиция.</sales_notes>
         <custom_label_0>Проект «Незнакомцы». Объект №3, размер 03.</custom_label_0>
+      </offer>
+      <offer id="983376886" available="true">
+        <name>Фаллоимитатор "Тяжелый Трофейный"</name>
+        <vendor>Секспедиция</vendor>
+        <vendorCode>983376886</vendorCode>
+        <price>3900</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>1</categoryId>
+        <picture>https://static.tildacdn.com/stor3161-3436-4963-b662-646532303464/5f7ede654f75d0f00e54de3767ae8628.jpg</picture>
+        <collectionId>618935101092</collectionId>
+        <url><![CDATA[https://pinkypunk.ru/nasadki/tproduct/2016592041-537082270272-falloimitator-tyazhelii-trofeinii]]></url>
+        <description><![CDATA[Новый размер для Охоты]]></description>
+        <sales_notes>Официальный сайт Секспедиция.</sales_notes>
+        <custom_label_0>Фаллоимитатор "Тяжелый Трофейный"</custom_label_0>
       </offer>
     </offers>
     <collections>
