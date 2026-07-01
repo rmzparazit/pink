@@ -73,9 +73,6 @@ def load_progress():
         try:
             with open(PROGRESS_FILE, 'r', encoding='utf-8') as f:
                 data = json.load(f)
-                for p in data.get("products", []):
-                    if p.get('collection_id'):
-                        p['collection_id'] = normalize_collection_id(p['collection_id'])
                 return data
         except Exception as e:
             log(f"❌ Ошибка загрузки прогресса: {e}")
@@ -89,8 +86,6 @@ def save_progress(products):
         for p in products:
             vendor_code = p.get('vendorCode')
             if vendor_code and vendor_code not in seen_vendors:
-                if p.get('collection_id'):
-                    p['collection_id'] = normalize_collection_id(p['collection_id'])
                 unique_products.append(p)
                 seen_vendors.add(vendor_code)
         
@@ -101,151 +96,174 @@ def save_progress(products):
         log(f"❌ Ошибка сохранения: {e}")
 
 def extract_collections(page):
-    """Извлекает список коллекций с сайта."""
+    """Извлекает список коллекций с сайта по новой структуре (t976)."""
     collections = []
     try:
-        page.wait_for_selector('.js-store-parts-switcher', timeout=5000)
-        switchers = page.query_selector_all('.js-store-parts-switcher:not(.t-store__parts-switch-btn-all)')
+        page.wait_for_selector('.t976__list-item a', timeout=5000)
+        links = page.query_selector_all('.t976__list-item a')
         
-        for switcher in switchers:
-            name = switcher.inner_text().strip()
-            uid = switcher.get_attribute('data-storepart-uid') or ""
-            link_fragment = switcher.get_attribute('data-storepart-link') or ""
+        for link in links:
+            name = link.inner_text().strip()
+            href = link.get_attribute('href') or ""
             
-            if '/c/' in link_fragment:
-                try:
-                    uid_candidate = link_fragment.split('/c/')[1].split('-')[0]
-                    if uid_candidate.isdigit():
-                        uid = uid_candidate
-                except: pass
-
-            final_id = normalize_collection_id(uid)
-            
-            if name and name != "Все":
-                full_url = f"https://pinkypunk.ru/catalog"
-                if '/c/' in link_fragment:
-                    try:
-                        encoded_name = quote(link_fragment.split('-')[-1])
-                        full_url = f"https://pinkypunk.ru/catalog?tfc_storepartuid%5B757983339%5D={encoded_name}&tfc_div=:::"
-                    except: pass
+            if name and name.lower() != "все" and href:
+                slug = href.split('/')[-1]
+                final_id = normalize_collection_id(slug)
                 
-                collections.append({'id': final_id, 'name': name, 'url': full_url.strip()})
-                if final_id.isdigit():
-                    log(f"🏷️ Найдена коллекция: {name} -> ID: {final_id}")
-                else:
-                    log(f"⚠️ Коллекция '{name}': ID не найден, будет восстановлен из товаров")
-                    
+                full_url = f"https://pinkypunk.ru{href}" if href.startswith('/') else href
+                collections.append({'id': final_id, 'slug': slug, 'name': name, 'url': full_url.strip()})
+                log(f"🏷️ Найдена категория на сайте: {name} -> Slug: {slug}")
+                
     except Exception as e:
         log(f"⚠️ Ошибка при извлечении коллекций: {e}")
     return collections
 
 def parse_catalog_page(page):
-    """Парсит каталог и возвращает список товаров и коллекций."""
+    """Парсит каталог, извлекает характеристики и информацию для клонирования коллекций."""
     log("📦 Начинаем парсинг каталога...")
     all_products = []
     
     page.goto(BASE_URL, timeout=60000)
     page.wait_for_timeout(5000)
-    collections = extract_collections(page)
     
+    # Собираем категории для маппинга характеристик
+    collections = extract_collections(page)
+    coll_map = {c['slug']: c['name'] for c in collections if 'slug' in c}
+    
+    # Пробуем закрыть попап "Да, мне есть 18", если он перекрывает экран
+    try:
+        popup_btn = page.locator('text="Да, мне есть 18"')
+        if popup_btn.is_visible(timeout=3000):
+            log("🔞 Закрываем окно подтверждения возраста...")
+            popup_btn.click()
+            page.wait_for_timeout(1000)
+    except Exception:
+        pass
+
+    # Обработка кнопки "Загрузить ещё" через JavaScript-инъекцию
+    while True:
+        try:
+            load_more = page.locator('.js-catalog-load-more-btn')
+            if load_more.is_visible():
+                log("🔄 Нажимаем 'Загрузить ещё'...")
+                load_more.evaluate("node => node.click()")
+                page.wait_for_timeout(2500)
+            else:
+                break
+        except Exception as e:
+            log(f"⚠️ Кнопка 'Загрузить ещё' больше недоступна: {e}")
+            break
+            
+    # Дополнительный короткий скролл для ленивой загрузки изображений
     last_height = page.evaluate("document.body.scrollHeight")
-    for _ in range(15):
+    for _ in range(3):
         page.evaluate("window.scrollTo(0, document.body.scrollHeight);")
-        time.sleep(2)
+        page.wait_for_timeout(1000)
         new_height = page.evaluate("document.body.scrollHeight")
         if new_height == last_height:
             break
         last_height = new_height
         
-    product_elements = page.query_selector_all('.js-product.t-store__card')
+    # Ищем карточки товаров
+    product_elements = page.query_selector_all('.js-product.t-catalog__card, .js-product.t-store__card')
     log(f"🔍 Найдено {len(product_elements)} карточек товаров на странице.")
     
     for card in product_elements:
         try:
-            buy_button = card.query_selector('.js-store-prod-btn2')
-            if not buy_button or "t-store__prod-popup__btn_disabled" in (buy_button.get_attribute("class") or ""):
-                continue
+            # Двойная проверка наличия: плашка "Нет в наличии" ИЛИ атрибут инвентаря = 0
+            sold_out_el = card.query_selector('.js-catalog-prod-sold-out')
+            inv_count = card.get_attribute('data-product-inv')
             
-            name_el = card.query_selector('.js-store-prod-name')
+            available = True
+            if sold_out_el or inv_count == "0":
+                available = False
+            
+            name_el = card.query_selector('.js-catalog-prod-name, .js-store-prod-name, .js-product-name')
             name = name_el.inner_text().strip() if name_el else ""
             if not name: continue
             
-            sku_el = card.query_selector('.js-store-prod-sku')
+            sku_el = card.query_selector('.js-catalog-prod-sku, .js-store-prod-sku, .js-product-sku')
             vendorCode = sku_el.inner_text().replace('Артикул:', '').strip() if sku_el else ""
+            if not vendorCode: continue
             
             link_el = card.query_selector('a[href]')
             link = link_el.get_attribute('href').strip() if link_el else ""
+            if link and link.startswith('/'):
+                link = f"https://pinkypunk.ru{link}"
             
             price_el = card.query_selector('.js-product-price')
             price = "0"
             if price_el:
-                price = price_el.get_attribute('data-product-price-def') or re.search(r'\d+', price_el.inner_text().replace(' ',''))[0]
+                price_attr = price_el.get_attribute('data-product-price-def')
+                if price_attr:
+                    price = price_attr
+                else:
+                    price_match = re.search(r'\d+', price_el.inner_text().replace(' ',''))
+                    if price_match: price = price_match[0]
 
             img_el = card.query_selector('.js-product-img')
             image = (img_el.get_attribute('data-original') if img_el else "").strip()
 
-            descr_el = card.query_selector('.js-store-prod-descr')
+            descr_el = card.query_selector('.js-catalog-prod-descr, .js-store-prod-descr')
             description = descr_el.inner_text().strip() if descr_el else ""
 
-            collection_id = normalize_collection_id(card.get_attribute('data-product-part-uid'))
+            # --- ФОРМИРОВАНИЕ ХАРАКТЕРИСТИК (PROPERTY) ---
+            properties = []
+            
+            cat_name = "Секс-игрушки"
+            if link:
+                url_parts = link.split('/catalog/')
+                if len(url_parts) > 1:
+                    sub_parts = url_parts[1].split('/')
+                    if len(sub_parts) > 0:
+                        cat_slug = sub_parts[0]
+                        if cat_slug in coll_map:
+                            cat_name = coll_map[cat_slug]
+            
+            properties.append({'name': 'Категория', 'value': cat_name})
+            properties.append({'name': 'Бренд', 'value': 'Секспедиция'})
+            
+            pack_m = card.get_attribute('data-product-pack-m')
+            if pack_m and pack_m.isdigit() and int(pack_m) > 0:
+                properties.append({'name': 'Вес брутто', 'value': f"{pack_m} г"})
+                
+            pack_x = card.get_attribute('data-product-pack-x')
+            if pack_x and pack_x.isdigit() and int(pack_x) > 0:
+                properties.append({'name': 'Длина упаковки', 'value': f"{pack_x} мм"})
+                
+            pack_y = card.get_attribute('data-product-pack-y')
+            if pack_y and pack_y.isdigit() and int(pack_y) > 0:
+                properties.append({'name': 'Ширина упаковки', 'value': f"{pack_y} мм"})
+                
+            pack_z = card.get_attribute('data-product-pack-z')
+            if pack_z and pack_z.isdigit() and int(pack_z) > 0:
+                properties.append({'name': 'Высота упаковки', 'value': f"{pack_z} мм"})
 
             all_products.append({
                 'name': name, 'vendorCode': vendorCode, 'link': link, 'price': price,
-                'image': image, 'collection_id': collection_id, 'description': description, 'additional_images': []
+                'image': image, 'description': description, 'available': available, 
+                'properties': properties, 'additional_images': []
             })
-        except Exception:
+        except Exception as e:
+            log(f"⚠️ Ошибка парсинга карточки: {e}")
             continue
             
     return all_products, collections
 
-def build_collection_image_info(products):
-    """Создает маппинг: ID коллекции -> {артикул, картинка-фолбэк}."""
-    collection_info = {}
-    for prod in products:
-        coll_id = prod.get('collection_id')
-        if coll_id and coll_id.isdigit() and coll_id not in collection_info:
-            vendor_code = prod.get('vendorCode')
-            fallback_image = prod.get('image', '')
-            if vendor_code:
-                collection_info[coll_id] = {
-                    'vendor_code': vendor_code,
-                    'fallback_image': fallback_image
-                }
-    return collection_info
-
 def clean_text_for_xml(text):
-    """Экранирует только критические символы для XML, оставляя кавычки как есть."""
+    """Экранирует критические символы для XML."""
     if not text:
         return ""
     text = text.replace("&", "&amp;")
     text = text.replace("<", "&lt;")
     text = text.replace(">", "&gt;")
-    # НЕ заменяем кавычки: text = text.replace('"', '&quot;')
     return text
 
 def generate_xml(products, collections):
-    """Генерирует XML-фид вручную, блок collections в конце."""
+    """Генерирует XML-фид вручную, делая коллекции точными клонами офферов."""
     log("📝 Генерация XML-фида...")
     current_date = datetime.now().strftime("%Y-%m-%d %H:%M")
     
-    active_collection_ids = set()
-    for prod in products:
-        cid = prod.get('collection_id')
-        if cid and cid.isdigit():
-            active_collection_ids.add(cid)
-            
-    collection_image_info = build_collection_image_info(products)
-    
-    final_collections = {}
-    for c in collections:
-        cid = str(c.get('id', ''))
-        if cid and cid.isdigit() and cid in active_collection_ids:
-            final_collections[cid] = c
-
-    for cid in active_collection_ids:
-        if cid not in final_collections:
-            final_collections[cid] = {'id': cid, 'name': f"Коллекция {cid}", 'url': BASE_URL}
-
     xml_lines = []
     xml_lines.append('<?xml version="1.0" encoding="UTF-8"?>')
     xml_lines.append(f'<yml_catalog date="{current_date}">')
@@ -265,14 +283,17 @@ def generate_xml(products, collections):
     xml_lines.append('      <category id="1">Секс-игрушки</category>')
     xml_lines.append('    </categories>')
     
-    # 1. Offers
+    # 1. Блок Офферов
     xml_lines.append('    <offers>')
     
     for prod in products:
         vendor_code = prod.get('vendorCode')
         if not vendor_code: continue
         
-        xml_lines.append(f'      <offer id="{vendor_code}" available="true">')
+        is_available = prod.get('available', True)
+        avail_str = "true" if is_available else "false"
+        
+        xml_lines.append(f'      <offer id="{vendor_code}" available="{avail_str}">')
         xml_lines.append(f'        <name>{clean_text_for_xml(prod["name"])}</name>')
         xml_lines.append('        <vendor>Секспедиция</vendor>')
         xml_lines.append(f'        <vendorCode>{vendor_code}</vendorCode>')
@@ -285,36 +306,51 @@ def generate_xml(products, collections):
         if pic_url:
             xml_lines.append(f'        <picture>{pic_url}</picture>')
             
-        cid = prod.get("collection_id", "")
-        if cid and cid.isdigit() and cid in active_collection_ids:
-             xml_lines.append(f'        <collectionId>{cid}</collectionId>')
+        # Привязываем коллекцию только если товар в наличии
+        if is_available:
+            xml_lines.append(f'        <collectionId>{vendor_code}</collectionId>')
              
-        xml_lines.append(f'        <url><![CDATA[{prod["link"]}]]></url>')
+        xml_lines.append(f'        <url>{clean_text_for_xml(prod["link"])}</url>')
         
         if prod.get("description"):
-             xml_lines.append(f'        <description><![CDATA[{prod["description"]}]]></description>')
+             xml_lines.append(f'        <description>{clean_text_for_xml(prod["description"])}</description>')
              
         xml_lines.append('        <sales_notes>Официальный сайт Секспедиция.</sales_notes>')
         xml_lines.append(f'        <custom_label_0>{clean_text_for_xml(prod["name"])}</custom_label_0>')
+        
+        if prod.get("properties"):
+            for prop in prod["properties"]:
+                p_name = clean_text_for_xml(prop.get("name", ""))
+                p_val = clean_text_for_xml(prop.get("value", ""))
+                if p_name and p_val:
+                    xml_lines.append(f'        <property name="{p_name}">{p_val}</property>')
         
         xml_lines.append('      </offer>')
 
     xml_lines.append('    </offers>')
     
-    # 2. Collections (с тегом picture вместо image)
-    if final_collections:
+    # 2. Блок Коллекций (формируются персонально под каждый товар, ТОЛЬКО если в наличии)
+    if products:
         xml_lines.append('    <collections>')
-        for coll_id, coll_data in sorted(final_collections.items()):
-            image_url = ""
-            if coll_id in collection_image_info:
-                info = collection_image_info[coll_id]
-                image_url = get_custom_image_url(info['vendor_code']) or info['fallback_image']
+        for prod in products:
+            is_available = prod.get('available', True)
+            if not is_available: 
+                continue # Пропускаем создание коллекции для отсутствующего товара
+                
+            vendor_code = prod.get('vendorCode')
+            if not vendor_code: continue
             
-            xml_lines.append(f'      <collection id="{coll_id}">')
-            xml_lines.append(f'        <name>{clean_text_for_xml(coll_data["name"])}</name>')
-            xml_lines.append(f'        <url><![CDATA[{coll_data["url"]}]]></url>')
+            custom_image = get_custom_image_url(vendor_code)
+            image_url = custom_image if custom_image else prod.get("image", "")
+            
+            xml_lines.append(f'      <collection id="{vendor_code}">')
+            xml_lines.append(f'        <name>{clean_text_for_xml(prod["name"])}</name>')
+            xml_lines.append(f'        <url>{clean_text_for_xml(prod["link"])}</url>')
+            
             if image_url:
                 xml_lines.append(f'        <picture>{image_url}</picture>')
+            if prod.get("description"):
+                xml_lines.append(f'        <description>{clean_text_for_xml(prod["description"])}</description>')
             xml_lines.append('      </collection>')
         xml_lines.append('    </collections>')
 
@@ -334,7 +370,7 @@ def generate_xml(products, collections):
 
 # --- ОСНОВНОЙ ЗАПУСК ---
 if __name__ == "__main__":
-    log("🚀 Запуск парсера pinkypunk.ru (v8 - picture in collections)")
+    log("🚀 Запуск парсера pinkypunk.ru (v13 - Без пустых коллекций)")
     
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=True)
@@ -346,7 +382,14 @@ if __name__ == "__main__":
             
             progress = load_progress()
             products_map = {p['vendorCode']: p for p in progress.get("products", [])}
+            current_skus = {p['vendorCode'] for p in current_products}
             
+            # Помечаем отсутствующие на странице товары как "нет в наличии"
+            for vendor_code, old_prod in products_map.items():
+                if vendor_code not in current_skus:
+                    old_prod['available'] = False
+                    
+            # Обновляем базу свежими данными
             for prod in current_products:
                 products_map[prod['vendorCode']] = prod
             
