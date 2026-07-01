@@ -2341,37 +2341,112 @@
             "additional_images": []
         },
         {
-            "name": "Проект «Незнакомцы». Объект №3, размер 01.",
+            "name": "Проект «Незнакомцы». Объект №3. Он же \"Артист малого театра\"",
             "vendorCode": "995294539",
-            "link": "https://pinkypunk.ru/catalog/neznakomci/tproduct/2396920901-446912491592-proekt-neznakomtsi-obekt-3-razmer-01",
-            "price": "1900",
-            "image": "https://static.tildacdn.com/stor3939-3666-4434-b539-666266393130/af5544e9a4f95e85a233a6bef2ea2a7e.jpg",
-            "collection_id": "612994135352",
-            "description": "",
-            "additional_images": [],
-            "available": false
+            "link": "https://pinkypunk.ru/catalog/neznakomci/object3-01",
+            "price": "2200",
+            "image": "https://static.tildacdn.com/stor3964-3037-4632-a537-366233373762/3748d4f12cf656a65c9f5034d9fbea16.jpg",
+            "description": "Маски сняты. Встречайте третью модель из Незнакомцев - Артист малого театра.",
+            "available": true,
+            "properties": [
+                {
+                    "name": "Категория",
+                    "value": "Незнакомцы"
+                },
+                {
+                    "name": "Бренд",
+                    "value": "Секспедиция"
+                },
+                {
+                    "name": "Вес брутто",
+                    "value": "510 г"
+                },
+                {
+                    "name": "Длина упаковки",
+                    "value": "245 мм"
+                },
+                {
+                    "name": "Ширина упаковки",
+                    "value": "95 мм"
+                },
+                {
+                    "name": "Высота упаковки",
+                    "value": "95 мм"
+                }
+            ],
+            "additional_images": []
         },
         {
-            "name": "Проект «Незнакомцы». Объект №3, размер 02.",
+            "name": "Проект «Незнакомцы». Объект №3. Он же \"Артист дачного театра\"",
             "vendorCode": "995287364",
-            "link": "https://pinkypunk.ru/catalog/neznakomci/tproduct/2396920901-363036472552-proekt-neznakomtsi-obekt-3-razmer-02",
+            "link": "https://pinkypunk.ru/catalog/neznakomci/object3-02",
             "price": "2900",
-            "image": "https://static.tildacdn.com/stor6234-6265-4662-b838-623361363937/332b37a1738dabc3b68977a3f7d82e5d.jpg",
-            "collection_id": "612994135352",
-            "description": "",
-            "additional_images": [],
-            "available": false
+            "image": "https://static.tildacdn.com/stor6636-6135-4733-b437-383938373764/dd54ae5dd3993379ce7648b3c17eed34.jpg",
+            "description": "Маски сняты. Встречайте третью модель из Незнакомцев - Артист дачного театра.",
+            "available": true,
+            "properties": [
+                {
+                    "name": "Категория",
+                    "value": "Незнакомцы"
+                },
+                {
+                    "name": "Бренд",
+                    "value": "Секспедиция"
+                },
+                {
+                    "name": "Вес брутто",
+                    "value": "830 г"
+                },
+                {
+                    "name": "Длина упаковки",
+                    "value": "295 мм"
+                },
+                {
+                    "name": "Ширина упаковки",
+                    "value": "120 мм"
+                },
+                {
+                    "name": "Высота упаковки",
+                    "value": "120 мм"
+                }
+            ],
+            "additional_images": []
         },
         {
-            "name": "Проект «Незнакомцы». Объект №3, размер 03.",
+            "name": "Проект «Незнакомцы». Объект №3. Он же \"Артист большого театра\"",
             "vendorCode": "995287365",
-            "link": "https://pinkypunk.ru/catalog/neznakomci/tproduct/2396920901-246097572772-proekt-neznakomtsi-obekt-3-razmer-03",
-            "price": "3300",
-            "image": "https://static.tildacdn.com/stor3861-6465-4231-a533-386335343633/49163ad94984ca4e4d404ce435746acf.jpg",
-            "collection_id": "612994135352",
-            "description": "",
-            "additional_images": [],
-            "available": false
+            "link": "https://pinkypunk.ru/catalog/neznakomci/object3-03",
+            "price": "3400",
+            "image": "https://static.tildacdn.com/stor6461-6261-4365-b535-393039323233/10978beb200b0500b52bfbec956b2e07.jpg",
+            "description": "Маски сняты. Встречайте третью модель из Незнакомцев - Артист большого театра.",
+            "available": true,
+            "properties": [
+                {
+                    "name": "Категория",
+                    "value": "Незнакомцы"
+                },
+                {
+                    "name": "Бренд",
+                    "value": "Секспедиция"
+                },
+                {
+                    "name": "Вес брутто",
+                    "value": "1260 г"
+                },
+                {
+                    "name": "Длина упаковки",
+                    "value": "295 мм"
+                },
+                {
+                    "name": "Ширина упаковки",
+                    "value": "150 мм"
+                },
+                {
+                    "name": "Высота упаковки",
+                    "value": "125 мм"
+                }
+            ],
+            "additional_images": []
         },
         {
             "name": "Фаллоимитатор \"Тяжелый Трофейный\"",
