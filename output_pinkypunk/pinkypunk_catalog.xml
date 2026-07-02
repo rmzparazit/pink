@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<yml_catalog date="2026-07-01 22:11">
+<yml_catalog date="2026-07-02 21:56">
   <shop>
     <name>Секспедиция</name>
     <company>Секспедиция</company>
@@ -572,7 +572,7 @@
         <property name="Ширина упаковки">100 мм</property>
         <property name="Высота упаковки">100 мм</property>
       </offer>
-      <offer id="491482618" available="true">
+      <offer id="491482618" available="false">
         <name>Фаллоимитатор с лобком "Легкий Трофейный"</name>
         <vendor>Секспедиция</vendor>
         <vendorCode>491482618</vendorCode>
@@ -580,7 +580,6 @@
         <currencyId>RUB</currencyId>
         <categoryId>1</categoryId>
         <picture>https://static.tildacdn.com/stor3963-3432-4961-b831-623365653932/53257753.jpg</picture>
-        <collectionId>491482618</collectionId>
         <url>https://pinkypunk.ru/catalog/falloimitators/legkiy-trofeyniy</url>
         <description>Охота за трофеями началась</description>
         <sales_notes>Официальный сайт Секспедиция.</sales_notes>
@@ -1049,7 +1048,7 @@
         <property name="Ширина упаковки">80 мм</property>
         <property name="Высота упаковки">80 мм</property>
       </offer>
-      <offer id="833467546" available="true">
+      <offer id="833467546" available="false">
         <name>"Сунь-Подсунь" тонкий и длинный фаллоимитатор</name>
         <vendor>Секспедиция</vendor>
         <vendorCode>833467546</vendorCode>
@@ -1057,7 +1056,6 @@
         <currencyId>RUB</currencyId>
         <categoryId>1</categoryId>
         <picture>https://static.tildacdn.com/stor3966-3134-4436-a431-343962356333/35825dbdc7bd8136d10ba7ca90cf6200.png</picture>
-        <collectionId>833467546</collectionId>
         <url>https://pinkypunk.ru/catalog/falloimitators/sun-podsun-23-3-2</url>
         <description>Сунь-Подсунь куда угодно для новых ощущений :)</description>
         <sales_notes>Официальный сайт Секспедиция.</sales_notes>
@@ -1550,12 +1548,6 @@
         <picture>https://static.tildacdn.com/stor3363-3631-4834-a633-336131666561/32423870.jpg</picture>
         <description>23 х 5,8 см</description>
       </collection>
-      <collection id="491482618">
-        <name>Фаллоимитатор с лобком "Легкий Трофейный"</name>
-        <url>https://pinkypunk.ru/catalog/falloimitators/legkiy-trofeyniy</url>
-        <picture>https://static.tildacdn.com/stor3963-3432-4961-b831-623365653932/53257753.jpg</picture>
-        <description>Охота за трофеями началась</description>
-      </collection>
       <collection id="491482619">
         <name>Фаллоимитатор с лобком "Средний Трофейный"</name>
         <url>https://pinkypunk.ru/catalog/falloimitators/sredniy-trofeyniy</url>
@@ -1675,12 +1667,6 @@
         <url>https://pinkypunk.ru/catalog/masturbatori/palochka-dlya-sushki</url>
         <picture>https://static.tildacdn.com/stor3439-3662-4337-b461-646461303863/29497857.webp</picture>
         <description>Мастурбатор будет сухой и счастливый</description>
-      </collection>
-      <collection id="833467546">
-        <name>"Сунь-Подсунь" тонкий и длинный фаллоимитатор</name>
-        <url>https://pinkypunk.ru/catalog/falloimitators/sun-podsun-23-3-2</url>
-        <picture>https://static.tildacdn.com/stor3966-3134-4436-a431-343962356333/35825dbdc7bd8136d10ba7ca90cf6200.png</picture>
-        <description>Сунь-Подсунь куда угодно для новых ощущений :)</description>
       </collection>
       <collection id="833442267">
         <name>Фаллоимитатор "Сутулый". Эпизод I.</name>
