@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<yml_catalog date="2026-07-02 21:56">
+<yml_catalog date="2026-07-03 21:53">
   <shop>
     <name>Секспедиция</name>
     <company>Секспедиция</company>
@@ -1107,7 +1107,7 @@
         <property name="Ширина упаковки">95 мм</property>
         <property name="Высота упаковки">95 мм</property>
       </offer>
-      <offer id="876932251" available="true">
+      <offer id="876932251" available="false">
         <name>"Сам себе Шляпник" Размер M-L</name>
         <vendor>Секспедиция</vendor>
         <vendorCode>876932251</vendorCode>
@@ -1115,7 +1115,6 @@
         <currencyId>RUB</currencyId>
         <categoryId>1</categoryId>
         <picture>https://static.tildacdn.com/stor3966-3964-4431-b837-346263666132/b8dfec1aef9dde9f134e62445db7e4fc.jpg</picture>
-        <collectionId>876932251</collectionId>
         <url>https://pinkypunk.ru/catalog/nasadki/sam-sebe-shlyapnik-m-l</url>
         <description>Силиконовая насадка на член</description>
         <sales_notes>Официальный сайт Секспедиция.</sales_notes>
@@ -1679,12 +1678,6 @@
         <url>https://pinkypunk.ru/catalog/falloimitators/sutuliy-episode2-25-5-5</url>
         <picture>https://static.tildacdn.com/stor3561-3066-4663-a562-363430393036/3a0f5afc1ec8e5a1a126ca74492956b0.png</picture>
         <description>Эпизод II - Эволюция</description>
-      </collection>
-      <collection id="876932251">
-        <name>"Сам себе Шляпник" Размер M-L</name>
-        <url>https://pinkypunk.ru/catalog/nasadki/sam-sebe-shlyapnik-m-l</url>
-        <picture>https://static.tildacdn.com/stor3966-3964-4431-b837-346263666132/b8dfec1aef9dde9f134e62445db7e4fc.jpg</picture>
-        <description>Силиконовая насадка на член</description>
       </collection>
       <collection id="982219466">
         <name>Фаллоимитатор огромный "Голиаф"</name>
