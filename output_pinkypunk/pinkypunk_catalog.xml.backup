@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<yml_catalog date="2026-07-04 21:44">
+<yml_catalog date="2026-07-05 21:48">
   <shop>
     <name>Секспедиция</name>
     <company>Секспедиция</company>
@@ -1048,7 +1048,7 @@
         <property name="Ширина упаковки">80 мм</property>
         <property name="Высота упаковки">80 мм</property>
       </offer>
-      <offer id="833467546" available="false">
+      <offer id="833467546" available="true">
         <name>"Сунь-Подсунь" тонкий и длинный фаллоимитатор</name>
         <vendor>Секспедиция</vendor>
         <vendorCode>833467546</vendorCode>
@@ -1056,6 +1056,7 @@
         <currencyId>RUB</currencyId>
         <categoryId>1</categoryId>
         <picture>https://static.tildacdn.com/stor3966-3134-4436-a431-343962356333/35825dbdc7bd8136d10ba7ca90cf6200.png</picture>
+        <collectionId>833467546</collectionId>
         <url>https://pinkypunk.ru/catalog/falloimitators/sun-podsun-23-3-2</url>
         <description>Сунь-Подсунь куда угодно для новых ощущений :)</description>
         <sales_notes>Официальный сайт Секспедиция.</sales_notes>
@@ -1666,6 +1667,12 @@
         <url>https://pinkypunk.ru/catalog/masturbatori/palochka-dlya-sushki</url>
         <picture>https://static.tildacdn.com/stor3439-3662-4337-b461-646461303863/29497857.webp</picture>
         <description>Мастурбатор будет сухой и счастливый</description>
+      </collection>
+      <collection id="833467546">
+        <name>"Сунь-Подсунь" тонкий и длинный фаллоимитатор</name>
+        <url>https://pinkypunk.ru/catalog/falloimitators/sun-podsun-23-3-2</url>
+        <picture>https://static.tildacdn.com/stor3966-3134-4436-a431-343962356333/35825dbdc7bd8136d10ba7ca90cf6200.png</picture>
+        <description>Сунь-Подсунь куда угодно для новых ощущений :)</description>
       </collection>
       <collection id="833442267">
         <name>Фаллоимитатор "Сутулый". Эпизод I.</name>
