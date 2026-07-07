@@ -7,7 +7,7 @@
             "price": "14900",
             "image": "https://static.tildacdn.com/stor3464-6633-4564-b439-313266613263/84318164.jpg",
             "description": "Невозможно описать словами те эмоции, которая дарит Мэри",
-            "available": true,
+            "available": false,
             "properties": [
                 {
                     "name": "Категория",
@@ -1879,7 +1879,7 @@
             "price": "2290",
             "image": "https://static.tildacdn.com/stor3966-3134-4436-a431-343962356333/35825dbdc7bd8136d10ba7ca90cf6200.png",
             "description": "Сунь-Подсунь куда угодно для новых ощущений :)",
-            "available": true,
+            "available": false,
             "properties": [
                 {
                     "name": "Категория",
