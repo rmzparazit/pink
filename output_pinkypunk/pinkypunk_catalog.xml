@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<yml_catalog date="2026-07-08 21:56">
+<yml_catalog date="2026-07-09 22:11">
   <shop>
     <name>Секспедиция</name>
     <company>Секспедиция</company>
@@ -531,7 +531,7 @@
         <property name="Ширина упаковки">100 мм</property>
         <property name="Высота упаковки">100 мм</property>
       </offer>
-      <offer id="441061506" available="true">
+      <offer id="441061506" available="false">
         <name>Ультра-реалистичный мастурбатор "Тяночка"</name>
         <vendor>Секспедиция</vendor>
         <vendorCode>441061506</vendorCode>
@@ -539,7 +539,6 @@
         <currencyId>RUB</currencyId>
         <categoryId>1</categoryId>
         <picture>https://static.tildacdn.com/stor6363-3633-4163-a333-643439366234/87870971.jpg</picture>
-        <collectionId>441061506</collectionId>
         <url>https://pinkypunk.ru/catalog/masturbatori/tyanochka</url>
         <description>Чистейший силикон с максимальной детализацией и тактильностью</description>
         <sales_notes>Официальный сайт Секспедиция.</sales_notes>
@@ -1526,12 +1525,6 @@
         <name>Ультра-реалистичный мастурбатор "Милфуша"</name>
         <url>https://pinkypunk.ru/catalog/masturbatori/milfusha</url>
         <picture>https://static.tildacdn.com/stor6134-6238-4637-b261-633665386138/40507121.jpg</picture>
-        <description>Чистейший силикон с максимальной детализацией и тактильностью</description>
-      </collection>
-      <collection id="441061506">
-        <name>Ультра-реалистичный мастурбатор "Тяночка"</name>
-        <url>https://pinkypunk.ru/catalog/masturbatori/tyanochka</url>
-        <picture>https://static.tildacdn.com/stor6363-3633-4163-a333-643439366234/87870971.jpg</picture>
         <description>Чистейший силикон с максимальной детализацией и тактильностью</description>
       </collection>
       <collection id="482197593">

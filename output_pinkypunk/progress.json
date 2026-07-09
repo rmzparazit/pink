@@ -943,7 +943,7 @@
             "price": "3490",
             "image": "https://static.tildacdn.com/stor6363-3633-4163-a333-643439366234/87870971.jpg",
             "description": "Чистейший силикон с максимальной детализацией и тактильностью",
-            "available": true,
+            "available": false,
             "properties": [
                 {
                     "name": "Категория",
