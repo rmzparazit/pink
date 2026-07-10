@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<yml_catalog date="2026-07-09 22:11">
+<yml_catalog date="2026-07-10 21:49">
   <shop>
     <name>Секспедиция</name>
     <company>Секспедиция</company>
@@ -809,7 +809,7 @@
         <property name="Ширина упаковки">90 мм</property>
         <property name="Высота упаковки">80 мм</property>
       </offer>
-      <offer id="708378928" available="false">
+      <offer id="708378928" available="true">
         <name>Анальная пробка с фрикциями, массажёр простаты "ТыЧёк"</name>
         <vendor>Секспедиция</vendor>
         <vendorCode>708378928</vendorCode>
@@ -817,6 +817,7 @@
         <currencyId>RUB</currencyId>
         <categoryId>1</categoryId>
         <picture>https://static.tildacdn.com/stor3963-3434-4864-b663-303939653066/f5549b70ce8882b56d9e1deefac18b4d.jpg</picture>
+        <collectionId>708378928</collectionId>
         <url>https://pinkypunk.ru/catalog/probki/tychok</url>
         <description>Анальный стимулятор для ярких ощущений</description>
         <sales_notes>Официальный сайт Секспедиция.</sales_notes>
@@ -1264,17 +1265,18 @@
         <property name="Высота упаковки">125 мм</property>
       </offer>
       <offer id="995231693" available="true">
-        <name>Проект «Незнакомцы». Объект №2, размер 01.</name>
+        <name>Проект «Незнакомцы». Объект №2. Он же "Раз-Крепыш"</name>
         <vendor>Секспедиция</vendor>
         <vendorCode>995231693</vendorCode>
-        <price>2300</price>
+        <price>2600</price>
         <currencyId>RUB</currencyId>
         <categoryId>1</categoryId>
-        <picture>https://static.tildacdn.com/stor3631-6331-4661-b764-363331346434/b3d768108b8be57d6971c39c5ef2b6c2.jpg</picture>
+        <picture>https://static.tildacdn.com/stor3237-3536-4563-a539-333931393165/48929921c1baa9ce25ed643fd959023d.jpg</picture>
         <collectionId>995231693</collectionId>
         <url>https://pinkypunk.ru/catalog/neznakomci/object2-01</url>
+        <description>Фаллоимитатор «Раз-Крепыш» — компактный размер, который умеет удивлять</description>
         <sales_notes>Официальный сайт Секспедиция.</sales_notes>
-        <custom_label_0>Проект «Незнакомцы». Объект №2, размер 01.</custom_label_0>
+        <custom_label_0>Проект «Незнакомцы». Объект №2. Он же "Раз-Крепыш"</custom_label_0>
         <property name="Категория">Незнакомцы</property>
         <property name="Бренд">Секспедиция</property>
         <property name="Вес брутто">495 г</property>
@@ -1283,17 +1285,18 @@
         <property name="Высота упаковки">95 мм</property>
       </offer>
       <offer id="995231694" available="true">
-        <name>Проект «Незнакомцы». Объект №2, размер 02.</name>
+        <name>Проект «Незнакомцы». Объект №2. Он же "Два-Крепыш"</name>
         <vendor>Секспедиция</vendor>
         <vendorCode>995231694</vendorCode>
-        <price>2900</price>
+        <price>3300</price>
         <currencyId>RUB</currencyId>
         <categoryId>1</categoryId>
-        <picture>https://static.tildacdn.com/stor3166-3566-4232-b539-656333633931/8dc3048e3540907038b8e1e846de7caa.jpg</picture>
+        <picture>https://static.tildacdn.com/stor3639-6630-4865-a538-303565306262/eac1b6a089ffaa51ad19d811222eb6d2.jpg</picture>
         <collectionId>995231694</collectionId>
         <url>https://pinkypunk.ru/catalog/neznakomci/object2-02</url>
+        <description>Фаллоимитатор «Два-Крепыш» — когда хочется почувствовать настоящий масштаб.</description>
         <sales_notes>Официальный сайт Секспедиция.</sales_notes>
-        <custom_label_0>Проект «Незнакомцы». Объект №2, размер 02.</custom_label_0>
+        <custom_label_0>Проект «Незнакомцы». Объект №2. Он же "Два-Крепыш"</custom_label_0>
         <property name="Категория">Незнакомцы</property>
         <property name="Бренд">Секспедиция</property>
         <property name="Вес брутто">790 г</property>
@@ -1599,6 +1602,12 @@
         <picture>https://static.tildacdn.com/stor3832-6531-4865-b936-363061333538/a5baab26715db7858c6da04fff692e20.png</picture>
         <description>16 см общая длина / 3.5 см диаметр</description>
       </collection>
+      <collection id="708378928">
+        <name>Анальная пробка с фрикциями, массажёр простаты "ТыЧёк"</name>
+        <url>https://pinkypunk.ru/catalog/probki/tychok</url>
+        <picture>https://static.tildacdn.com/stor3963-3434-4864-b663-303939653066/f5549b70ce8882b56d9e1deefac18b4d.jpg</picture>
+        <description>Анальный стимулятор для ярких ощущений</description>
+      </collection>
       <collection id="474535086">
         <name>Толстый член "Пузанище" XL</name>
         <url>https://pinkypunk.ru/catalog/falloimitators/puzanishe-xl</url>
@@ -1702,14 +1711,16 @@
         <description>Маски сняты. Встречайте первую модель из Незнакомцев - Ракета.</description>
       </collection>
       <collection id="995231693">
-        <name>Проект «Незнакомцы». Объект №2, размер 01.</name>
+        <name>Проект «Незнакомцы». Объект №2. Он же "Раз-Крепыш"</name>
         <url>https://pinkypunk.ru/catalog/neznakomci/object2-01</url>
-        <picture>https://static.tildacdn.com/stor3631-6331-4661-b764-363331346434/b3d768108b8be57d6971c39c5ef2b6c2.jpg</picture>
+        <picture>https://static.tildacdn.com/stor3237-3536-4563-a539-333931393165/48929921c1baa9ce25ed643fd959023d.jpg</picture>
+        <description>Фаллоимитатор «Раз-Крепыш» — компактный размер, который умеет удивлять</description>
       </collection>
       <collection id="995231694">
-        <name>Проект «Незнакомцы». Объект №2, размер 02.</name>
+        <name>Проект «Незнакомцы». Объект №2. Он же "Два-Крепыш"</name>
         <url>https://pinkypunk.ru/catalog/neznakomci/object2-02</url>
-        <picture>https://static.tildacdn.com/stor3166-3566-4232-b539-656333633931/8dc3048e3540907038b8e1e846de7caa.jpg</picture>
+        <picture>https://static.tildacdn.com/stor3639-6630-4865-a538-303565306262/eac1b6a089ffaa51ad19d811222eb6d2.jpg</picture>
+        <description>Фаллоимитатор «Два-Крепыш» — когда хочется почувствовать настоящий масштаб.</description>
       </collection>
       <collection id="995294539">
         <name>Проект «Незнакомцы». Объект №3. Он же "Артист малого театра"</name>
