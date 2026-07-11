@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<yml_catalog date="2026-07-10 21:49">
+<yml_catalog date="2026-07-11 21:37">
   <shop>
     <name>Секспедиция</name>
     <company>Секспедиция</company>
@@ -1164,7 +1164,7 @@
         <property name="Ширина упаковки">150 мм</property>
         <property name="Высота упаковки">150 мм</property>
       </offer>
-      <offer id="982257003" available="true">
+      <offer id="982257003" available="false">
         <name>Сквозной мастурбатор "Сквозняк"</name>
         <vendor>Секспедиция</vendor>
         <vendorCode>982257003</vendorCode>
@@ -1172,7 +1172,6 @@
         <currencyId>RUB</currencyId>
         <categoryId>1</categoryId>
         <picture>https://static.tildacdn.com/stor6531-6632-4363-b839-626538643936/1069de527a58f64f5c1a083fb2f04c2a.jpg</picture>
-        <collectionId>982257003</collectionId>
         <url>https://pinkypunk.ru/catalog/masturbatori/skvoznyak</url>
         <description>Два входа - два сценария</description>
         <sales_notes>Официальный сайт Секспедиция.</sales_notes>
@@ -1679,12 +1678,6 @@
         <url>https://pinkypunk.ru/catalog/falloimitators/goliaf-37-9</url>
         <picture>https://static.tildacdn.com/stor3135-6166-4466-a332-356433373435/ac024b668951d73f56ce786159dbbc2b.jpg</picture>
         <description>Потянешь? :)</description>
-      </collection>
-      <collection id="982257003">
-        <name>Сквозной мастурбатор "Сквозняк"</name>
-        <url>https://pinkypunk.ru/catalog/masturbatori/skvoznyak</url>
-        <picture>https://static.tildacdn.com/stor6531-6632-4363-b839-626538643936/1069de527a58f64f5c1a083fb2f04c2a.jpg</picture>
-        <description>Два входа - два сценария</description>
       </collection>
       <collection id="982236453">
         <name>Фаллоимитатор "Турбо 01"</name>
