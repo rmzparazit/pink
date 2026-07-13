@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<yml_catalog date="2026-07-12 21:37">
+<yml_catalog date="2026-07-13 21:42">
   <shop>
     <name>Секспедиция</name>
     <company>Секспедиция</company>
@@ -531,7 +531,7 @@
         <property name="Ширина упаковки">100 мм</property>
         <property name="Высота упаковки">100 мм</property>
       </offer>
-      <offer id="441061506" available="false">
+      <offer id="441061506" available="true">
         <name>Ультра-реалистичный мастурбатор "Тяночка"</name>
         <vendor>Секспедиция</vendor>
         <vendorCode>441061506</vendorCode>
@@ -539,6 +539,7 @@
         <currencyId>RUB</currencyId>
         <categoryId>1</categoryId>
         <picture>https://static.tildacdn.com/stor6363-3633-4163-a333-643439366234/87870971.jpg</picture>
+        <collectionId>441061506</collectionId>
         <url>https://pinkypunk.ru/catalog/masturbatori/tyanochka</url>
         <description>Чистейший силикон с максимальной детализацией и тактильностью</description>
         <sales_notes>Официальный сайт Секспедиция.</sales_notes>
@@ -1047,7 +1048,7 @@
         <property name="Ширина упаковки">80 мм</property>
         <property name="Высота упаковки">80 мм</property>
       </offer>
-      <offer id="833467546" available="false">
+      <offer id="833467546" available="true">
         <name>"Сунь-Подсунь" тонкий и длинный фаллоимитатор</name>
         <vendor>Секспедиция</vendor>
         <vendorCode>833467546</vendorCode>
@@ -1055,6 +1056,7 @@
         <currencyId>RUB</currencyId>
         <categoryId>1</categoryId>
         <picture>https://static.tildacdn.com/stor3966-3134-4436-a431-343962356333/35825dbdc7bd8136d10ba7ca90cf6200.png</picture>
+        <collectionId>833467546</collectionId>
         <url>https://pinkypunk.ru/catalog/falloimitators/sun-podsun-23-3-2</url>
         <description>Сунь-Подсунь куда угодно для новых ощущений :)</description>
         <sales_notes>Официальный сайт Секспедиция.</sales_notes>
@@ -1383,6 +1385,46 @@
         <property name="Ширина упаковки">120 мм</property>
         <property name="Высота упаковки">120 мм</property>
       </offer>
+      <offer id="1117818982" available="true">
+        <name>Мастурбатор реалистичный "Лилит"</name>
+        <vendor>Секспедиция</vendor>
+        <vendorCode>1117818982</vendorCode>
+        <price>6700</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>1</categoryId>
+        <picture>https://static.tildacdn.com/stor6332-3865-4462-a338-396637613032/3ff1bd0713b2298b6f56bbe441276503.jpg</picture>
+        <collectionId>1117818982</collectionId>
+        <url>https://pinkypunk.ru/catalog/masturbatori/lilit</url>
+        <description>Руками не работаю. Кстати, не забудь познакомиться с моей мамой..</description>
+        <sales_notes>Официальный сайт Секспедиция.</sales_notes>
+        <custom_label_0>Мастурбатор реалистичный "Лилит"</custom_label_0>
+        <property name="Категория">Мастурбаторы</property>
+        <property name="Бренд">Секспедиция</property>
+        <property name="Вес брутто">2015 г</property>
+        <property name="Длина упаковки">360 мм</property>
+        <property name="Ширина упаковки">150 мм</property>
+        <property name="Высота упаковки">150 мм</property>
+      </offer>
+      <offer id="1117867460" available="true">
+        <name>Мастурбатор большой "Лилит Петровна"</name>
+        <vendor>Секспедиция</vendor>
+        <vendorCode>1117867460</vendorCode>
+        <price>19900</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>1</categoryId>
+        <picture>https://static.tildacdn.com/stor6362-3038-4338-b638-623531383964/bcbc378fa73cefffc80095d7d0e7129b.jpg</picture>
+        <collectionId>1117867460</collectionId>
+        <url>https://pinkypunk.ru/catalog/masturbatori/lilit-petrovna</url>
+        <description>Дочка сказала, что работа не пыльная? :)</description>
+        <sales_notes>Официальный сайт Секспедиция.</sales_notes>
+        <custom_label_0>Мастурбатор большой "Лилит Петровна"</custom_label_0>
+        <property name="Категория">Мастурбаторы</property>
+        <property name="Бренд">Секспедиция</property>
+        <property name="Вес брутто">8300 г</property>
+        <property name="Длина упаковки">460 мм</property>
+        <property name="Ширина упаковки">300 мм</property>
+        <property name="Высота упаковки">210 мм</property>
+      </offer>
     </offers>
     <collections>
       <collection id="449723250">
@@ -1529,6 +1571,12 @@
         <picture>https://static.tildacdn.com/stor6134-6238-4637-b261-633665386138/40507121.jpg</picture>
         <description>Чистейший силикон с максимальной детализацией и тактильностью</description>
       </collection>
+      <collection id="441061506">
+        <name>Ультра-реалистичный мастурбатор "Тяночка"</name>
+        <url>https://pinkypunk.ru/catalog/masturbatori/tyanochka</url>
+        <picture>https://static.tildacdn.com/stor6363-3633-4163-a333-643439366234/87870971.jpg</picture>
+        <description>Чистейший силикон с максимальной детализацией и тактильностью</description>
+      </collection>
       <collection id="482197593">
         <name>Фаллоимитатор член темнокожий "Чумба"</name>
         <url>https://pinkypunk.ru/catalog/falloimitators/chumba-23-5-8</url>
@@ -1661,6 +1709,12 @@
         <picture>https://static.tildacdn.com/stor3439-3662-4337-b461-646461303863/29497857.webp</picture>
         <description>Мастурбатор будет сухой и счастливый</description>
       </collection>
+      <collection id="833467546">
+        <name>"Сунь-Подсунь" тонкий и длинный фаллоимитатор</name>
+        <url>https://pinkypunk.ru/catalog/falloimitators/sun-podsun-23-3-2</url>
+        <picture>https://static.tildacdn.com/stor3966-3134-4436-a431-343962356333/35825dbdc7bd8136d10ba7ca90cf6200.png</picture>
+        <description>Сунь-Подсунь куда угодно для новых ощущений :)</description>
+      </collection>
       <collection id="833442267">
         <name>Фаллоимитатор "Сутулый". Эпизод I.</name>
         <url>https://pinkypunk.ru/catalog/falloimitators/sutuliy-episode1-21-4</url>
@@ -1738,6 +1792,18 @@
         <url>https://pinkypunk.ru/catalog/falloimitators/tyajeliy-trofeyniy</url>
         <picture>https://static.tildacdn.com/stor3161-3436-4963-b662-646532303464/5f7ede654f75d0f00e54de3767ae8628.jpg</picture>
         <description>Новый размер для Охоты</description>
+      </collection>
+      <collection id="1117818982">
+        <name>Мастурбатор реалистичный "Лилит"</name>
+        <url>https://pinkypunk.ru/catalog/masturbatori/lilit</url>
+        <picture>https://static.tildacdn.com/stor6332-3865-4462-a338-396637613032/3ff1bd0713b2298b6f56bbe441276503.jpg</picture>
+        <description>Руками не работаю. Кстати, не забудь познакомиться с моей мамой..</description>
+      </collection>
+      <collection id="1117867460">
+        <name>Мастурбатор большой "Лилит Петровна"</name>
+        <url>https://pinkypunk.ru/catalog/masturbatori/lilit-petrovna</url>
+        <picture>https://static.tildacdn.com/stor6362-3038-4338-b638-623531383964/bcbc378fa73cefffc80095d7d0e7129b.jpg</picture>
+        <description>Дочка сказала, что работа не пыльная? :)</description>
       </collection>
     </collections>
   </shop>
