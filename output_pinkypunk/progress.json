@@ -7,7 +7,7 @@
             "price": "14900",
             "image": "https://static.tildacdn.com/stor3464-6633-4564-b439-313266613263/84318164.jpg",
             "description": "Невозможно описать словами те эмоции, которая дарит Мэри",
-            "available": false,
+            "available": true,
             "properties": [
                 {
                     "name": "Категория",
@@ -1519,7 +1519,7 @@
             "price": "19900",
             "image": "https://static.tildacdn.com/stor3535-3061-4063-b630-343866356361/40170309.png",
             "description": "Большая, сочная и нежная",
-            "available": false,
+            "available": true,
             "properties": [
                 {
                     "name": "Категория",
@@ -1984,10 +1984,10 @@
             "name": "\"Сам себе Шляпник\" Размер M-L",
             "vendorCode": "876932251",
             "link": "https://pinkypunk.ru/catalog/nasadki/sam-sebe-shlyapnik-m-l",
-            "price": "1390",
+            "price": "1490",
             "image": "https://static.tildacdn.com/stor3966-3964-4431-b837-346263666132/b8dfec1aef9dde9f134e62445db7e4fc.jpg",
             "description": "Силиконовая насадка на член",
-            "available": false,
+            "available": true,
             "properties": [
                 {
                     "name": "Категория",
@@ -2020,10 +2020,10 @@
             "name": "\"Сам себе Шляпник\" Размер S-M",
             "vendorCode": "876932250",
             "link": "https://pinkypunk.ru/catalog/nasadki/sam-sebe-shlyapnik-s-m",
-            "price": "1290",
+            "price": "1390",
             "image": "https://static.tildacdn.com/stor3931-6536-4564-b634-646161316561/875f0afe276935a166c7cff28a019937.jpg",
             "description": "Силиконовая насадка на член",
-            "available": false,
+            "available": true,
             "properties": [
                 {
                     "name": "Категория",
@@ -2095,7 +2095,7 @@
             "price": "3300",
             "image": "https://static.tildacdn.com/stor6531-6632-4363-b839-626538643936/1069de527a58f64f5c1a083fb2f04c2a.jpg",
             "description": "Два входа - два сценария",
-            "available": false,
+            "available": true,
             "properties": [
                 {
                     "name": "Категория",
