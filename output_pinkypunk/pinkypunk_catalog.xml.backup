@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<yml_catalog date="2026-07-14 21:44">
+<yml_catalog date="2026-07-15 21:45">
   <shop>
     <name>Секспедиция</name>
     <company>Секспедиция</company>
@@ -13,7 +13,7 @@
       <category id="1">Секс-игрушки</category>
     </categories>
     <offers>
-      <offer id="287449573" available="false">
+      <offer id="287449573" available="true">
         <name>Большая попка "Мэри Сью"</name>
         <vendor>Секспедиция</vendor>
         <vendorCode>287449573</vendorCode>
@@ -21,6 +21,7 @@
         <currencyId>RUB</currencyId>
         <categoryId>1</categoryId>
         <picture>https://static.tildacdn.com/stor3464-6633-4564-b439-313266613263/84318164.jpg</picture>
+        <collectionId>287449573</collectionId>
         <url>https://pinkypunk.ru/catalog/masturbatori/meri-syu</url>
         <description>Невозможно описать словами те эмоции, которая дарит Мэри</description>
         <sales_notes>Официальный сайт Секспедиция.</sales_notes>
@@ -849,7 +850,7 @@
         <property name="Ширина упаковки">150 мм</property>
         <property name="Высота упаковки">50 мм</property>
       </offer>
-      <offer id="491483858" available="false">
+      <offer id="491483858" available="true">
         <name>Реалистичная попка "Люси Мью"</name>
         <vendor>Секспедиция</vendor>
         <vendorCode>491483858</vendorCode>
@@ -857,6 +858,7 @@
         <currencyId>RUB</currencyId>
         <categoryId>1</categoryId>
         <picture>https://static.tildacdn.com/stor3535-3061-4063-b630-343866356361/40170309.png</picture>
+        <collectionId>491483858</collectionId>
         <url>https://pinkypunk.ru/catalog/masturbatori/lyusi-myu</url>
         <description>Большая, сочная и нежная</description>
         <sales_notes>Официальный сайт Секспедиция.</sales_notes>
@@ -1108,14 +1110,15 @@
         <property name="Ширина упаковки">95 мм</property>
         <property name="Высота упаковки">95 мм</property>
       </offer>
-      <offer id="876932251" available="false">
+      <offer id="876932251" available="true">
         <name>"Сам себе Шляпник" Размер M-L</name>
         <vendor>Секспедиция</vendor>
         <vendorCode>876932251</vendorCode>
-        <price>1390</price>
+        <price>1490</price>
         <currencyId>RUB</currencyId>
         <categoryId>1</categoryId>
         <picture>https://static.tildacdn.com/stor3966-3964-4431-b837-346263666132/b8dfec1aef9dde9f134e62445db7e4fc.jpg</picture>
+        <collectionId>876932251</collectionId>
         <url>https://pinkypunk.ru/catalog/nasadki/sam-sebe-shlyapnik-m-l</url>
         <description>Силиконовая насадка на член</description>
         <sales_notes>Официальный сайт Секспедиция.</sales_notes>
@@ -1127,14 +1130,15 @@
         <property name="Ширина упаковки">90 мм</property>
         <property name="Высота упаковки">90 мм</property>
       </offer>
-      <offer id="876932250" available="false">
+      <offer id="876932250" available="true">
         <name>"Сам себе Шляпник" Размер S-M</name>
         <vendor>Секспедиция</vendor>
         <vendorCode>876932250</vendorCode>
-        <price>1290</price>
+        <price>1390</price>
         <currencyId>RUB</currencyId>
         <categoryId>1</categoryId>
         <picture>https://static.tildacdn.com/stor3931-6536-4564-b634-646161316561/875f0afe276935a166c7cff28a019937.jpg</picture>
+        <collectionId>876932250</collectionId>
         <url>https://pinkypunk.ru/catalog/nasadki/sam-sebe-shlyapnik-s-m</url>
         <description>Силиконовая насадка на член</description>
         <sales_notes>Официальный сайт Секспедиция.</sales_notes>
@@ -1166,7 +1170,7 @@
         <property name="Ширина упаковки">150 мм</property>
         <property name="Высота упаковки">150 мм</property>
       </offer>
-      <offer id="982257003" available="false">
+      <offer id="982257003" available="true">
         <name>Сквозной мастурбатор "Сквозняк"</name>
         <vendor>Секспедиция</vendor>
         <vendorCode>982257003</vendorCode>
@@ -1174,6 +1178,7 @@
         <currencyId>RUB</currencyId>
         <categoryId>1</categoryId>
         <picture>https://static.tildacdn.com/stor6531-6632-4363-b839-626538643936/1069de527a58f64f5c1a083fb2f04c2a.jpg</picture>
+        <collectionId>982257003</collectionId>
         <url>https://pinkypunk.ru/catalog/masturbatori/skvoznyak</url>
         <description>Два входа - два сценария</description>
         <sales_notes>Официальный сайт Секспедиция.</sales_notes>
@@ -1427,6 +1432,12 @@
       </offer>
     </offers>
     <collections>
+      <collection id="287449573">
+        <name>Большая попка "Мэри Сью"</name>
+        <url>https://pinkypunk.ru/catalog/masturbatori/meri-syu</url>
+        <picture>https://static.tildacdn.com/stor3464-6633-4564-b439-313266613263/84318164.jpg</picture>
+        <description>Невозможно описать словами те эмоции, которая дарит Мэри</description>
+      </collection>
       <collection id="449723250">
         <name>Реалистичная попка "Хани Дью"</name>
         <url>https://pinkypunk.ru/catalog/masturbatori/hani-dyu</url>
@@ -1655,6 +1666,12 @@
         <picture>https://static.tildacdn.com/stor3963-3434-4864-b663-303939653066/f5549b70ce8882b56d9e1deefac18b4d.jpg</picture>
         <description>Анальный стимулятор для ярких ощущений</description>
       </collection>
+      <collection id="491483858">
+        <name>Реалистичная попка "Люси Мью"</name>
+        <url>https://pinkypunk.ru/catalog/masturbatori/lyusi-myu</url>
+        <picture>https://static.tildacdn.com/stor3535-3061-4063-b630-343866356361/40170309.png</picture>
+        <description>Большая, сочная и нежная</description>
+      </collection>
       <collection id="474535086">
         <name>Толстый член "Пузанище" XL</name>
         <url>https://pinkypunk.ru/catalog/falloimitators/puzanishe-xl</url>
@@ -1727,11 +1744,29 @@
         <picture>https://static.tildacdn.com/stor3561-3066-4663-a562-363430393036/3a0f5afc1ec8e5a1a126ca74492956b0.png</picture>
         <description>Эпизод II - Эволюция</description>
       </collection>
+      <collection id="876932251">
+        <name>"Сам себе Шляпник" Размер M-L</name>
+        <url>https://pinkypunk.ru/catalog/nasadki/sam-sebe-shlyapnik-m-l</url>
+        <picture>https://static.tildacdn.com/stor3966-3964-4431-b837-346263666132/b8dfec1aef9dde9f134e62445db7e4fc.jpg</picture>
+        <description>Силиконовая насадка на член</description>
+      </collection>
+      <collection id="876932250">
+        <name>"Сам себе Шляпник" Размер S-M</name>
+        <url>https://pinkypunk.ru/catalog/nasadki/sam-sebe-shlyapnik-s-m</url>
+        <picture>https://static.tildacdn.com/stor3931-6536-4564-b634-646161316561/875f0afe276935a166c7cff28a019937.jpg</picture>
+        <description>Силиконовая насадка на член</description>
+      </collection>
       <collection id="982219466">
         <name>Фаллоимитатор огромный "Голиаф"</name>
         <url>https://pinkypunk.ru/catalog/falloimitators/goliaf-37-9</url>
         <picture>https://static.tildacdn.com/stor3135-6166-4466-a332-356433373435/ac024b668951d73f56ce786159dbbc2b.jpg</picture>
         <description>Потянешь? :)</description>
+      </collection>
+      <collection id="982257003">
+        <name>Сквозной мастурбатор "Сквозняк"</name>
+        <url>https://pinkypunk.ru/catalog/masturbatori/skvoznyak</url>
+        <picture>https://static.tildacdn.com/stor6531-6632-4363-b839-626538643936/1069de527a58f64f5c1a083fb2f04c2a.jpg</picture>
+        <description>Два входа - два сценария</description>
       </collection>
       <collection id="982236453">
         <name>Фаллоимитатор "Турбо 01"</name>
