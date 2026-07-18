@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<yml_catalog date="2026-07-17 21:40">
+<yml_catalog date="2026-07-18 21:38">
   <shop>
     <name>Секспедиция</name>
     <company>Секспедиция</company>
@@ -870,7 +870,7 @@
         <property name="Ширина упаковки">300 мм</property>
         <property name="Высота упаковки">310 мм</property>
       </offer>
-      <offer id="474535086" available="true">
+      <offer id="474535086" available="false">
         <name>Толстый член "Пузанище" XL</name>
         <vendor>Секспедиция</vendor>
         <vendorCode>474535086</vendorCode>
@@ -878,7 +878,6 @@
         <currencyId>RUB</currencyId>
         <categoryId>1</categoryId>
         <picture>https://static.tildacdn.com/stor6536-3938-4430-b735-306361383031/76796492.jpg</picture>
-        <collectionId>474535086</collectionId>
         <url>https://pinkypunk.ru/catalog/falloimitators/puzanishe-xl</url>
         <description>Размер XL - 28х8см</description>
         <sales_notes>Официальный сайт Секспедиция.</sales_notes>
@@ -1691,12 +1690,6 @@
         <url>https://pinkypunk.ru/catalog/masturbatori/lyusi-myu</url>
         <picture>https://static.tildacdn.com/stor3535-3061-4063-b630-343866356361/40170309.png</picture>
         <description>Большая, сочная и нежная</description>
-      </collection>
-      <collection id="474535086">
-        <name>Толстый член "Пузанище" XL</name>
-        <url>https://pinkypunk.ru/catalog/falloimitators/puzanishe-xl</url>
-        <picture>https://static.tildacdn.com/stor6536-3938-4430-b735-306361383031/76796492.jpg</picture>
-        <description>Размер XL - 28х8см</description>
       </collection>
       <collection id="474535083">
         <name>Толстый член "Пузанчик" M</name>

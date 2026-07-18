@@ -1555,7 +1555,7 @@
             "price": "4390",
             "image": "https://static.tildacdn.com/stor6536-3938-4430-b735-306361383031/76796492.jpg",
             "description": "Размер XL - 28х8см",
-            "available": true,
+            "available": false,
             "properties": [
                 {
                     "name": "Категория",
