@@ -691,7 +691,7 @@
             "price": "49000",
             "image": "https://static.tildacdn.com/stor3037-3166-4138-b334-666539633336/51554904.jpg",
             "description": "19кг - это как 30, но на 11 легче :)",
-            "available": true,
+            "available": false,
             "properties": [
                 {
                     "name": "Категория",
