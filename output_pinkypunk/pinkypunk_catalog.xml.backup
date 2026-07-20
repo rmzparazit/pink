@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<yml_catalog date="2026-07-18 21:38">
+<yml_catalog date="2026-07-19 21:39">
   <shop>
     <name>Секспедиция</name>
     <company>Секспедиция</company>
@@ -392,7 +392,7 @@
         <property name="Ширина упаковки">450 мм</property>
         <property name="Высота упаковки">330 мм</property>
       </offer>
-      <offer id="489065280" available="true">
+      <offer id="489065280" available="false">
         <name>Секс-кукла "19кг радости"</name>
         <vendor>Секспедиция</vendor>
         <vendorCode>489065280</vendorCode>
@@ -400,7 +400,6 @@
         <currencyId>RUB</currencyId>
         <categoryId>1</categoryId>
         <picture>https://static.tildacdn.com/stor3037-3166-4138-b334-666539633336/51554904.jpg</picture>
-        <collectionId>489065280</collectionId>
         <url>https://pinkypunk.ru/catalog/sex-kukli/19kg-radosti</url>
         <description>19кг - это как 30, но на 11 легче :)</description>
         <sales_notes>Официальный сайт Секспедиция.</sales_notes>
@@ -1558,12 +1557,6 @@
         <url>https://pinkypunk.ru/catalog/sex-kukli/30kg-radosti</url>
         <picture>https://static.tildacdn.com/stor3733-3738-4131-b930-376464373231/67625212.jpg</picture>
         <description>Даже и добавить нечего.</description>
-      </collection>
-      <collection id="489065280">
-        <name>Секс-кукла "19кг радости"</name>
-        <url>https://pinkypunk.ru/catalog/sex-kukli/19kg-radosti</url>
-        <picture>https://static.tildacdn.com/stor3037-3166-4138-b334-666539633336/51554904.jpg</picture>
-        <description>19кг - это как 30, но на 11 легче :)</description>
       </collection>
       <collection id="474354054">
         <name>Фаллоимитатор "Пирамидоголовый" / Размер S</name>

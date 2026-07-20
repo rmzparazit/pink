@@ -1123,7 +1123,7 @@
             "price": "3190",
             "image": "https://static.tildacdn.com/stor3265-3563-4966-b964-656134663966/69909011.jpg",
             "description": "Впусти в себя этого симбиота",
-            "available": true,
+            "available": false,
             "properties": [
                 {
                     "name": "Категория",
@@ -2527,7 +2527,7 @@
             "price": "19900",
             "image": "https://static.tildacdn.com/stor6362-3038-4338-b638-623531383964/bcbc378fa73cefffc80095d7d0e7129b.jpg",
             "description": "Дочка сказала, что работа не пыльная? :)",
-            "available": true,
+            "available": false,
             "properties": [
                 {
                     "name": "Категория",
