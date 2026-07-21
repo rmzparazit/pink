@@ -691,7 +691,7 @@
             "price": "49000",
             "image": "https://static.tildacdn.com/stor3037-3166-4138-b334-666539633336/51554904.jpg",
             "description": "19кг - это как 30, но на 11 легче :)",
-            "available": false,
+            "available": true,
             "properties": [
                 {
                     "name": "Категория",
@@ -1555,7 +1555,7 @@
             "price": "4390",
             "image": "https://static.tildacdn.com/stor6536-3938-4430-b735-306361383031/76796492.jpg",
             "description": "Размер XL - 28х8см",
-            "available": false,
+            "available": true,
             "properties": [
                 {
                     "name": "Категория",
@@ -2527,7 +2527,7 @@
             "price": "19900",
             "image": "https://static.tildacdn.com/stor6362-3038-4338-b638-623531383964/bcbc378fa73cefffc80095d7d0e7129b.jpg",
             "description": "Дочка сказала, что работа не пыльная? :)",
-            "available": false,
+            "available": true,
             "properties": [
                 {
                     "name": "Категория",
