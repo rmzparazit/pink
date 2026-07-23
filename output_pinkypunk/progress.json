@@ -1123,7 +1123,7 @@
             "price": "3190",
             "image": "https://static.tildacdn.com/stor3265-3563-4966-b964-656134663966/69909011.jpg",
             "description": "Впусти в себя этого симбиота",
-            "available": false,
+            "available": true,
             "properties": [
                 {
                     "name": "Категория",
