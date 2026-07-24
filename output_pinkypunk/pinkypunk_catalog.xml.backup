@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<yml_catalog date="2026-07-22 21:54">
+<yml_catalog date="2026-07-23 21:54">
   <shop>
     <name>Секспедиция</name>
     <company>Секспедиция</company>
@@ -631,7 +631,7 @@
         <property name="Ширина упаковки">100 мм</property>
         <property name="Высота упаковки">100 мм</property>
       </offer>
-      <offer id="491485009" available="false">
+      <offer id="491485009" available="true">
         <name>Фаллоимитатор рельефный "Веном" / Размер M</name>
         <vendor>Секспедиция</vendor>
         <vendorCode>491485009</vendorCode>
@@ -639,6 +639,7 @@
         <currencyId>RUB</currencyId>
         <categoryId>1</categoryId>
         <picture>https://static.tildacdn.com/stor3265-3563-4966-b964-656134663966/69909011.jpg</picture>
+        <collectionId>491485009</collectionId>
         <url>https://pinkypunk.ru/catalog/falloimitators/venom-m</url>
         <description>Впусти в себя этого симбиота</description>
         <sales_notes>Официальный сайт Секспедиция.</sales_notes>
@@ -1623,6 +1624,12 @@
         <name>Фаллоимитатор рельефный "Веном" / Размер S</name>
         <url>https://pinkypunk.ru/catalog/falloimitators/venom-s</url>
         <picture>https://static.tildacdn.com/stor6432-6231-4535-b864-306330666330/46990845.jpg</picture>
+        <description>Впусти в себя этого симбиота</description>
+      </collection>
+      <collection id="491485009">
+        <name>Фаллоимитатор рельефный "Веном" / Размер M</name>
+        <url>https://pinkypunk.ru/catalog/falloimitators/venom-m</url>
+        <picture>https://static.tildacdn.com/stor3265-3563-4966-b964-656134663966/69909011.jpg</picture>
         <description>Впусти в себя этого симбиота</description>
       </collection>
       <collection id="491485010">
