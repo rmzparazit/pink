@@ -619,7 +619,7 @@
             "price": "790",
             "image": "https://static.tildacdn.com/stor6136-3632-4435-b061-303834303265/52401313.jpg",
             "description": "Зачем брать один, когда можно взять сразу два по охерительной цене? А?",
-            "available": true,
+            "available": false,
             "properties": [
                 {
                     "name": "Категория",

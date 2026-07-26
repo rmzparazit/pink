@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<yml_catalog date="2026-07-24 21:53">
+<yml_catalog date="2026-07-25 21:42">
   <shop>
     <name>Секспедиция</name>
     <company>Секспедиция</company>
@@ -811,7 +811,7 @@
         <property name="Ширина упаковки">90 мм</property>
         <property name="Высота упаковки">80 мм</property>
       </offer>
-      <offer id="708378928" available="true">
+      <offer id="708378928" available="false">
         <name>Анальная пробка с фрикциями, массажёр простаты "ТыЧёк"</name>
         <vendor>Секспедиция</vendor>
         <vendorCode>708378928</vendorCode>
@@ -819,7 +819,6 @@
         <currencyId>RUB</currencyId>
         <categoryId>1</categoryId>
         <picture>https://static.tildacdn.com/stor3963-3434-4864-b663-303939653066/f5549b70ce8882b56d9e1deefac18b4d.jpg</picture>
-        <collectionId>708378928</collectionId>
         <url>https://pinkypunk.ru/catalog/probki/tychok</url>
         <description>Анальный стимулятор для ярких ощущений</description>
         <sales_notes>Официальный сайт Секспедиция.</sales_notes>
@@ -1679,12 +1678,6 @@
         <url>https://pinkypunk.ru/catalog/falloimitators/malchik-s-palchik-l</url>
         <picture>https://static.tildacdn.com/stor3832-6531-4865-b936-363061333538/a5baab26715db7858c6da04fff692e20.png</picture>
         <description>16 см общая длина / 3.5 см диаметр</description>
-      </collection>
-      <collection id="708378928">
-        <name>Анальная пробка с фрикциями, массажёр простаты "ТыЧёк"</name>
-        <url>https://pinkypunk.ru/catalog/probki/tychok</url>
-        <picture>https://static.tildacdn.com/stor3963-3434-4864-b663-303939653066/f5549b70ce8882b56d9e1deefac18b4d.jpg</picture>
-        <description>Анальный стимулятор для ярких ощущений</description>
       </collection>
       <collection id="491483858">
         <name>Реалистичная попка "Люси Мью"</name>
