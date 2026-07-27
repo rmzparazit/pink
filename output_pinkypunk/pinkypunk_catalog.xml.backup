@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<yml_catalog date="2026-07-25 21:42">
+<yml_catalog date="2026-07-26 21:46">
   <shop>
     <name>Секспедиция</name>
     <company>Секспедиция</company>
@@ -352,7 +352,7 @@
         <property name="Ширина упаковки">50 мм</property>
         <property name="Высота упаковки">50 мм</property>
       </offer>
-      <offer id="DvaLubrika" available="true">
+      <offer id="DvaLubrika" available="false">
         <name>Два лубрика: Вишня + Классика</name>
         <vendor>Секспедиция</vendor>
         <vendorCode>DvaLubrika</vendorCode>
@@ -360,7 +360,6 @@
         <currencyId>RUB</currencyId>
         <categoryId>1</categoryId>
         <picture>https://static.tildacdn.com/stor6136-3632-4435-b061-303834303265/52401313.jpg</picture>
-        <collectionId>DvaLubrika</collectionId>
         <url>https://pinkypunk.ru/catalog/lubrikanty/set-vishnya-klassika</url>
         <description>Зачем брать один, когда можно взять сразу два по охерительной цене? А?</description>
         <sales_notes>Официальный сайт Секспедиция.</sales_notes>
@@ -1546,12 +1545,6 @@
         <url>https://pinkypunk.ru/catalog/lubrikanty/vishnya-100ml</url>
         <picture>https://static.tildacdn.com/stor6137-6563-4161-b933-316165353539/96236198.jpg</picture>
         <description>Сладенького захотелось?</description>
-      </collection>
-      <collection id="DvaLubrika">
-        <name>Два лубрика: Вишня + Классика</name>
-        <url>https://pinkypunk.ru/catalog/lubrikanty/set-vishnya-klassika</url>
-        <picture>https://static.tildacdn.com/stor6136-3632-4435-b061-303834303265/52401313.jpg</picture>
-        <description>Зачем брать один, когда можно взять сразу два по охерительной цене? А?</description>
       </collection>
       <collection id="471859805">
         <name>Секс-кукла "30кг радости"</name>
