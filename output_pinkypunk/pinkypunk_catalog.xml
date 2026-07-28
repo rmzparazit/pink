@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<yml_catalog date="2026-07-27 21:54">
+<yml_catalog date="2026-07-28 21:53">
   <shop>
     <name>Секспедиция</name>
     <company>Секспедиция</company>
@@ -133,7 +133,7 @@
         <property name="Ширина упаковки">150 мм</property>
         <property name="Высота упаковки">150 мм</property>
       </offer>
-      <offer id="330285526" available="true">
+      <offer id="330285526" available="false">
         <name>Фаллоимитатор "Акробат" 18см х 4,5см</name>
         <vendor>Секспедиция</vendor>
         <vendorCode>330285526</vendorCode>
@@ -141,7 +141,6 @@
         <currencyId>RUB</currencyId>
         <categoryId>1</categoryId>
         <picture>https://static.tildacdn.com/stor3632-3666-4338-b836-663031356430/42009173.jpg</picture>
-        <collectionId>330285526</collectionId>
         <url>https://pinkypunk.ru/catalog/falloimitators/acrobat-18-4-5</url>
         <description>Гнущийся фаллоимитатор с металлическим каркасом внутри</description>
         <sales_notes>Официальный сайт Секспедиция.</sales_notes>
@@ -1485,12 +1484,6 @@
         <url>https://pinkypunk.ru/catalog/falloimitators/godzilla-30-8</url>
         <picture>https://static.tildacdn.com/stor3135-6130-4034-b561-363731646138/83012018.jpg</picture>
         <description>Название говорит само за себя</description>
-      </collection>
-      <collection id="330285526">
-        <name>Фаллоимитатор "Акробат" 18см х 4,5см</name>
-        <url>https://pinkypunk.ru/catalog/falloimitators/acrobat-18-4-5</url>
-        <picture>https://static.tildacdn.com/stor3632-3666-4338-b836-663031356430/42009173.jpg</picture>
-        <description>Гнущийся фаллоимитатор с металлическим каркасом внутри</description>
       </collection>
       <collection id="29519206">
         <name>Эротическая игра: Секспедиция</name>
