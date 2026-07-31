@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<yml_catalog date="2026-07-29 21:44">
+<yml_catalog date="2026-07-30 21:56">
   <shop>
     <name>Секспедиция</name>
     <company>Секспедиция</company>
@@ -352,7 +352,7 @@
         <property name="Ширина упаковки">50 мм</property>
         <property name="Высота упаковки">50 мм</property>
       </offer>
-      <offer id="DvaLubrika" available="false">
+      <offer id="DvaLubrika" available="true">
         <name>Два лубрика: Вишня + Классика</name>
         <vendor>Секспедиция</vendor>
         <vendorCode>DvaLubrika</vendorCode>
@@ -360,6 +360,7 @@
         <currencyId>RUB</currencyId>
         <categoryId>1</categoryId>
         <picture>https://static.tildacdn.com/stor6136-3632-4435-b061-303834303265/52401313.jpg</picture>
+        <collectionId>DvaLubrika</collectionId>
         <url>https://pinkypunk.ru/catalog/lubrikanty/set-vishnya-klassika</url>
         <description>Зачем брать один, когда можно взять сразу два по охерительной цене? А?</description>
         <sales_notes>Официальный сайт Секспедиция.</sales_notes>
@@ -1448,6 +1449,66 @@
         <property name="Ширина упаковки">160 мм</property>
         <property name="Высота упаковки">300 мм</property>
       </offer>
+      <offer id="1185870660" available="false">
+        <name>Надувная пробка «Большая Шишка» в форме члена</name>
+        <vendor>Секспедиция</vendor>
+        <vendorCode>1185870660</vendorCode>
+        <price>0</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>1</categoryId>
+        <picture>https://static.tildacdn.com/stor3762-6531-4235-b831-386336346431/4cd6a985ff25dff9fb8a6bd1db74f6ca.jpg</picture>
+        <url>https://pinkypunk.ru/catalog/probki/bolshaya-shishka</url>
+        <description>Проект «Надувалы». Скоро.</description>
+        <sales_notes>Официальный сайт Секспедиция.</sales_notes>
+        <custom_label_0>Надувная пробка «Большая Шишка» в форме члена</custom_label_0>
+        <property name="Категория">Анальные пробки</property>
+        <property name="Бренд">Секспедиция</property>
+      </offer>
+      <offer id="1185870657" available="false">
+        <name>Надувная пробка «Двойняшки» с двумя металлическими шариками</name>
+        <vendor>Секспедиция</vendor>
+        <vendorCode>1185870657</vendorCode>
+        <price>0</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>1</categoryId>
+        <picture>https://static.tildacdn.com/stor3633-6135-4865-b138-663465373663/7d60269a0655529b82698f53f13f3c6b.jpg</picture>
+        <url>https://pinkypunk.ru/catalog/probki/dvoynyashki</url>
+        <description>Проект «Надувалы». Скоро.</description>
+        <sales_notes>Официальный сайт Секспедиция.</sales_notes>
+        <custom_label_0>Надувная пробка «Двойняшки» с двумя металлическими шариками</custom_label_0>
+        <property name="Категория">Анальные пробки</property>
+        <property name="Бренд">Секспедиция</property>
+      </offer>
+      <offer id="1185870658" available="false">
+        <name>Надувная пробка «Одиночка» с металлическим шариком</name>
+        <vendor>Секспедиция</vendor>
+        <vendorCode>1185870658</vendorCode>
+        <price>0</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>1</categoryId>
+        <picture>https://static.tildacdn.com/stor3964-3639-4035-a139-623138313965/f24dff7c825cd926e4eaee007381d0ad.jpg</picture>
+        <url>https://pinkypunk.ru/catalog/probki/odinochka</url>
+        <description>Проект «Надувалы». Скоро.</description>
+        <sales_notes>Официальный сайт Секспедиция.</sales_notes>
+        <custom_label_0>Надувная пробка «Одиночка» с металлическим шариком</custom_label_0>
+        <property name="Категория">Анальные пробки</property>
+        <property name="Бренд">Секспедиция</property>
+      </offer>
+      <offer id="1185870659" available="false">
+        <name>Надувная пробка на присоске «Прилипала»</name>
+        <vendor>Секспедиция</vendor>
+        <vendorCode>1185870659</vendorCode>
+        <price>0</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>1</categoryId>
+        <picture>https://static.tildacdn.com/stor3334-6164-4566-b630-353166333435/3147489c905de00b42f0919bd53b89c1.jpg</picture>
+        <url>https://pinkypunk.ru/catalog/probki/prilipala</url>
+        <description>Проект «Надувалы». Скоро.</description>
+        <sales_notes>Официальный сайт Секспедиция.</sales_notes>
+        <custom_label_0>Надувная пробка на присоске «Прилипала»</custom_label_0>
+        <property name="Категория">Анальные пробки</property>
+        <property name="Бренд">Секспедиция</property>
+      </offer>
     </offers>
     <collections>
       <collection id="287449573">
@@ -1545,6 +1606,12 @@
         <url>https://pinkypunk.ru/catalog/lubrikanty/vishnya-100ml</url>
         <picture>https://static.tildacdn.com/stor6137-6563-4161-b933-316165353539/96236198.jpg</picture>
         <description>Сладенького захотелось?</description>
+      </collection>
+      <collection id="DvaLubrika">
+        <name>Два лубрика: Вишня + Классика</name>
+        <url>https://pinkypunk.ru/catalog/lubrikanty/set-vishnya-klassika</url>
+        <picture>https://static.tildacdn.com/stor6136-3632-4435-b061-303834303265/52401313.jpg</picture>
+        <description>Зачем брать один, когда можно взять сразу два по охерительной цене? А?</description>
       </collection>
       <collection id="471859805">
         <name>Секс-кукла "30кг радости"</name>

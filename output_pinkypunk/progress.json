@@ -2347,7 +2347,7 @@
             "price": "2200",
             "image": "https://static.tildacdn.com/stor3964-3037-4632-a537-366233373762/3748d4f12cf656a65c9f5034d9fbea16.jpg",
             "description": "Маски сняты. Встречайте третью модель из Незнакомцев - Артист малого театра.",
-            "available": true,
+            "available": false,
             "properties": [
                 {
                     "name": "Категория",
