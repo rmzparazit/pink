@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<yml_catalog date="2026-07-30 21:56">
+<yml_catalog date="2026-07-31 21:54">
   <shop>
     <name>Секспедиция</name>
     <company>Секспедиция</company>
@@ -1309,7 +1309,7 @@
         <property name="Ширина упаковки">95 мм</property>
         <property name="Высота упаковки">95 мм</property>
       </offer>
-      <offer id="995294539" available="true">
+      <offer id="995294539" available="false">
         <name>Проект «Незнакомцы». Объект №3. Он же "Артист малого театра"</name>
         <vendor>Секспедиция</vendor>
         <vendorCode>995294539</vendorCode>
@@ -1317,7 +1317,6 @@
         <currencyId>RUB</currencyId>
         <categoryId>1</categoryId>
         <picture>https://static.tildacdn.com/stor3964-3037-4632-a537-366233373762/3748d4f12cf656a65c9f5034d9fbea16.jpg</picture>
-        <collectionId>995294539</collectionId>
         <url>https://pinkypunk.ru/catalog/neznakomci/object3-01</url>
         <description>Маски сняты. Встречайте третью модель из Незнакомцев - Артист малого театра.</description>
         <sales_notes>Официальный сайт Секспедиция.</sales_notes>
@@ -1876,12 +1875,6 @@
         <url>https://pinkypunk.ru/catalog/neznakomci/object2-02</url>
         <picture>https://static.tildacdn.com/stor3639-6630-4865-a538-303565306262/eac1b6a089ffaa51ad19d811222eb6d2.jpg</picture>
         <description>Фаллоимитатор «Два-Крепыш» — когда хочется почувствовать настоящий масштаб.</description>
-      </collection>
-      <collection id="995294539">
-        <name>Проект «Незнакомцы». Объект №3. Он же "Артист малого театра"</name>
-        <url>https://pinkypunk.ru/catalog/neznakomci/object3-01</url>
-        <picture>https://static.tildacdn.com/stor3964-3037-4632-a537-366233373762/3748d4f12cf656a65c9f5034d9fbea16.jpg</picture>
-        <description>Маски сняты. Встречайте третью модель из Незнакомцев - Артист малого театра.</description>
       </collection>
       <collection id="995287364">
         <name>Проект «Незнакомцы». Объект №3. Он же "Артист дачного театра"</name>
