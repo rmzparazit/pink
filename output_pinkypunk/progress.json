@@ -7,7 +7,7 @@
             "price": "14900",
             "image": "https://static.tildacdn.com/stor3464-6633-4564-b439-313266613263/84318164.jpg",
             "description": "Невозможно описать словами те эмоции, которая дарит Мэри",
-            "available": true,
+            "available": false,
             "properties": [
                 {
                     "name": "Категория",
@@ -2527,7 +2527,7 @@
             "price": "19900",
             "image": "https://static.tildacdn.com/stor6362-3038-4338-b638-623531383964/bcbc378fa73cefffc80095d7d0e7129b.jpg",
             "description": "Дочка сказала, что работа не пыльная? :)",
-            "available": false,
+            "available": true,
             "properties": [
                 {
                     "name": "Категория",
