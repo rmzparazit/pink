@@ -7,7 +7,7 @@
             "price": "14900",
             "image": "https://static.tildacdn.com/stor3464-6633-4564-b439-313266613263/84318164.jpg",
             "description": "Невозможно описать словами те эмоции, которая дарит Мэри",
-            "available": false,
+            "available": true,
             "properties": [
                 {
                     "name": "Категория",
@@ -2596,10 +2596,10 @@
             "name": "Надувная пробка «Большая Шишка» в форме члена",
             "vendorCode": "1185870660",
             "link": "https://pinkypunk.ru/catalog/probki/bolshaya-shishka",
-            "price": "0",
+            "price": "2990",
             "image": "https://static.tildacdn.com/stor3762-6531-4235-b831-386336346431/4cd6a985ff25dff9fb8a6bd1db74f6ca.jpg",
-            "description": "Проект «Надувалы». Скоро.",
-            "available": false,
+            "description": "Проект «Надувалы»",
+            "available": true,
             "properties": [
                 {
                     "name": "Категория",
@@ -2616,10 +2616,10 @@
             "name": "Надувная пробка «Двойняшки» с двумя металлическими шариками",
             "vendorCode": "1185870657",
             "link": "https://pinkypunk.ru/catalog/probki/dvoynyashki",
-            "price": "0",
+            "price": "2590",
             "image": "https://static.tildacdn.com/stor3633-6135-4865-b138-663465373663/7d60269a0655529b82698f53f13f3c6b.jpg",
-            "description": "Проект «Надувалы». Скоро.",
-            "available": false,
+            "description": "Проект «Надувалы»",
+            "available": true,
             "properties": [
                 {
                     "name": "Категория",
@@ -2636,10 +2636,10 @@
             "name": "Надувная пробка «Одиночка» с металлическим шариком",
             "vendorCode": "1185870658",
             "link": "https://pinkypunk.ru/catalog/probki/odinochka",
-            "price": "0",
+            "price": "2390",
             "image": "https://static.tildacdn.com/stor3964-3639-4035-a139-623138313965/f24dff7c825cd926e4eaee007381d0ad.jpg",
-            "description": "Проект «Надувалы». Скоро.",
-            "available": false,
+            "description": "Проект «Надувалы»",
+            "available": true,
             "properties": [
                 {
                     "name": "Категория",
@@ -2656,10 +2656,10 @@
             "name": "Надувная пробка на присоске «Прилипала»",
             "vendorCode": "1185870659",
             "link": "https://pinkypunk.ru/catalog/probki/prilipala",
-            "price": "0",
+            "price": "2590",
             "image": "https://static.tildacdn.com/stor3334-6164-4566-b630-353166333435/3147489c905de00b42f0919bd53b89c1.jpg",
-            "description": "Проект «Надувалы». Скоро.",
-            "available": false,
+            "description": "Проект «Надувалы»",
+            "available": true,
             "properties": [
                 {
                     "name": "Категория",
