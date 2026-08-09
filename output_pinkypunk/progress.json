@@ -2527,7 +2527,7 @@
             "price": "19900",
             "image": "https://static.tildacdn.com/stor6362-3038-4338-b638-623531383964/bcbc378fa73cefffc80095d7d0e7129b.jpg",
             "description": "Дочка сказала, что работа не пыльная? :)",
-            "available": true,
+            "available": false,
             "properties": [
                 {
                     "name": "Категория",
