@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<yml_catalog date="2026-08-14 15:28">
+<yml_catalog date="2026-08-14 16:27">
   <shop>
     <name>Секспедиция</name>
     <company>Секспедиция</company>
@@ -11,14 +11,14 @@
     </currencies>
     <categories>
       <category id="1">Секс-игрушки</category>
-      <category id="falloimitators">Фаллоимитаторы</category>
-      <category id="masturbatori">Мастурбаторы</category>
-      <category id="sex-kukli">Секс-куклы</category>
-      <category id="lubrikanty">Лубрики</category>
-      <category id="games">Эротические игры</category>
-      <category id="probki">Анальные пробки</category>
-      <category id="nasadki">Насадки</category>
-      <category id="neznakomci">Незнакомцы</category>
+      <category id="2">Фаллоимитаторы</category>
+      <category id="3">Мастурбаторы</category>
+      <category id="4">Секс-куклы</category>
+      <category id="5">Лубрики</category>
+      <category id="6">Эротические игры</category>
+      <category id="7">Анальные пробки</category>
+      <category id="8">Насадки</category>
+      <category id="9">Незнакомцы</category>
     </categories>
     <offers>
       <offer id="287449573" available="true">
@@ -27,7 +27,7 @@
         <vendorCode>287449573</vendorCode>
         <price>14900</price>
         <currencyId>RUB</currencyId>
-        <categoryId>masturbatori</categoryId>
+        <categoryId>3</categoryId>
         <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/287449573.png</picture>
         <collectionId>287449573</collectionId>
         <url>https://pinkypunk.ru/catalog/masturbatori/meri-syu</url>
@@ -47,7 +47,7 @@
         <vendorCode>449723250</vendorCode>
         <price>12500</price>
         <currencyId>RUB</currencyId>
-        <categoryId>masturbatori</categoryId>
+        <categoryId>3</categoryId>
         <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/449723250.png</picture>
         <collectionId>449723250</collectionId>
         <url>https://pinkypunk.ru/catalog/masturbatori/hani-dyu</url>
@@ -67,7 +67,7 @@
         <vendorCode>449791367</vendorCode>
         <price>13900</price>
         <currencyId>RUB</currencyId>
-        <categoryId>masturbatori</categoryId>
+        <categoryId>3</categoryId>
         <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/449791367.png</picture>
         <collectionId>449791367</collectionId>
         <url>https://pinkypunk.ru/catalog/masturbatori/pis-da-sis</url>
@@ -87,7 +87,7 @@
         <vendorCode>390792717</vendorCode>
         <price>2490</price>
         <currencyId>RUB</currencyId>
-        <categoryId>falloimitators</categoryId>
+        <categoryId>2</categoryId>
         <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/390792717.png</picture>
         <collectionId>390792717</collectionId>
         <url>https://pinkypunk.ru/catalog/falloimitators/godzilla-19-4-5</url>
@@ -107,7 +107,7 @@
         <vendorCode>215477104</vendorCode>
         <price>3390</price>
         <currencyId>RUB</currencyId>
-        <categoryId>falloimitators</categoryId>
+        <categoryId>2</categoryId>
         <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/215477104.png</picture>
         <collectionId>215477104</collectionId>
         <url>https://pinkypunk.ru/catalog/falloimitators/godzilla-25-7</url>
@@ -127,7 +127,7 @@
         <vendorCode>399937364</vendorCode>
         <price>5590</price>
         <currencyId>RUB</currencyId>
-        <categoryId>falloimitators</categoryId>
+        <categoryId>2</categoryId>
         <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/399937364.png</picture>
         <collectionId>399937364</collectionId>
         <url>https://pinkypunk.ru/catalog/falloimitators/godzilla-30-8</url>
@@ -147,7 +147,7 @@
         <vendorCode>330285526</vendorCode>
         <price>2590</price>
         <currencyId>RUB</currencyId>
-        <categoryId>falloimitators</categoryId>
+        <categoryId>2</categoryId>
         <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/330285526.png</picture>
         <collectionId>330285526</collectionId>
         <url>https://pinkypunk.ru/catalog/falloimitators/acrobat-18-4-5</url>
@@ -167,7 +167,7 @@
         <vendorCode>29519206</vendorCode>
         <price>690</price>
         <currencyId>RUB</currencyId>
-        <categoryId>games</categoryId>
+        <categoryId>6</categoryId>
         <picture>https://static.tildacdn.com/stor3366-6261-4862-b935-636633616264/53222096.jpg</picture>
         <collectionId>29519206</collectionId>
         <url>https://pinkypunk.ru/catalog/games/sexpeditsiya</url>
@@ -187,7 +187,7 @@
         <vendorCode>29519205</vendorCode>
         <price>990</price>
         <currencyId>RUB</currencyId>
-        <categoryId>games</categoryId>
+        <categoryId>6</categoryId>
         <picture>https://static.tildacdn.com/stor3533-6264-4134-a230-336665393236/45277784.jpg</picture>
         <url>https://pinkypunk.ru/catalog/games/trip-to-amsterdam</url>
         <description>Вторая игра в нашей линейке, для тех кто любит ролевые игры</description>
@@ -206,7 +206,7 @@
         <vendorCode>431433166</vendorCode>
         <price>1690</price>
         <currencyId>RUB</currencyId>
-        <categoryId>falloimitators</categoryId>
+        <categoryId>2</categoryId>
         <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/431433166.png</picture>
         <collectionId>431433166</collectionId>
         <url>https://pinkypunk.ru/catalog/falloimitators/pravnuk-shlyapnika-14-3-5</url>
@@ -226,7 +226,7 @@
         <vendorCode>330270966</vendorCode>
         <price>1990</price>
         <currencyId>RUB</currencyId>
-        <categoryId>falloimitators</categoryId>
+        <categoryId>2</categoryId>
         <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/330270966.png</picture>
         <collectionId>330270966</collectionId>
         <url>https://pinkypunk.ru/catalog/falloimitators/vnuk-shlyapnika-16-4</url>
@@ -246,7 +246,7 @@
         <vendorCode>262501204</vendorCode>
         <price>2590</price>
         <currencyId>RUB</currencyId>
-        <categoryId>falloimitators</categoryId>
+        <categoryId>2</categoryId>
         <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/262501204.png</picture>
         <collectionId>262501204</collectionId>
         <url>https://pinkypunk.ru/catalog/falloimitators/sin-shlyapnika-23-5</url>
@@ -266,7 +266,7 @@
         <vendorCode>474611005</vendorCode>
         <price>3290</price>
         <currencyId>RUB</currencyId>
-        <categoryId>falloimitators</categoryId>
+        <categoryId>2</categoryId>
         <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/474611005.png</picture>
         <collectionId>474611005</collectionId>
         <url>https://pinkypunk.ru/catalog/falloimitators/starshiy-sin-shlyapnika-24-6</url>
@@ -286,7 +286,7 @@
         <vendorCode>239859701</vendorCode>
         <price>3490</price>
         <currencyId>RUB</currencyId>
-        <categoryId>falloimitators</categoryId>
+        <categoryId>2</categoryId>
         <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/239859701.png</picture>
         <collectionId>239859701</collectionId>
         <url>https://pinkypunk.ru/catalog/falloimitators/shlyapnik-26-7</url>
@@ -306,7 +306,7 @@
         <vendorCode>262501210</vendorCode>
         <price>5690</price>
         <currencyId>RUB</currencyId>
-        <categoryId>falloimitators</categoryId>
+        <categoryId>2</categoryId>
         <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/262501210.png</picture>
         <collectionId>262501210</collectionId>
         <url>https://pinkypunk.ru/catalog/falloimitators/otec-shlyapnika-33-8-5</url>
@@ -326,7 +326,7 @@
         <vendorCode>52819167</vendorCode>
         <price>490</price>
         <currencyId>RUB</currencyId>
-        <categoryId>lubrikanty</categoryId>
+        <categoryId>5</categoryId>
         <picture>https://static.tildacdn.com/stor3232-3738-4861-b163-363665666262/69507832.jpg</picture>
         <collectionId>52819167</collectionId>
         <url>https://pinkypunk.ru/catalog/lubrikanty/classic-100ml</url>
@@ -346,7 +346,7 @@
         <vendorCode>466514947</vendorCode>
         <price>490</price>
         <currencyId>RUB</currencyId>
-        <categoryId>lubrikanty</categoryId>
+        <categoryId>5</categoryId>
         <picture>https://static.tildacdn.com/stor6137-6563-4161-b933-316165353539/96236198.jpg</picture>
         <collectionId>466514947</collectionId>
         <url>https://pinkypunk.ru/catalog/lubrikanty/vishnya-100ml</url>
@@ -366,7 +366,7 @@
         <vendorCode>DvaLubrika</vendorCode>
         <price>790</price>
         <currencyId>RUB</currencyId>
-        <categoryId>lubrikanty</categoryId>
+        <categoryId>5</categoryId>
         <picture>https://static.tildacdn.com/stor6136-3632-4435-b061-303834303265/52401313.jpg</picture>
         <collectionId>DvaLubrika</collectionId>
         <url>https://pinkypunk.ru/catalog/lubrikanty/set-vishnya-klassika</url>
@@ -386,7 +386,7 @@
         <vendorCode>471859805</vendorCode>
         <price>75900</price>
         <currencyId>RUB</currencyId>
-        <categoryId>sex-kukli</categoryId>
+        <categoryId>4</categoryId>
         <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/471859805.png</picture>
         <collectionId>471859805</collectionId>
         <url>https://pinkypunk.ru/catalog/sex-kukli/30kg-radosti</url>
@@ -406,7 +406,7 @@
         <vendorCode>489065280</vendorCode>
         <price>49000</price>
         <currencyId>RUB</currencyId>
-        <categoryId>sex-kukli</categoryId>
+        <categoryId>4</categoryId>
         <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/489065280.png</picture>
         <collectionId>489065280</collectionId>
         <url>https://pinkypunk.ru/catalog/sex-kukli/19kg-radosti</url>
@@ -426,7 +426,7 @@
         <vendorCode>474354054</vendorCode>
         <price>1790</price>
         <currencyId>RUB</currencyId>
-        <categoryId>falloimitators</categoryId>
+        <categoryId>2</categoryId>
         <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/474354054.png</picture>
         <url>https://pinkypunk.ru/catalog/falloimitators/piramidogoloviy-s</url>
         <description>16см - общая длина / 4см - диаметр у основания</description>
@@ -445,7 +445,7 @@
         <vendorCode>474355554</vendorCode>
         <price>2190</price>
         <currencyId>RUB</currencyId>
-        <categoryId>falloimitators</categoryId>
+        <categoryId>2</categoryId>
         <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/474355554.png</picture>
         <collectionId>474355554</collectionId>
         <url>https://pinkypunk.ru/catalog/falloimitators/piramidogoloviy-m</url>
@@ -465,7 +465,7 @@
         <vendorCode>474355555</vendorCode>
         <price>2690</price>
         <currencyId>RUB</currencyId>
-        <categoryId>falloimitators</categoryId>
+        <categoryId>2</categoryId>
         <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/474355555.png</picture>
         <collectionId>474355555</collectionId>
         <url>https://pinkypunk.ru/catalog/falloimitators/piramidogoloviy-l</url>
@@ -485,7 +485,7 @@
         <vendorCode>474355556</vendorCode>
         <price>3590</price>
         <currencyId>RUB</currencyId>
-        <categoryId>falloimitators</categoryId>
+        <categoryId>2</categoryId>
         <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/474355556.png</picture>
         <collectionId>474355556</collectionId>
         <url>https://pinkypunk.ru/catalog/falloimitators/piramidogoloviy-xl</url>
@@ -505,7 +505,7 @@
         <vendorCode>474535082</vendorCode>
         <price>2590</price>
         <currencyId>RUB</currencyId>
-        <categoryId>falloimitators</categoryId>
+        <categoryId>2</categoryId>
         <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/474535082.png</picture>
         <collectionId>474535082</collectionId>
         <url>https://pinkypunk.ru/catalog/falloimitators/minipuzik-s</url>
@@ -525,7 +525,7 @@
         <vendorCode>441061507</vendorCode>
         <price>3490</price>
         <currencyId>RUB</currencyId>
-        <categoryId>masturbatori</categoryId>
+        <categoryId>3</categoryId>
         <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/441061507.png</picture>
         <collectionId>441061507</collectionId>
         <url>https://pinkypunk.ru/catalog/masturbatori/milfusha</url>
@@ -545,7 +545,7 @@
         <vendorCode>441061506</vendorCode>
         <price>3490</price>
         <currencyId>RUB</currencyId>
-        <categoryId>masturbatori</categoryId>
+        <categoryId>3</categoryId>
         <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/441061506.png</picture>
         <collectionId>441061506</collectionId>
         <url>https://pinkypunk.ru/catalog/masturbatori/tyanochka</url>
@@ -565,7 +565,7 @@
         <vendorCode>482197593</vendorCode>
         <price>2590</price>
         <currencyId>RUB</currencyId>
-        <categoryId>falloimitators</categoryId>
+        <categoryId>2</categoryId>
         <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/482197593.png</picture>
         <collectionId>482197593</collectionId>
         <url>https://pinkypunk.ru/catalog/falloimitators/chumba-23-5-8</url>
@@ -585,7 +585,7 @@
         <vendorCode>491482618</vendorCode>
         <price>2390</price>
         <currencyId>RUB</currencyId>
-        <categoryId>falloimitators</categoryId>
+        <categoryId>2</categoryId>
         <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/491482618.png</picture>
         <url>https://pinkypunk.ru/catalog/falloimitators/legkiy-trofeyniy</url>
         <description>Охота за трофеями началась</description>
@@ -604,7 +604,7 @@
         <vendorCode>491482619</vendorCode>
         <price>3190</price>
         <currencyId>RUB</currencyId>
-        <categoryId>falloimitators</categoryId>
+        <categoryId>2</categoryId>
         <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/491482619.png</picture>
         <collectionId>491482619</collectionId>
         <url>https://pinkypunk.ru/catalog/falloimitators/sredniy-trofeyniy</url>
@@ -624,7 +624,7 @@
         <vendorCode>491485008</vendorCode>
         <price>2490</price>
         <currencyId>RUB</currencyId>
-        <categoryId>falloimitators</categoryId>
+        <categoryId>2</categoryId>
         <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/491485008.png</picture>
         <collectionId>491485008</collectionId>
         <url>https://pinkypunk.ru/catalog/falloimitators/venom-s</url>
@@ -644,7 +644,7 @@
         <vendorCode>491485009</vendorCode>
         <price>3190</price>
         <currencyId>RUB</currencyId>
-        <categoryId>falloimitators</categoryId>
+        <categoryId>2</categoryId>
         <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/491485009.png</picture>
         <collectionId>491485009</collectionId>
         <url>https://pinkypunk.ru/catalog/falloimitators/venom-m</url>
@@ -664,7 +664,7 @@
         <vendorCode>491485010</vendorCode>
         <price>3890</price>
         <currencyId>RUB</currencyId>
-        <categoryId>falloimitators</categoryId>
+        <categoryId>2</categoryId>
         <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/491485010.png</picture>
         <collectionId>491485010</collectionId>
         <url>https://pinkypunk.ru/catalog/falloimitators/venom-l</url>
@@ -684,7 +684,7 @@
         <vendorCode>491485011</vendorCode>
         <price>5490</price>
         <currencyId>RUB</currencyId>
-        <categoryId>falloimitators</categoryId>
+        <categoryId>2</categoryId>
         <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/491485011.png</picture>
         <collectionId>491485011</collectionId>
         <url>https://pinkypunk.ru/catalog/falloimitators/venom-xl</url>
@@ -704,7 +704,7 @@
         <vendorCode>605007729</vendorCode>
         <price>2390</price>
         <currencyId>RUB</currencyId>
-        <categoryId>falloimitators</categoryId>
+        <categoryId>2</categoryId>
         <picture>https://static.tildacdn.com/stor6433-3533-4233-b931-343338366536/a5d57d43653ceed4ab7a60fc63fe6481.jpg</picture>
         <collectionId>605007729</collectionId>
         <url>https://pinkypunk.ru/catalog/falloimitators/trahminog-temniy</url>
@@ -724,7 +724,7 @@
         <vendorCode>605007728</vendorCode>
         <price>2390</price>
         <currencyId>RUB</currencyId>
-        <categoryId>falloimitators</categoryId>
+        <categoryId>2</categoryId>
         <picture>https://static.tildacdn.com/stor3938-6334-4262-b836-313333343430/770f86e8b492290df78353b4f87a448a.jpg</picture>
         <collectionId>605007728</collectionId>
         <url>https://pinkypunk.ru/catalog/falloimitators/trahminog-svetliy</url>
@@ -744,7 +744,7 @@
         <vendorCode>474535085</vendorCode>
         <price>3590</price>
         <currencyId>RUB</currencyId>
-        <categoryId>falloimitators</categoryId>
+        <categoryId>2</categoryId>
         <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/474535085.png</picture>
         <collectionId>474535085</collectionId>
         <url>https://pinkypunk.ru/catalog/falloimitators/puzan-l</url>
@@ -764,7 +764,7 @@
         <vendorCode>474613281</vendorCode>
         <price>1490</price>
         <currencyId>RUB</currencyId>
-        <categoryId>falloimitators</categoryId>
+        <categoryId>2</categoryId>
         <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/474613281.png</picture>
         <collectionId>474613281</collectionId>
         <url>https://pinkypunk.ru/catalog/falloimitators/malchik-s-palchik-s</url>
@@ -784,7 +784,7 @@
         <vendorCode>474613282</vendorCode>
         <price>1590</price>
         <currencyId>RUB</currencyId>
-        <categoryId>falloimitators</categoryId>
+        <categoryId>2</categoryId>
         <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/474613282.png</picture>
         <collectionId>474613282</collectionId>
         <url>https://pinkypunk.ru/catalog/falloimitators/malchik-s-palchik-m</url>
@@ -804,7 +804,7 @@
         <vendorCode>474613283</vendorCode>
         <price>1690</price>
         <currencyId>RUB</currencyId>
-        <categoryId>falloimitators</categoryId>
+        <categoryId>2</categoryId>
         <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/474613283.png</picture>
         <collectionId>474613283</collectionId>
         <url>https://pinkypunk.ru/catalog/falloimitators/malchik-s-palchik-l</url>
@@ -862,7 +862,7 @@
         <vendorCode>491483858</vendorCode>
         <price>19900</price>
         <currencyId>RUB</currencyId>
-        <categoryId>masturbatori</categoryId>
+        <categoryId>3</categoryId>
         <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/491483858.png</picture>
         <collectionId>491483858</collectionId>
         <url>https://pinkypunk.ru/catalog/masturbatori/lyusi-myu</url>
@@ -882,7 +882,7 @@
         <vendorCode>474535086</vendorCode>
         <price>4390</price>
         <currencyId>RUB</currencyId>
-        <categoryId>falloimitators</categoryId>
+        <categoryId>2</categoryId>
         <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/474535086.png</picture>
         <collectionId>474535086</collectionId>
         <url>https://pinkypunk.ru/catalog/falloimitators/puzanishe-xl</url>
@@ -902,7 +902,7 @@
         <vendorCode>474535083</vendorCode>
         <price>2990</price>
         <currencyId>RUB</currencyId>
-        <categoryId>falloimitators</categoryId>
+        <categoryId>2</categoryId>
         <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/474535083.png</picture>
         <collectionId>474535083</collectionId>
         <url>https://pinkypunk.ru/catalog/falloimitators/puzanchik-m</url>
@@ -922,7 +922,7 @@
         <vendorCode>734096541</vendorCode>
         <price>4390</price>
         <currencyId>RUB</currencyId>
-        <categoryId>falloimitators</categoryId>
+        <categoryId>2</categoryId>
         <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/734096541.png</picture>
         <collectionId>734096541</collectionId>
         <url>https://pinkypunk.ru/catalog/falloimitators/dyadya-shlyapnika-27-8</url>
@@ -942,7 +942,7 @@
         <vendorCode>692433213</vendorCode>
         <price>4290</price>
         <currencyId>RUB</currencyId>
-        <categoryId>masturbatori</categoryId>
+        <categoryId>3</categoryId>
         <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/692433213.png</picture>
         <collectionId>692433213</collectionId>
         <url>https://pinkypunk.ru/catalog/masturbatori/zina-ziyayuschaya</url>
@@ -962,7 +962,7 @@
         <vendorCode>692433214</vendorCode>
         <price>4290</price>
         <currencyId>RUB</currencyId>
-        <categoryId>masturbatori</categoryId>
+        <categoryId>3</categoryId>
         <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/692433214.png</picture>
         <collectionId>692433214</collectionId>
         <url>https://pinkypunk.ru/catalog/masturbatori/pervaya-lyubov</url>
@@ -982,7 +982,7 @@
         <vendorCode>744029576</vendorCode>
         <price>24900</price>
         <currencyId>RUB</currencyId>
-        <categoryId>sex-kukli</categoryId>
+        <categoryId>4</categoryId>
         <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/744029576.png</picture>
         <collectionId>744029576</collectionId>
         <url>https://pinkypunk.ru/catalog/sex-kukli/9kg-radosti</url>
@@ -1002,7 +1002,7 @@
         <vendorCode>491483306</vendorCode>
         <price>3690</price>
         <currencyId>RUB</currencyId>
-        <categoryId>falloimitators</categoryId>
+        <categoryId>2</categoryId>
         <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/491483306.png</picture>
         <collectionId>491483306</collectionId>
         <url>https://pinkypunk.ru/catalog/falloimitators/glubina-28-4-7</url>
@@ -1022,7 +1022,7 @@
         <vendorCode>754498142</vendorCode>
         <price>3000</price>
         <currencyId>RUB</currencyId>
-        <categoryId>falloimitators</categoryId>
+        <categoryId>2</categoryId>
         <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/754498142.png</picture>
         <collectionId>754498142</collectionId>
         <url>https://pinkypunk.ru/catalog/falloimitators/narodniy-25-5-8</url>
@@ -1042,7 +1042,7 @@
         <vendorCode>260475581</vendorCode>
         <price>390</price>
         <currencyId>RUB</currencyId>
-        <categoryId>masturbatori</categoryId>
+        <categoryId>3</categoryId>
         <picture>https://static.tildacdn.com/stor3439-3662-4337-b461-646461303863/29497857.webp</picture>
         <collectionId>260475581</collectionId>
         <url>https://pinkypunk.ru/catalog/masturbatori/palochka-dlya-sushki</url>
@@ -1062,7 +1062,7 @@
         <vendorCode>833467546</vendorCode>
         <price>2290</price>
         <currencyId>RUB</currencyId>
-        <categoryId>falloimitators</categoryId>
+        <categoryId>2</categoryId>
         <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/833467546.png</picture>
         <collectionId>833467546</collectionId>
         <url>https://pinkypunk.ru/catalog/falloimitators/sun-podsun-23-3-2</url>
@@ -1082,7 +1082,7 @@
         <vendorCode>833442267</vendorCode>
         <price>2350</price>
         <currencyId>RUB</currencyId>
-        <categoryId>falloimitators</categoryId>
+        <categoryId>2</categoryId>
         <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/833442267.png</picture>
         <collectionId>833442267</collectionId>
         <url>https://pinkypunk.ru/catalog/falloimitators/sutuliy-episode1-21-4</url>
@@ -1102,7 +1102,7 @@
         <vendorCode>833442268</vendorCode>
         <price>3200</price>
         <currencyId>RUB</currencyId>
-        <categoryId>falloimitators</categoryId>
+        <categoryId>2</categoryId>
         <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/833442268.png</picture>
         <collectionId>833442268</collectionId>
         <url>https://pinkypunk.ru/catalog/falloimitators/sutuliy-episode2-25-5-5</url>
@@ -1122,7 +1122,7 @@
         <vendorCode>876932251</vendorCode>
         <price>1490</price>
         <currencyId>RUB</currencyId>
-        <categoryId>nasadki</categoryId>
+        <categoryId>8</categoryId>
         <picture>https://static.tildacdn.com/stor3966-3964-4431-b837-346263666132/b8dfec1aef9dde9f134e62445db7e4fc.jpg</picture>
         <collectionId>876932251</collectionId>
         <url>https://pinkypunk.ru/catalog/nasadki/sam-sebe-shlyapnik-m-l</url>
@@ -1142,7 +1142,7 @@
         <vendorCode>876932250</vendorCode>
         <price>1390</price>
         <currencyId>RUB</currencyId>
-        <categoryId>nasadki</categoryId>
+        <categoryId>8</categoryId>
         <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/876932250.png</picture>
         <collectionId>876932250</collectionId>
         <url>https://pinkypunk.ru/catalog/nasadki/sam-sebe-shlyapnik-s-m</url>
@@ -1162,7 +1162,7 @@
         <vendorCode>982219466</vendorCode>
         <price>6900</price>
         <currencyId>RUB</currencyId>
-        <categoryId>falloimitators</categoryId>
+        <categoryId>2</categoryId>
         <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/982219466.png</picture>
         <collectionId>982219466</collectionId>
         <url>https://pinkypunk.ru/catalog/falloimitators/goliaf-37-9</url>
@@ -1182,7 +1182,7 @@
         <vendorCode>982257003</vendorCode>
         <price>3300</price>
         <currencyId>RUB</currencyId>
-        <categoryId>masturbatori</categoryId>
+        <categoryId>3</categoryId>
         <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/982257003.png</picture>
         <collectionId>982257003</collectionId>
         <url>https://pinkypunk.ru/catalog/masturbatori/skvoznyak</url>
@@ -1202,7 +1202,7 @@
         <vendorCode>982236453</vendorCode>
         <price>2600</price>
         <currencyId>RUB</currencyId>
-        <categoryId>falloimitators</categoryId>
+        <categoryId>2</categoryId>
         <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/982236453.png</picture>
         <collectionId>982236453</collectionId>
         <url>https://pinkypunk.ru/catalog/falloimitators/turbo01-20-4</url>
@@ -1222,7 +1222,7 @@
         <vendorCode>982236452</vendorCode>
         <price>3300</price>
         <currencyId>RUB</currencyId>
-        <categoryId>falloimitators</categoryId>
+        <categoryId>2</categoryId>
         <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/982236452.png</picture>
         <collectionId>982236452</collectionId>
         <url>https://pinkypunk.ru/catalog/falloimitators/turbo02-22-5</url>
@@ -1242,7 +1242,7 @@
         <vendorCode>982248350</vendorCode>
         <price>2700</price>
         <currencyId>RUB</currencyId>
-        <categoryId>falloimitators</categoryId>
+        <categoryId>2</categoryId>
         <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/982248350.png</picture>
         <collectionId>982248350</collectionId>
         <url>https://pinkypunk.ru/catalog/falloimitators/durnaya-golova-22-4</url>
@@ -1262,7 +1262,7 @@
         <vendorCode>1006716475</vendorCode>
         <price>3900</price>
         <currencyId>RUB</currencyId>
-        <categoryId>neznakomci</categoryId>
+        <categoryId>9</categoryId>
         <picture>https://static.tildacdn.com/stor3736-6339-4762-a364-343363363963/29dfbd4213aa05ed633e1ecdbf486301.jpg</picture>
         <collectionId>1006716475</collectionId>
         <url>https://pinkypunk.ru/catalog/neznakomci/object1</url>
@@ -1282,7 +1282,7 @@
         <vendorCode>995231693</vendorCode>
         <price>2600</price>
         <currencyId>RUB</currencyId>
-        <categoryId>neznakomci</categoryId>
+        <categoryId>9</categoryId>
         <picture>https://static.tildacdn.com/stor3237-3536-4563-a539-333931393165/48929921c1baa9ce25ed643fd959023d.jpg</picture>
         <collectionId>995231693</collectionId>
         <url>https://pinkypunk.ru/catalog/neznakomci/object2-01</url>
@@ -1302,7 +1302,7 @@
         <vendorCode>995231694</vendorCode>
         <price>3300</price>
         <currencyId>RUB</currencyId>
-        <categoryId>neznakomci</categoryId>
+        <categoryId>9</categoryId>
         <picture>https://static.tildacdn.com/stor3639-6630-4865-a538-303565306262/eac1b6a089ffaa51ad19d811222eb6d2.jpg</picture>
         <collectionId>995231694</collectionId>
         <url>https://pinkypunk.ru/catalog/neznakomci/object2-02</url>
@@ -1322,7 +1322,7 @@
         <vendorCode>995294539</vendorCode>
         <price>2200</price>
         <currencyId>RUB</currencyId>
-        <categoryId>neznakomci</categoryId>
+        <categoryId>9</categoryId>
         <picture>https://static.tildacdn.com/stor3964-3037-4632-a537-366233373762/3748d4f12cf656a65c9f5034d9fbea16.jpg</picture>
         <url>https://pinkypunk.ru/catalog/neznakomci/object3-01</url>
         <description>Маски сняты. Встречайте третью модель из Незнакомцев - Артист малого театра.</description>
@@ -1341,7 +1341,7 @@
         <vendorCode>995287364</vendorCode>
         <price>2900</price>
         <currencyId>RUB</currencyId>
-        <categoryId>neznakomci</categoryId>
+        <categoryId>9</categoryId>
         <picture>https://static.tildacdn.com/stor6636-6135-4733-b437-383938373764/dd54ae5dd3993379ce7648b3c17eed34.jpg</picture>
         <collectionId>995287364</collectionId>
         <url>https://pinkypunk.ru/catalog/neznakomci/object3-02</url>
@@ -1361,7 +1361,7 @@
         <vendorCode>995287365</vendorCode>
         <price>3400</price>
         <currencyId>RUB</currencyId>
-        <categoryId>neznakomci</categoryId>
+        <categoryId>9</categoryId>
         <picture>https://static.tildacdn.com/stor6461-6261-4365-b535-393039323233/10978beb200b0500b52bfbec956b2e07.jpg</picture>
         <collectionId>995287365</collectionId>
         <url>https://pinkypunk.ru/catalog/neznakomci/object3-03</url>
@@ -1381,7 +1381,7 @@
         <vendorCode>983376886</vendorCode>
         <price>3900</price>
         <currencyId>RUB</currencyId>
-        <categoryId>falloimitators</categoryId>
+        <categoryId>2</categoryId>
         <picture>https://static.tildacdn.com/stor3161-3436-4963-b662-646532303464/5f7ede654f75d0f00e54de3767ae8628.jpg</picture>
         <collectionId>983376886</collectionId>
         <url>https://pinkypunk.ru/catalog/falloimitators/tyajeliy-trofeyniy</url>
@@ -1401,7 +1401,7 @@
         <vendorCode>1117818982</vendorCode>
         <price>6700</price>
         <currencyId>RUB</currencyId>
-        <categoryId>masturbatori</categoryId>
+        <categoryId>3</categoryId>
         <picture>https://static.tildacdn.com/stor6332-3865-4462-a338-396637613032/3ff1bd0713b2298b6f56bbe441276503.jpg</picture>
         <collectionId>1117818982</collectionId>
         <url>https://pinkypunk.ru/catalog/masturbatori/lilit</url>
@@ -1421,7 +1421,7 @@
         <vendorCode>1117867460</vendorCode>
         <price>19900</price>
         <currencyId>RUB</currencyId>
-        <categoryId>masturbatori</categoryId>
+        <categoryId>3</categoryId>
         <picture>https://static.tildacdn.com/stor6362-3038-4338-b638-623531383964/bcbc378fa73cefffc80095d7d0e7129b.jpg</picture>
         <collectionId>1117867460</collectionId>
         <url>https://pinkypunk.ru/catalog/masturbatori/lilit-petrovna</url>
@@ -1441,7 +1441,7 @@
         <vendorCode>1109901167</vendorCode>
         <price>3900</price>
         <currencyId>RUB</currencyId>
-        <categoryId>falloimitators</categoryId>
+        <categoryId>2</categoryId>
         <picture>https://static.tildacdn.com/stor3362-3234-4032-a139-363439323031/28733b636978c31e6aaa74236aada6b6.jpg</picture>
         <collectionId>1109901167</collectionId>
         <url>https://pinkypunk.ru/catalog/falloimitators/dolgovyaziy-31-5-5</url>
@@ -1461,7 +1461,7 @@
         <vendorCode>1185870660</vendorCode>
         <price>2990</price>
         <currencyId>RUB</currencyId>
-        <categoryId>probki</categoryId>
+        <categoryId>7</categoryId>
         <picture>https://static.tildacdn.com/stor3762-6531-4235-b831-386336346431/4cd6a985ff25dff9fb8a6bd1db74f6ca.jpg</picture>
         <collectionId>1185870660</collectionId>
         <url>https://pinkypunk.ru/catalog/probki/bolshaya-shishka</url>
@@ -1481,7 +1481,7 @@
         <vendorCode>1185870657</vendorCode>
         <price>2590</price>
         <currencyId>RUB</currencyId>
-        <categoryId>probki</categoryId>
+        <categoryId>7</categoryId>
         <picture>https://static.tildacdn.com/stor3633-6135-4865-b138-663465373663/7d60269a0655529b82698f53f13f3c6b.jpg</picture>
         <collectionId>1185870657</collectionId>
         <url>https://pinkypunk.ru/catalog/probki/dvoynyashki</url>
@@ -1501,7 +1501,7 @@
         <vendorCode>1185870658</vendorCode>
         <price>2390</price>
         <currencyId>RUB</currencyId>
-        <categoryId>probki</categoryId>
+        <categoryId>7</categoryId>
         <picture>https://static.tildacdn.com/stor3964-3639-4035-a139-623138313965/f24dff7c825cd926e4eaee007381d0ad.jpg</picture>
         <collectionId>1185870658</collectionId>
         <url>https://pinkypunk.ru/catalog/probki/odinochka</url>
@@ -1521,7 +1521,7 @@
         <vendorCode>1185870659</vendorCode>
         <price>2590</price>
         <currencyId>RUB</currencyId>
-        <categoryId>probki</categoryId>
+        <categoryId>7</categoryId>
         <picture>https://static.tildacdn.com/stor3334-6164-4566-b630-353166333435/3147489c905de00b42f0919bd53b89c1.jpg</picture>
         <collectionId>1185870659</collectionId>
         <url>https://pinkypunk.ru/catalog/probki/prilipala</url>
