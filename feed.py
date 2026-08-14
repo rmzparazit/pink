@@ -29,9 +29,7 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 log = logging.info
 
 def get_custom_image_url(vendor_code):
-    """
-    Возвращает ссылку на кастомное изображение в GitHub, если оно существует.
-    """
+    """Возвращает ссылку на кастомное изображение в GitHub, если оно существует."""
     if not vendor_code:
         return None
     
@@ -112,7 +110,7 @@ def extract_collections(page):
                 
                 full_url = f"https://pinkypunk.ru{href}" if href.startswith('/') else href
                 collections.append({'id': final_id, 'slug': slug, 'name': name, 'url': full_url.strip()})
-                log(f"🏷️ Найдена категория на сайте: {name} -> Slug: {slug}")
+                log(f"🏷️ Найдена категория на сайте: {name} -> Slug: {slug} -> ID: {final_id}")
                 
     except Exception as e:
         log(f"⚠️ Ошибка при извлечении коллекций: {e}")
@@ -126,11 +124,8 @@ def parse_catalog_page(page):
     page.goto(BASE_URL, timeout=60000)
     page.wait_for_timeout(5000)
     
-    # Собираем категории для маппинга характеристик
     collections = extract_collections(page)
-    coll_map = {c['slug']: c['name'] for c in collections if 'slug' in c}
     
-    # Пробуем закрыть попап "Да, мне есть 18", если он перекрывает экран
     try:
         popup_btn = page.locator('text="Да, мне есть 18"')
         if popup_btn.is_visible(timeout=3000):
@@ -140,7 +135,6 @@ def parse_catalog_page(page):
     except Exception:
         pass
 
-    # Обработка кнопки "Загрузить ещё" через JavaScript-инъекцию
     while True:
         try:
             load_more = page.locator('.js-catalog-load-more-btn')
@@ -154,7 +148,6 @@ def parse_catalog_page(page):
             log(f"⚠️ Кнопка 'Загрузить ещё' больше недоступна: {e}")
             break
             
-    # Дополнительный короткий скролл для ленивой загрузки изображений
     last_height = page.evaluate("document.body.scrollHeight")
     for _ in range(3):
         page.evaluate("window.scrollTo(0, document.body.scrollHeight);")
@@ -164,13 +157,11 @@ def parse_catalog_page(page):
             break
         last_height = new_height
         
-    # Ищем карточки товаров
     product_elements = page.query_selector_all('.js-product.t-catalog__card, .js-product.t-store__card')
     log(f"🔍 Найдено {len(product_elements)} карточек товаров на странице.")
     
     for card in product_elements:
         try:
-            # Двойная проверка наличия: плашка "Нет в наличии" ИЛИ атрибут инвентаря = 0
             sold_out_el = card.query_selector('.js-catalog-prod-sold-out')
             inv_count = card.get_attribute('data-product-inv')
             
@@ -207,18 +198,23 @@ def parse_catalog_page(page):
             descr_el = card.query_selector('.js-catalog-prod-descr, .js-store-prod-descr')
             description = descr_el.inner_text().strip() if descr_el else ""
 
-            # --- ФОРМИРОВАНИЕ ХАРАКТЕРИСТИК (PROPERTY) ---
+            # --- ФОРМИРОВАНИЕ ХАРАКТЕРИСТИК (PROPERTY) И КАТЕГОРИИ ---
             properties = []
-            
             cat_name = "Секс-игрушки"
+            cat_id = "1"
+            
             if link:
                 url_parts = link.split('/catalog/')
                 if len(url_parts) > 1:
                     sub_parts = url_parts[1].split('/')
                     if len(sub_parts) > 0:
                         cat_slug = sub_parts[0]
-                        if cat_slug in coll_map:
-                            cat_name = coll_map[cat_slug]
+                        # Привязываем товар к найденной категории
+                        for c in collections:
+                            if c['slug'] == cat_slug:
+                                cat_name = c['name']
+                                cat_id = c['id']
+                                break
             
             properties.append({'name': 'Категория', 'value': cat_name})
             properties.append({'name': 'Бренд', 'value': 'Секспедиция'})
@@ -242,7 +238,8 @@ def parse_catalog_page(page):
             all_products.append({
                 'name': name, 'vendorCode': vendorCode, 'link': link, 'price': price,
                 'image': image, 'description': description, 'available': available, 
-                'properties': properties, 'additional_images': []
+                'properties': properties, 'additional_images': [],
+                'categoryId': cat_id, 'categoryName': cat_name  # Сохраняем ID и имя категории
             })
         except Exception as e:
             log(f"⚠️ Ошибка парсинга карточки: {e}")
@@ -279,8 +276,13 @@ def generate_xml(products, collections):
     xml_lines.append('      <currency id="RUB" rate="1"/>')
     xml_lines.append('    </currencies>')
     
+    # --- ДИНАМИЧЕСКИЕ КАТЕГОРИИ ---
     xml_lines.append('    <categories>')
+    # Базовая категория на случай, если товар не найдет соответствий
     xml_lines.append('      <category id="1">Секс-игрушки</category>')
+    for c in collections:
+        # Добавляем все категории, которые удалось спарсить с сайта
+        xml_lines.append(f'      <category id="{c["id"]}">{clean_text_for_xml(c["name"])}</category>')
     xml_lines.append('    </categories>')
     
     # 1. Блок Офферов
@@ -292,6 +294,8 @@ def generate_xml(products, collections):
         
         is_available = prod.get('available', True)
         avail_str = "true" if is_available else "false"
+        cat_id = prod.get('categoryId', '1')
+        cat_name = prod.get('categoryName', 'Секс-игрушки')
         
         xml_lines.append(f'      <offer id="{vendor_code}" available="{avail_str}">')
         xml_lines.append(f'        <name>{clean_text_for_xml(prod["name"])}</name>')
@@ -299,14 +303,15 @@ def generate_xml(products, collections):
         xml_lines.append(f'        <vendorCode>{vendor_code}</vendorCode>')
         xml_lines.append(f'        <price>{prod["price"]}</price>')
         xml_lines.append('        <currencyId>RUB</currencyId>')
-        xml_lines.append('        <categoryId>1</categoryId>')
+        
+        # Подставляем ID категории товара
+        xml_lines.append(f'        <categoryId>{cat_id}</categoryId>')
         
         custom_image = get_custom_image_url(vendor_code)
         pic_url = custom_image if custom_image else prod.get("image")
         if pic_url:
             xml_lines.append(f'        <picture>{pic_url}</picture>')
             
-        # Привязываем коллекцию только если товар в наличии
         if is_available:
             xml_lines.append(f'        <collectionId>{vendor_code}</collectionId>')
              
@@ -316,7 +321,9 @@ def generate_xml(products, collections):
              xml_lines.append(f'        <description>{clean_text_for_xml(prod["description"])}</description>')
              
         xml_lines.append('        <sales_notes>Официальный сайт Секспедиция.</sales_notes>')
-        xml_lines.append(f'        <custom_label_0>{clean_text_for_xml(prod["name"])}</custom_label_0>')
+        
+        # Название категории записываем в custom_label_0
+        xml_lines.append(f'        <custom_label_0>{clean_text_for_xml(cat_name)}</custom_label_0>')
         
         if prod.get("properties"):
             for prop in prod["properties"]:
@@ -329,13 +336,13 @@ def generate_xml(products, collections):
 
     xml_lines.append('    </offers>')
     
-    # 2. Блок Коллекций (формируются персонально под каждый товар, ТОЛЬКО если в наличии)
+    # 2. Блок Коллекций
     if products:
         xml_lines.append('    <collections>')
         for prod in products:
             is_available = prod.get('available', True)
             if not is_available: 
-                continue # Пропускаем создание коллекции для отсутствующего товара
+                continue 
                 
             vendor_code = prod.get('vendorCode')
             if not vendor_code: continue
@@ -370,7 +377,7 @@ def generate_xml(products, collections):
 
 # --- ОСНОВНОЙ ЗАПУСК ---
 if __name__ == "__main__":
-    log("🚀 Запуск парсера pinkypunk.ru (v13 - Без пустых коллекций)")
+    log("🚀 Запуск парсера pinkypunk.ru (v14 - Динамические категории)")
     
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=True)
@@ -384,12 +391,10 @@ if __name__ == "__main__":
             products_map = {p['vendorCode']: p for p in progress.get("products", [])}
             current_skus = {p['vendorCode'] for p in current_products}
             
-            # Помечаем отсутствующие на странице товары как "нет в наличии"
             for vendor_code, old_prod in products_map.items():
                 if vendor_code not in current_skus:
                     old_prod['available'] = False
                     
-            # Обновляем базу свежими данными
             for prod in current_products:
                 products_map[prod['vendorCode']] = prod
             
