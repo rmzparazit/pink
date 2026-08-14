@@ -46,25 +46,6 @@ def get_custom_image_url(vendor_code):
 
     return None
 
-def normalize_collection_id(val):
-    """Нормализует ID коллекции."""
-    if not val:
-        return ""
-    s_val = str(val)
-    if 'e' in s_val.lower():
-        try:
-            return str(int(float(s_val)))
-        except:
-            pass
-    if isinstance(val, (int, float)):
-        return str(int(val))
-    if '.' in s_val and s_val.replace('.', '').isdigit():
-        try:
-            return str(int(float(s_val)))
-        except:
-            pass
-    return s_val
-
 def load_progress():
     """Загружает прогресс парсинга из файла."""
     if os.path.exists(PROGRESS_FILE):
@@ -94,8 +75,11 @@ def save_progress(products):
         log(f"❌ Ошибка сохранения: {e}")
 
 def extract_collections(page):
-    """Извлекает список коллекций с сайта по новой структуре (t976)."""
+    """Извлекает список коллекций с сайта и назначает им числовые ID."""
     collections = []
+    seen_slugs = set()
+    cat_id_counter = 2  # Начинаем с 2, так как 1 зарезервирована под "Секс-игрушки"
+    
     try:
         page.wait_for_selector('.t976__list-item a', timeout=5000)
         links = page.query_selector_all('.t976__list-item a')
@@ -105,25 +89,33 @@ def extract_collections(page):
             href = link.get_attribute('href') or ""
             
             if name and name.lower() != "все" and href:
-                slug = href.split('/')[-1]
-                final_id = normalize_collection_id(slug)
+                slug = href.split('/')[-1].strip()
+                
+                # Защита от дублей категорий
+                if not slug or slug in seen_slugs:
+                    continue
+                seen_slugs.add(slug)
+                
+                cat_id = str(cat_id_counter)
+                cat_id_counter += 1
                 
                 full_url = f"https://pinkypunk.ru{href}" if href.startswith('/') else href
-                collections.append({'id': final_id, 'slug': slug, 'name': name, 'url': full_url.strip()})
-                log(f"🏷️ Найдена категория на сайте: {name} -> Slug: {slug} -> ID: {final_id}")
+                collections.append({'id': cat_id, 'slug': slug, 'name': name, 'url': full_url.strip()})
+                log(f"🏷️ Найдена категория: {name} -> Slug: {slug} -> Int_ID: {cat_id}")
                 
     except Exception as e:
         log(f"⚠️ Ошибка при извлечении коллекций: {e}")
     return collections
 
 def parse_catalog_page(page):
-    """Парсит каталог, извлекает характеристики и информацию для клонирования коллекций."""
+    """Парсит каталог, извлекает характеристики и информацию для категорий."""
     log("📦 Начинаем парсинг каталога...")
     all_products = []
     
     page.goto(BASE_URL, timeout=60000)
     page.wait_for_timeout(5000)
     
+    # Собираем категории и их числовые ID
     collections = extract_collections(page)
     
     try:
@@ -198,7 +190,7 @@ def parse_catalog_page(page):
             descr_el = card.query_selector('.js-catalog-prod-descr, .js-store-prod-descr')
             description = descr_el.inner_text().strip() if descr_el else ""
 
-            # --- ФОРМИРОВАНИЕ ХАРАКТЕРИСТИК (PROPERTY) И КАТЕГОРИИ ---
+            # --- ФОРМИРОВАНИЕ ХАРАКТЕРИСТИК И КАТЕГОРИИ ---
             properties = []
             cat_name = "Секс-игрушки"
             cat_id = "1"
@@ -209,7 +201,7 @@ def parse_catalog_page(page):
                     sub_parts = url_parts[1].split('/')
                     if len(sub_parts) > 0:
                         cat_slug = sub_parts[0]
-                        # Привязываем товар к найденной категории
+                        # Сопоставляем slug с нашим сгенерированным числовым ID
                         for c in collections:
                             if c['slug'] == cat_slug:
                                 cat_name = c['name']
@@ -239,7 +231,7 @@ def parse_catalog_page(page):
                 'name': name, 'vendorCode': vendorCode, 'link': link, 'price': price,
                 'image': image, 'description': description, 'available': available, 
                 'properties': properties, 'additional_images': [],
-                'categoryId': cat_id, 'categoryName': cat_name  # Сохраняем ID и имя категории
+                'categoryId': cat_id, 'categoryName': cat_name
             })
         except Exception as e:
             log(f"⚠️ Ошибка парсинга карточки: {e}")
@@ -257,7 +249,7 @@ def clean_text_for_xml(text):
     return text
 
 def generate_xml(products, collections):
-    """Генерирует XML-фид вручную, делая коллекции точными клонами офферов."""
+    """Генерирует XML-фид с правильными числовыми categoryId."""
     log("📝 Генерация XML-фида...")
     current_date = datetime.now().strftime("%Y-%m-%d %H:%M")
     
@@ -276,12 +268,10 @@ def generate_xml(products, collections):
     xml_lines.append('      <currency id="RUB" rate="1"/>')
     xml_lines.append('    </currencies>')
     
-    # --- ДИНАМИЧЕСКИЕ КАТЕГОРИИ ---
+    # --- КАТЕГОРИИ С ЧИСЛОВЫМИ ID ---
     xml_lines.append('    <categories>')
-    # Базовая категория на случай, если товар не найдет соответствий
     xml_lines.append('      <category id="1">Секс-игрушки</category>')
     for c in collections:
-        # Добавляем все категории, которые удалось спарсить с сайта
         xml_lines.append(f'      <category id="{c["id"]}">{clean_text_for_xml(c["name"])}</category>')
     xml_lines.append('    </categories>')
     
@@ -304,7 +294,7 @@ def generate_xml(products, collections):
         xml_lines.append(f'        <price>{prod["price"]}</price>')
         xml_lines.append('        <currencyId>RUB</currencyId>')
         
-        # Подставляем ID категории товара
+        # Интегрируем числовой ID
         xml_lines.append(f'        <categoryId>{cat_id}</categoryId>')
         
         custom_image = get_custom_image_url(vendor_code)
@@ -322,7 +312,7 @@ def generate_xml(products, collections):
              
         xml_lines.append('        <sales_notes>Официальный сайт Секспедиция.</sales_notes>')
         
-        # Название категории записываем в custom_label_0
+        # Название категории идет в custom_label_0
         xml_lines.append(f'        <custom_label_0>{clean_text_for_xml(cat_name)}</custom_label_0>')
         
         if prod.get("properties"):
@@ -377,7 +367,7 @@ def generate_xml(products, collections):
 
 # --- ОСНОВНОЙ ЗАПУСК ---
 if __name__ == "__main__":
-    log("🚀 Запуск парсера pinkypunk.ru (v14 - Динамические категории)")
+    log("🚀 Запуск парсера pinkypunk.ru (v15 - Целые числа для категорий)")
     
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=True)
