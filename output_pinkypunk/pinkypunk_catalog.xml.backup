@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<yml_catalog date="2026-08-17 21:14">
+<yml_catalog date="2026-08-18 21:12">
   <shop>
     <name>Секспедиция</name>
     <company>Секспедиция</company>
@@ -1535,6 +1535,86 @@
         <property name="Ширина упаковки">100 мм</property>
         <property name="Высота упаковки">100 мм</property>
       </offer>
+      <offer id="1117877732" available="true">
+        <name>Мастурбатор в сиське «Моносись»</name>
+        <vendor>Секспедиция</vendor>
+        <vendorCode>1117877732</vendorCode>
+        <price>6990</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>3</categoryId>
+        <picture>https://static.tildacdn.com/stor3532-3432-4032-b432-363330326134/017109afbe97d677d2229c6274c80fe9.jpg</picture>
+        <collectionId>1117877732</collectionId>
+        <url>https://pinkypunk.ru/catalog/masturbatori/monosis</url>
+        <description>Мастурбатор «Моносись» — компактная версия легендарной «ПисьДаСись», сохранившая все самое интересное.</description>
+        <sales_notes>Официальный сайт Секспедиция.</sales_notes>
+        <custom_label_0>Мастурбаторы</custom_label_0>
+        <property name="Категория">Мастурбаторы</property>
+        <property name="Бренд">Секспедиция</property>
+        <property name="Вес брутто">1650 г</property>
+        <property name="Длина упаковки">370 мм</property>
+        <property name="Ширина упаковки">160 мм</property>
+        <property name="Высота упаковки">160 мм</property>
+      </offer>
+      <offer id="1109897448" available="true">
+        <name>Огромный фаллоимитатор «Мистер Залупкин»</name>
+        <vendor>Секспедиция</vendor>
+        <vendorCode>1109897448</vendorCode>
+        <price>6900</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>2</categoryId>
+        <picture>https://static.tildacdn.com/stor3865-3230-4239-a531-613735613264/d66da12827d6477b8513d70cbcf52dac.jpg</picture>
+        <collectionId>1109897448</collectionId>
+        <url>https://pinkypunk.ru/catalog/falloimitators/mister-zalupkin-34-10</url>
+        <description>Фаллоимитатор «Мистер Залупкин» — огромный представитель серии для тех, кому стандартные размеры уже неинтересны.</description>
+        <sales_notes>Официальный сайт Секспедиция.</sales_notes>
+        <custom_label_0>Фаллоимитаторы</custom_label_0>
+        <property name="Категория">Фаллоимитаторы</property>
+        <property name="Бренд">Секспедиция</property>
+        <property name="Вес брутто">2700 г</property>
+        <property name="Длина упаковки">370 мм</property>
+        <property name="Ширина упаковки">160 мм</property>
+        <property name="Высота упаковки">160 мм</property>
+      </offer>
+      <offer id="1109899128" available="true">
+        <name>Фаллоимитатор «Кобра»</name>
+        <vendor>Секспедиция</vendor>
+        <vendorCode>1109899128</vendorCode>
+        <price>2200</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>2</categoryId>
+        <picture>https://static.tildacdn.com/stor3930-3531-4436-a530-633237353765/ef36081911629c2a3ae931d61774e364.jpg</picture>
+        <collectionId>1109899128</collectionId>
+        <url>https://pinkypunk.ru/catalog/falloimitators/kobra-20-4-5</url>
+        <description>Фаллоимитатор «Кобра» — реалистичная модель с выразительным изгибом для ярких и разнообразных ощущений.</description>
+        <sales_notes>Официальный сайт Секспедиция.</sales_notes>
+        <custom_label_0>Фаллоимитаторы</custom_label_0>
+        <property name="Категория">Фаллоимитаторы</property>
+        <property name="Бренд">Секспедиция</property>
+        <property name="Вес брутто">380 г</property>
+        <property name="Длина упаковки">250 мм</property>
+        <property name="Ширина упаковки">100 мм</property>
+        <property name="Высота упаковки">100 мм</property>
+      </offer>
+      <offer id="1109902435" available="true">
+        <name>Большой фаллоимитатор «Колоссальный титан»</name>
+        <vendor>Секспедиция</vendor>
+        <vendorCode>1109902435</vendorCode>
+        <price>5800</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>2</categoryId>
+        <picture>https://static.tildacdn.com/stor6339-3938-4234-b431-323734343765/b60a7b0ba98c69b5cb81862b089633fa.jpg</picture>
+        <collectionId>1109902435</collectionId>
+        <url>https://pinkypunk.ru/catalog/falloimitators/kolossalny-titan-32-9</url>
+        <description>Фаллоимитатор «Титан» — колоссальный дилдо для опытных пользователей.</description>
+        <sales_notes>Официальный сайт Секспедиция.</sales_notes>
+        <custom_label_0>Фаллоимитаторы</custom_label_0>
+        <property name="Категория">Фаллоимитаторы</property>
+        <property name="Бренд">Секспедиция</property>
+        <property name="Вес брутто">2000 г</property>
+        <property name="Длина упаковки">370 мм</property>
+        <property name="Ширина упаковки">160 мм</property>
+        <property name="Высота упаковки">160 мм</property>
+      </offer>
     </offers>
     <collections>
       <collection id="287449573">
@@ -1956,6 +2036,30 @@
         <url>https://pinkypunk.ru/catalog/probki/prilipala</url>
         <picture>https://static.tildacdn.com/stor3334-6164-4566-b630-353166333435/3147489c905de00b42f0919bd53b89c1.jpg</picture>
         <description>Проект «Надувалы»</description>
+      </collection>
+      <collection id="1117877732">
+        <name>Мастурбатор в сиське «Моносись»</name>
+        <url>https://pinkypunk.ru/catalog/masturbatori/monosis</url>
+        <picture>https://static.tildacdn.com/stor3532-3432-4032-b432-363330326134/017109afbe97d677d2229c6274c80fe9.jpg</picture>
+        <description>Мастурбатор «Моносись» — компактная версия легендарной «ПисьДаСись», сохранившая все самое интересное.</description>
+      </collection>
+      <collection id="1109897448">
+        <name>Огромный фаллоимитатор «Мистер Залупкин»</name>
+        <url>https://pinkypunk.ru/catalog/falloimitators/mister-zalupkin-34-10</url>
+        <picture>https://static.tildacdn.com/stor3865-3230-4239-a531-613735613264/d66da12827d6477b8513d70cbcf52dac.jpg</picture>
+        <description>Фаллоимитатор «Мистер Залупкин» — огромный представитель серии для тех, кому стандартные размеры уже неинтересны.</description>
+      </collection>
+      <collection id="1109899128">
+        <name>Фаллоимитатор «Кобра»</name>
+        <url>https://pinkypunk.ru/catalog/falloimitators/kobra-20-4-5</url>
+        <picture>https://static.tildacdn.com/stor3930-3531-4436-a530-633237353765/ef36081911629c2a3ae931d61774e364.jpg</picture>
+        <description>Фаллоимитатор «Кобра» — реалистичная модель с выразительным изгибом для ярких и разнообразных ощущений.</description>
+      </collection>
+      <collection id="1109902435">
+        <name>Большой фаллоимитатор «Колоссальный титан»</name>
+        <url>https://pinkypunk.ru/catalog/falloimitators/kolossalny-titan-32-9</url>
+        <picture>https://static.tildacdn.com/stor6339-3938-4234-b431-323734343765/b60a7b0ba98c69b5cb81862b089633fa.jpg</picture>
+        <description>Фаллоимитатор «Титан» — колоссальный дилдо для опытных пользователей.</description>
       </collection>
     </collections>
   </shop>

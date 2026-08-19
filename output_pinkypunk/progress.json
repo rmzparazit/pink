@@ -2017,7 +2017,7 @@
             "price": "2350",
             "image": "https://static.tildacdn.com/stor3765-3866-4833-b632-313131343030/7073ca6eabc166bdf260d9696b5fe4a8.png",
             "description": "Эпизод 1 - Первый контакт",
-            "available": true,
+            "available": false,
             "properties": [
                 {
                     "name": "Категория",
@@ -2207,7 +2207,7 @@
             "price": "3300",
             "image": "https://static.tildacdn.com/stor6531-6632-4363-b839-626538643936/1069de527a58f64f5c1a083fb2f04c2a.jpg",
             "description": "Два входа - два сценария",
-            "available": true,
+            "available": false,
             "properties": [
                 {
                     "name": "Категория",
