@@ -2017,7 +2017,7 @@
             "price": "2350",
             "image": "https://static.tildacdn.com/stor3765-3866-4833-b632-313131343030/7073ca6eabc166bdf260d9696b5fe4a8.png",
             "description": "Эпизод 1 - Первый контакт",
-            "available": false,
+            "available": true,
             "properties": [
                 {
                     "name": "Категория",
