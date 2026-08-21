@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<yml_catalog date="2026-08-20 21:16">
+<yml_catalog date="2026-08-21 14:36">
   <shop>
     <name>Секспедиция</name>
     <company>Секспедиция</company>
@@ -420,7 +420,7 @@
         <property name="Ширина упаковки">350 мм</property>
         <property name="Высота упаковки">400 мм</property>
       </offer>
-      <offer id="474354054" available="false">
+      <offer id="474354054" available="true">
         <name>Фаллоимитатор "Пирамидоголовый" / Размер S</name>
         <vendor>Секспедиция</vendor>
         <vendorCode>474354054</vendorCode>
@@ -428,6 +428,7 @@
         <currencyId>RUB</currencyId>
         <categoryId>2</categoryId>
         <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/474354054.png</picture>
+        <collectionId>474354054</collectionId>
         <url>https://pinkypunk.ru/catalog/falloimitators/piramidogoloviy-s</url>
         <description>16см - общая длина / 4см - диаметр у основания</description>
         <sales_notes>Официальный сайт Секспедиция.</sales_notes>
@@ -1541,7 +1542,7 @@
         <price>6990</price>
         <currencyId>RUB</currencyId>
         <categoryId>3</categoryId>
-        <picture>https://static.tildacdn.com/stor3532-3432-4032-b432-363330326134/017109afbe97d677d2229c6274c80fe9.jpg</picture>
+        <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/1117877732.png</picture>
         <collectionId>1117877732</collectionId>
         <url>https://pinkypunk.ru/catalog/masturbatori/monosis</url>
         <description>Мастурбатор «Моносись» — компактная версия легендарной «ПисьДаСись», сохранившая все самое интересное.</description>
@@ -1561,7 +1562,7 @@
         <price>6900</price>
         <currencyId>RUB</currencyId>
         <categoryId>2</categoryId>
-        <picture>https://static.tildacdn.com/stor3865-3230-4239-a531-613735613264/d66da12827d6477b8513d70cbcf52dac.jpg</picture>
+        <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/1109897448.png</picture>
         <collectionId>1109897448</collectionId>
         <url>https://pinkypunk.ru/catalog/falloimitators/mister-zalupkin-34-10</url>
         <description>Фаллоимитатор «Мистер Залупкин» — огромный представитель серии для тех, кому стандартные размеры уже неинтересны.</description>
@@ -1581,7 +1582,7 @@
         <price>2200</price>
         <currencyId>RUB</currencyId>
         <categoryId>2</categoryId>
-        <picture>https://static.tildacdn.com/stor3930-3531-4436-a530-633237353765/ef36081911629c2a3ae931d61774e364.jpg</picture>
+        <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/1109899128.png</picture>
         <collectionId>1109899128</collectionId>
         <url>https://pinkypunk.ru/catalog/falloimitators/kobra-20-4-5</url>
         <description>Фаллоимитатор «Кобра» — реалистичная модель с выразительным изгибом для ярких и разнообразных ощущений.</description>
@@ -1601,7 +1602,7 @@
         <price>5800</price>
         <currencyId>RUB</currencyId>
         <categoryId>2</categoryId>
-        <picture>https://static.tildacdn.com/stor6339-3938-4234-b431-323734343765/b60a7b0ba98c69b5cb81862b089633fa.jpg</picture>
+        <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/1109902435.png</picture>
         <collectionId>1109902435</collectionId>
         <url>https://pinkypunk.ru/catalog/falloimitators/kolossalny-titan-32-9</url>
         <description>Фаллоимитатор «Титан» — колоссальный дилдо для опытных пользователей.</description>
@@ -1729,6 +1730,12 @@
         <url>https://pinkypunk.ru/catalog/sex-kukli/19kg-radosti</url>
         <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/489065280.png</picture>
         <description>19кг - это как 30, но на 11 легче :)</description>
+      </collection>
+      <collection id="474354054">
+        <name>Фаллоимитатор "Пирамидоголовый" / Размер S</name>
+        <url>https://pinkypunk.ru/catalog/falloimitators/piramidogoloviy-s</url>
+        <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/474354054.png</picture>
+        <description>16см - общая длина / 4см - диаметр у основания</description>
       </collection>
       <collection id="474355554">
         <name>Фаллоимитатор "Пирамидоголовый" / Размер M</name>
@@ -2033,25 +2040,25 @@
       <collection id="1117877732">
         <name>Мастурбатор в сиське «Моносись»</name>
         <url>https://pinkypunk.ru/catalog/masturbatori/monosis</url>
-        <picture>https://static.tildacdn.com/stor3532-3432-4032-b432-363330326134/017109afbe97d677d2229c6274c80fe9.jpg</picture>
+        <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/1117877732.png</picture>
         <description>Мастурбатор «Моносись» — компактная версия легендарной «ПисьДаСись», сохранившая все самое интересное.</description>
       </collection>
       <collection id="1109897448">
         <name>Огромный фаллоимитатор «Мистер Залупкин»</name>
         <url>https://pinkypunk.ru/catalog/falloimitators/mister-zalupkin-34-10</url>
-        <picture>https://static.tildacdn.com/stor3865-3230-4239-a531-613735613264/d66da12827d6477b8513d70cbcf52dac.jpg</picture>
+        <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/1109897448.png</picture>
         <description>Фаллоимитатор «Мистер Залупкин» — огромный представитель серии для тех, кому стандартные размеры уже неинтересны.</description>
       </collection>
       <collection id="1109899128">
         <name>Фаллоимитатор «Кобра»</name>
         <url>https://pinkypunk.ru/catalog/falloimitators/kobra-20-4-5</url>
-        <picture>https://static.tildacdn.com/stor3930-3531-4436-a530-633237353765/ef36081911629c2a3ae931d61774e364.jpg</picture>
+        <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/1109899128.png</picture>
         <description>Фаллоимитатор «Кобра» — реалистичная модель с выразительным изгибом для ярких и разнообразных ощущений.</description>
       </collection>
       <collection id="1109902435">
         <name>Большой фаллоимитатор «Колоссальный титан»</name>
         <url>https://pinkypunk.ru/catalog/falloimitators/kolossalny-titan-32-9</url>
-        <picture>https://static.tildacdn.com/stor6339-3938-4234-b431-323734343765/b60a7b0ba98c69b5cb81862b089633fa.jpg</picture>
+        <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/1109902435.png</picture>
         <description>Фаллоимитатор «Титан» — колоссальный дилдо для опытных пользователей.</description>
       </collection>
     </collections>
