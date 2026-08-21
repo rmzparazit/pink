@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<yml_catalog date="2026-08-19 21:14">
+<yml_catalog date="2026-08-20 21:16">
   <shop>
     <name>Секспедиция</name>
     <company>Секспедиция</company>
@@ -1076,7 +1076,7 @@
         <property name="Ширина упаковки">95 мм</property>
         <property name="Высота упаковки">95 мм</property>
       </offer>
-      <offer id="833442267" available="false">
+      <offer id="833442267" available="true">
         <name>Фаллоимитатор "Сутулый". Эпизод I.</name>
         <vendor>Секспедиция</vendor>
         <vendorCode>833442267</vendorCode>
@@ -1084,6 +1084,7 @@
         <currencyId>RUB</currencyId>
         <categoryId>2</categoryId>
         <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/833442267.png</picture>
+        <collectionId>833442267</collectionId>
         <url>https://pinkypunk.ru/catalog/falloimitators/sutuliy-episode1-21-4</url>
         <description>Эпизод 1 - Первый контакт</description>
         <sales_notes>Официальный сайт Секспедиция.</sales_notes>
@@ -1902,6 +1903,12 @@
         <url>https://pinkypunk.ru/catalog/falloimitators/sun-podsun-23-3-2</url>
         <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/833467546.png</picture>
         <description>Сунь-Подсунь куда угодно для новых ощущений :)</description>
+      </collection>
+      <collection id="833442267">
+        <name>Фаллоимитатор "Сутулый". Эпизод I.</name>
+        <url>https://pinkypunk.ru/catalog/falloimitators/sutuliy-episode1-21-4</url>
+        <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/833442267.png</picture>
+        <description>Эпизод 1 - Первый контакт</description>
       </collection>
       <collection id="833442268">
         <name>Фаллоимитатор "Сутулый". Эпизод II.</name>

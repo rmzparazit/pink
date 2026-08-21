@@ -767,7 +767,7 @@
             "price": "1790",
             "image": "https://static.tildacdn.com/stor6133-6365-4331-b930-366536393964/87872427.jpg",
             "description": "16см - общая длина / 4см - диаметр у основания",
-            "available": false,
+            "available": true,
             "properties": [
                 {
                     "name": "Категория",
