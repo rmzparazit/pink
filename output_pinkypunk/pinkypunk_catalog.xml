@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<yml_catalog date="2026-08-25 21:15">
+<yml_catalog date="2026-08-27 00:19">
   <shop>
     <name>Секспедиция</name>
     <company>Секспедиция</company>
@@ -1121,7 +1121,7 @@
         <name>"Сам себе Шляпник" Размер M-L</name>
         <vendor>Секспедиция</vendor>
         <vendorCode>876932251</vendorCode>
-        <price>1490</price>
+        <price>1590</price>
         <currencyId>RUB</currencyId>
         <categoryId>8</categoryId>
         <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/876932251.png</picture>
@@ -1141,7 +1141,7 @@
         <name>"Сам себе Шляпник" Размер S-M</name>
         <vendor>Секспедиция</vendor>
         <vendorCode>876932250</vendorCode>
-        <price>1390</price>
+        <price>1490</price>
         <currencyId>RUB</currencyId>
         <categoryId>8</categoryId>
         <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/876932250.png</picture>
@@ -1181,7 +1181,7 @@
         <name>Сквозной мастурбатор "Сквозняк"</name>
         <vendor>Секспедиция</vendor>
         <vendorCode>982257003</vendorCode>
-        <price>3300</price>
+        <price>3900</price>
         <currencyId>RUB</currencyId>
         <categoryId>3</categoryId>
         <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/982257003.png</picture>
@@ -1415,7 +1415,7 @@
         <property name="Ширина упаковки">160 мм</property>
         <property name="Высота упаковки">160 мм</property>
       </offer>
-      <offer id="1117867460" available="true">
+      <offer id="1117867460" available="false">
         <name>Мастурбатор большой "Лилит Петровна"</name>
         <vendor>Секспедиция</vendor>
         <vendorCode>1117867460</vendorCode>
@@ -1423,7 +1423,6 @@
         <currencyId>RUB</currencyId>
         <categoryId>3</categoryId>
         <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/1117867460.png</picture>
-        <collectionId>1117867460</collectionId>
         <url>https://pinkypunk.ru/catalog/masturbatori/lilit-petrovna</url>
         <description>Дочка сказала, что работа не пыльная? :)</description>
         <sales_notes>Официальный сайт Секспедиция.</sales_notes>
@@ -1614,6 +1613,46 @@
         <property name="Длина упаковки">370 мм</property>
         <property name="Ширина упаковки">160 мм</property>
         <property name="Высота упаковки">160 мм</property>
+      </offer>
+      <offer id="1266623893" available="true">
+        <name>Фаллоимитатор рельефный «Синтолыч»</name>
+        <vendor>Секспедиция</vendor>
+        <vendorCode>1266623893</vendorCode>
+        <price>3500</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>2</categoryId>
+        <picture>https://static.tildacdn.com/stor3439-3766-4335-b761-336661373130/e6a5efa7bf6007398116662bd5ef0d46.jpg</picture>
+        <collectionId>1266623893</collectionId>
+        <url>https://pinkypunk.ru/catalog/falloimitators/sintolych-23-5</url>
+        <description>«Руки базуки», только не совсем руки..</description>
+        <sales_notes>Официальный сайт Секспедиция.</sales_notes>
+        <custom_label_0>Фаллоимитаторы</custom_label_0>
+        <property name="Категория">Фаллоимитаторы</property>
+        <property name="Бренд">Секспедиция</property>
+        <property name="Вес брутто">550 г</property>
+        <property name="Длина упаковки">245 мм</property>
+        <property name="Ширина упаковки">95 мм</property>
+        <property name="Высота упаковки">95 мм</property>
+      </offer>
+      <offer id="1304366793" available="true">
+        <name>Фаллоимитатор большой «Титан Молот»</name>
+        <vendor>Секспедиция</vendor>
+        <vendorCode>1304366793</vendorCode>
+        <price>14000</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>2</categoryId>
+        <picture>https://static.tildacdn.com/stor3735-6235-4663-a430-353338626136/e2e4e65a430d907821e204dbcc31885f.jpg</picture>
+        <collectionId>1304366793</collectionId>
+        <url>https://pinkypunk.ru/catalog/falloimitators/titan-molot-30-9</url>
+        <description>Титан Молот — гигантский реалистичный фаллоимитатор для тех, кому стандартные размеры уже кажутся слишком скромными</description>
+        <sales_notes>Официальный сайт Секспедиция.</sales_notes>
+        <custom_label_0>Фаллоимитаторы</custom_label_0>
+        <property name="Категория">Фаллоимитаторы</property>
+        <property name="Бренд">Секспедиция</property>
+        <property name="Вес брутто">1650 г</property>
+        <property name="Длина упаковки">360 мм</property>
+        <property name="Ширина упаковки">150 мм</property>
+        <property name="Высота упаковки">150 мм</property>
       </offer>
     </offers>
     <collections>
@@ -2001,12 +2040,6 @@
         <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/1117818982.png</picture>
         <description>Руками не работаю. Кстати, не забудь познакомиться с моей мамой..</description>
       </collection>
-      <collection id="1117867460">
-        <name>Мастурбатор большой "Лилит Петровна"</name>
-        <url>https://pinkypunk.ru/catalog/masturbatori/lilit-petrovna</url>
-        <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/1117867460.png</picture>
-        <description>Дочка сказала, что работа не пыльная? :)</description>
-      </collection>
       <collection id="1109901167">
         <name>Фаллоимитатор гибкий "Долговязый"</name>
         <url>https://pinkypunk.ru/catalog/falloimitators/dolgovyaziy-31-5-5</url>
@@ -2060,6 +2093,18 @@
         <url>https://pinkypunk.ru/catalog/falloimitators/kolossalny-titan-32-9</url>
         <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/1109902435.png</picture>
         <description>Фаллоимитатор «Титан» — колоссальный дилдо для опытных пользователей.</description>
+      </collection>
+      <collection id="1266623893">
+        <name>Фаллоимитатор рельефный «Синтолыч»</name>
+        <url>https://pinkypunk.ru/catalog/falloimitators/sintolych-23-5</url>
+        <picture>https://static.tildacdn.com/stor3439-3766-4335-b761-336661373130/e6a5efa7bf6007398116662bd5ef0d46.jpg</picture>
+        <description>«Руки базуки», только не совсем руки..</description>
+      </collection>
+      <collection id="1304366793">
+        <name>Фаллоимитатор большой «Титан Молот»</name>
+        <url>https://pinkypunk.ru/catalog/falloimitators/titan-molot-30-9</url>
+        <picture>https://static.tildacdn.com/stor3735-6235-4663-a430-353338626136/e2e4e65a430d907821e204dbcc31885f.jpg</picture>
+        <description>Титан Молот — гигантский реалистичный фаллоимитатор для тех, кому стандартные размеры уже кажутся слишком скромными</description>
       </collection>
     </collections>
   </shop>
