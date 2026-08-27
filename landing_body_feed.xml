@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<yml_catalog date="2026-08-27 12:14">
+  <shop>
+    <name>Секспедиция</name>
+    <company>Секспедиция</company>
+    <url>https://pinkypunk.ru/body</url>
+    <platform>Tilda</platform>
+    <version>1.0</version>
+    <currencies>
+      <currency id="RUB" rate="1"/>
+    </currencies>
+    <categories>
+      <category id="4">Секс-куклы</category>
+    </categories>
+    <offers>
+      <offer id="471859805" available="true">
+        <name>Секс-кукла "30кг радости"</name>
+        <vendor>Секспедиция</vendor>
+        <vendorCode>471859805</vendorCode>
+        <price>75900</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>4</categoryId>
+        <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/471859805.png</picture>
+        <collectionId>471859805</collectionId>
+        <url>https://pinkypunk.ru/body</url>
+        <description>Даже и добавить нечего.</description>
+        <sales_notes>Официальный сайт Секспедиция.</sales_notes>
+        <custom_label_0>Секс-куклы</custom_label_0>
+        <property name="Категория">Секс-куклы</property>
+        <property name="Бренд">Секспедиция</property>
+        <property name="Вес брутто">34000 г</property>
+        <property name="Длина упаковки">850 мм</property>
+        <property name="Ширина упаковки">450 мм</property>
+        <property name="Высота упаковки">330 мм</property>
+      </offer>
+      <offer id="489065280" available="true">
+        <name>Секс-кукла "19кг радости"</name>
+        <vendor>Секспедиция</vendor>
+        <vendorCode>489065280</vendorCode>
+        <price>49000</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>4</categoryId>
+        <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/489065280.png</picture>
+        <collectionId>489065280</collectionId>
+        <url>https://pinkypunk.ru/body</url>
+        <description>19кг - это как 30, но на 11 легче :)</description>
+        <sales_notes>Официальный сайт Секспедиция.</sales_notes>
+        <custom_label_0>Секс-куклы</custom_label_0>
+        <property name="Категория">Секс-куклы</property>
+        <property name="Бренд">Секспедиция</property>
+        <property name="Вес брутто">23000 г</property>
+        <property name="Длина упаковки">700 мм</property>
+        <property name="Ширина упаковки">350 мм</property>
+        <property name="Высота упаковки">400 мм</property>
+      </offer>
+      <offer id="744029576" available="true">
+        <name>Секс-кукла "9кг радости"</name>
+        <vendor>Секспедиция</vendor>
+        <vendorCode>744029576</vendorCode>
+        <price>24900</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>4</categoryId>
+        <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/744029576.png</picture>
+        <collectionId>744029576</collectionId>
+        <url>https://pinkypunk.ru/body</url>
+        <description>9кг - это как 19, но на 10 по-легче :)</description>
+        <sales_notes>Официальный сайт Секспедиция.</sales_notes>
+        <custom_label_0>Секс-куклы</custom_label_0>
+        <property name="Категория">Секс-куклы</property>
+        <property name="Бренд">Секспедиция</property>
+        <property name="Вес брутто">11300 г</property>
+        <property name="Длина упаковки">610 мм</property>
+        <property name="Ширина упаковки">310 мм</property>
+        <property name="Высота упаковки">250 мм</property>
+      </offer>
+    </offers>
+    <collections>
+      <collection id="471859805">
+        <name>Секс-кукла "30кг радости"</name>
+        <url>https://pinkypunk.ru/body</url>
+        <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/471859805.png</picture>
+        <description>Даже и добавить нечего.</description>
+      </collection>
+      <collection id="489065280">
+        <name>Секс-кукла "19кг радости"</name>
+        <url>https://pinkypunk.ru/body</url>
+        <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/489065280.png</picture>
+        <description>19кг - это как 30, но на 11 легче :)</description>
+      </collection>
+      <collection id="744029576">
+        <name>Секс-кукла "9кг радости"</name>
+        <url>https://pinkypunk.ru/body</url>
+        <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/744029576.png</picture>
+        <description>9кг - это как 19, но на 10 по-легче :)</description>
+      </collection>
+    </collections>
+  </shop>
+</yml_catalog>
