@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<yml_catalog date="2026-08-28 05:00">
+<yml_catalog date="2026-08-29 02:56">
   <shop>
     <name>Секспедиция</name>
     <company>Секспедиция</company>
@@ -857,7 +857,7 @@
         <property name="Ширина упаковки">150 мм</property>
         <property name="Высота упаковки">50 мм</property>
       </offer>
-      <offer id="491483858" available="true">
+      <offer id="491483858" available="false">
         <name>Реалистичная попка "Люси Мью"</name>
         <vendor>Секспедиция</vendor>
         <vendorCode>491483858</vendorCode>
@@ -865,7 +865,6 @@
         <currencyId>RUB</currencyId>
         <categoryId>3</categoryId>
         <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/491483858.png</picture>
-        <collectionId>491483858</collectionId>
         <url>https://pinkypunk.ru/catalog/masturbatori/lyusi-myu</url>
         <description>Большая, сочная и нежная</description>
         <sales_notes>Официальный сайт Секспедиция.</sales_notes>
@@ -1654,6 +1653,66 @@
         <property name="Ширина упаковки">150 мм</property>
         <property name="Высота упаковки">150 мм</property>
       </offer>
+      <offer id="1304367610" available="true">
+        <name>Фаллоимитатор маленький «Пипин Короткий»</name>
+        <vendor>Секспедиция</vendor>
+        <vendorCode>1304367610</vendorCode>
+        <price>2490</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>2</categoryId>
+        <picture>https://static.tildacdn.com/stor6432-6563-4238-a261-333461396239/e556c9fcee16c1a94ce81d10456ea754.jpg</picture>
+        <collectionId>1304367610</collectionId>
+        <url>https://pinkypunk.ru/catalog/falloimitators/pipin-korotkiy-18-5</url>
+        <description>Размер не главное</description>
+        <sales_notes>Официальный сайт Секспедиция.</sales_notes>
+        <custom_label_0>Фаллоимитаторы</custom_label_0>
+        <property name="Категория">Фаллоимитаторы</property>
+        <property name="Бренд">Секспедиция</property>
+        <property name="Вес брутто">400 г</property>
+        <property name="Длина упаковки">185 мм</property>
+        <property name="Ширина упаковки">95 мм</property>
+        <property name="Высота упаковки">95 мм</property>
+      </offer>
+      <offer id="1433452729" available="true">
+        <name>Мастурбатор «Кент» мужской торс с членом</name>
+        <vendor>Секспедиция</vendor>
+        <vendorCode>1433452729</vendorCode>
+        <price>7700</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>3</categoryId>
+        <picture>https://static.tildacdn.com/stor6333-3664-4661-b432-636236393233/e4ad009042c67a11ae492c154702ca30.jpg</picture>
+        <collectionId>1433452729</collectionId>
+        <url>https://pinkypunk.ru/catalog/masturbatori/kent</url>
+        <description>Как мы вообще до этого додумались?</description>
+        <sales_notes>Официальный сайт Секспедиция.</sales_notes>
+        <custom_label_0>Мастурбаторы</custom_label_0>
+        <property name="Категория">Мастурбаторы</property>
+        <property name="Бренд">Секспедиция</property>
+        <property name="Вес брутто">2100 г</property>
+        <property name="Длина упаковки">360 мм</property>
+        <property name="Ширина упаковки">150 мм</property>
+        <property name="Высота упаковки">150 мм</property>
+      </offer>
+      <offer id="1469362144" available="true">
+        <name>Сквозной мастурбатор «Сквозняк PRO MAX»</name>
+        <vendor>Секспедиция</vendor>
+        <vendorCode>1469362144</vendorCode>
+        <price>4400</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>3</categoryId>
+        <picture>https://static.tildacdn.com/stor3633-3661-4065-b865-303132653730/10fab7b4ff45f9883ddb47d3d1d19cdc.jpg</picture>
+        <collectionId>1469362144</collectionId>
+        <url>https://pinkypunk.ru/catalog/masturbatori/skvoznyak-pro-max</url>
+        <description>Версия «Сквозняка» 2.0</description>
+        <sales_notes>Официальный сайт Секспедиция.</sales_notes>
+        <custom_label_0>Мастурбаторы</custom_label_0>
+        <property name="Категория">Мастурбаторы</property>
+        <property name="Бренд">Секспедиция</property>
+        <property name="Вес брутто">860 г</property>
+        <property name="Длина упаковки">185 мм</property>
+        <property name="Ширина упаковки">95 мм</property>
+        <property name="Высота упаковки">95 мм</property>
+      </offer>
     </offers>
     <collections>
       <collection id="287449573">
@@ -1884,12 +1943,6 @@
         <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/474613283.png</picture>
         <description>16 см общая длина / 3.5 см диаметр</description>
       </collection>
-      <collection id="491483858">
-        <name>Реалистичная попка "Люси Мью"</name>
-        <url>https://pinkypunk.ru/catalog/masturbatori/lyusi-myu</url>
-        <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/491483858.png</picture>
-        <description>Большая, сочная и нежная</description>
-      </collection>
       <collection id="474535086">
         <name>Толстый член "Пузанище" XL</name>
         <url>https://pinkypunk.ru/catalog/falloimitators/puzanishe-xl</url>
@@ -2105,6 +2158,24 @@
         <url>https://pinkypunk.ru/catalog/falloimitators/titan-molot-30-9</url>
         <picture>https://static.tildacdn.com/stor3735-6235-4663-a430-353338626136/e2e4e65a430d907821e204dbcc31885f.jpg</picture>
         <description>Титан Молот — гигантский реалистичный фаллоимитатор для тех, кому стандартные размеры уже кажутся слишком скромными</description>
+      </collection>
+      <collection id="1304367610">
+        <name>Фаллоимитатор маленький «Пипин Короткий»</name>
+        <url>https://pinkypunk.ru/catalog/falloimitators/pipin-korotkiy-18-5</url>
+        <picture>https://static.tildacdn.com/stor6432-6563-4238-a261-333461396239/e556c9fcee16c1a94ce81d10456ea754.jpg</picture>
+        <description>Размер не главное</description>
+      </collection>
+      <collection id="1433452729">
+        <name>Мастурбатор «Кент» мужской торс с членом</name>
+        <url>https://pinkypunk.ru/catalog/masturbatori/kent</url>
+        <picture>https://static.tildacdn.com/stor6333-3664-4661-b432-636236393233/e4ad009042c67a11ae492c154702ca30.jpg</picture>
+        <description>Как мы вообще до этого додумались?</description>
+      </collection>
+      <collection id="1469362144">
+        <name>Сквозной мастурбатор «Сквозняк PRO MAX»</name>
+        <url>https://pinkypunk.ru/catalog/masturbatori/skvoznyak-pro-max</url>
+        <picture>https://static.tildacdn.com/stor3633-3661-4065-b865-303132653730/10fab7b4ff45f9883ddb47d3d1d19cdc.jpg</picture>
+        <description>Версия «Сквозняка» 2.0</description>
       </collection>
     </collections>
   </shop>

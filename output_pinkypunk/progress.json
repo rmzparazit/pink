@@ -1599,7 +1599,7 @@
             "price": "19900",
             "image": "https://static.tildacdn.com/stor3535-3061-4063-b630-343866356361/40170309.png",
             "description": "Большая, сочная и нежная",
-            "available": true,
+            "available": false,
             "properties": [
                 {
                     "name": "Категория",
@@ -3111,6 +3111,120 @@
             "additional_images": [],
             "categoryId": "2",
             "categoryName": "Фаллоимитаторы"
+        },
+        {
+            "name": "Фаллоимитатор маленький «Пипин Короткий»",
+            "vendorCode": "1304367610",
+            "link": "https://pinkypunk.ru/catalog/falloimitators/pipin-korotkiy-18-5",
+            "price": "2490",
+            "image": "https://static.tildacdn.com/stor6432-6563-4238-a261-333461396239/e556c9fcee16c1a94ce81d10456ea754.jpg",
+            "description": "Размер не главное",
+            "available": true,
+            "properties": [
+                {
+                    "name": "Категория",
+                    "value": "Фаллоимитаторы"
+                },
+                {
+                    "name": "Бренд",
+                    "value": "Секспедиция"
+                },
+                {
+                    "name": "Вес брутто",
+                    "value": "400 г"
+                },
+                {
+                    "name": "Длина упаковки",
+                    "value": "185 мм"
+                },
+                {
+                    "name": "Ширина упаковки",
+                    "value": "95 мм"
+                },
+                {
+                    "name": "Высота упаковки",
+                    "value": "95 мм"
+                }
+            ],
+            "additional_images": [],
+            "categoryId": "2",
+            "categoryName": "Фаллоимитаторы"
+        },
+        {
+            "name": "Мастурбатор «Кент» мужской торс с членом",
+            "vendorCode": "1433452729",
+            "link": "https://pinkypunk.ru/catalog/masturbatori/kent",
+            "price": "7700",
+            "image": "https://static.tildacdn.com/stor6333-3664-4661-b432-636236393233/e4ad009042c67a11ae492c154702ca30.jpg",
+            "description": "Как мы вообще до этого додумались?",
+            "available": true,
+            "properties": [
+                {
+                    "name": "Категория",
+                    "value": "Мастурбаторы"
+                },
+                {
+                    "name": "Бренд",
+                    "value": "Секспедиция"
+                },
+                {
+                    "name": "Вес брутто",
+                    "value": "2100 г"
+                },
+                {
+                    "name": "Длина упаковки",
+                    "value": "360 мм"
+                },
+                {
+                    "name": "Ширина упаковки",
+                    "value": "150 мм"
+                },
+                {
+                    "name": "Высота упаковки",
+                    "value": "150 мм"
+                }
+            ],
+            "additional_images": [],
+            "categoryId": "3",
+            "categoryName": "Мастурбаторы"
+        },
+        {
+            "name": "Сквозной мастурбатор «Сквозняк PRO MAX»",
+            "vendorCode": "1469362144",
+            "link": "https://pinkypunk.ru/catalog/masturbatori/skvoznyak-pro-max",
+            "price": "4400",
+            "image": "https://static.tildacdn.com/stor3633-3661-4065-b865-303132653730/10fab7b4ff45f9883ddb47d3d1d19cdc.jpg",
+            "description": "Версия «Сквозняка» 2.0",
+            "available": true,
+            "properties": [
+                {
+                    "name": "Категория",
+                    "value": "Мастурбаторы"
+                },
+                {
+                    "name": "Бренд",
+                    "value": "Секспедиция"
+                },
+                {
+                    "name": "Вес брутто",
+                    "value": "860 г"
+                },
+                {
+                    "name": "Длина упаковки",
+                    "value": "185 мм"
+                },
+                {
+                    "name": "Ширина упаковки",
+                    "value": "95 мм"
+                },
+                {
+                    "name": "Высота упаковки",
+                    "value": "95 мм"
+                }
+            ],
+            "additional_images": [],
+            "categoryId": "3",
+            "categoryName": "Мастурбаторы"
         }
     ]
 }
