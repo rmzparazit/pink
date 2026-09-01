@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<yml_catalog date="2026-08-30 22:58">
+<yml_catalog date="2026-09-01 00:10">
   <shop>
     <name>Секспедиция</name>
     <company>Секспедиция</company>
@@ -857,7 +857,7 @@
         <property name="Ширина упаковки">150 мм</property>
         <property name="Высота упаковки">50 мм</property>
       </offer>
-      <offer id="491483858" available="false">
+      <offer id="491483858" available="true">
         <name>Реалистичная попка "Люси Мью"</name>
         <vendor>Секспедиция</vendor>
         <vendorCode>491483858</vendorCode>
@@ -865,6 +865,7 @@
         <currencyId>RUB</currencyId>
         <categoryId>3</categoryId>
         <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/491483858.png</picture>
+        <collectionId>491483858</collectionId>
         <url>https://pinkypunk.ru/catalog/masturbatori/lyusi-myu</url>
         <description>Большая, сочная и нежная</description>
         <sales_notes>Официальный сайт Секспедиция.</sales_notes>
@@ -1942,6 +1943,12 @@
         <url>https://pinkypunk.ru/catalog/falloimitators/malchik-s-palchik-l</url>
         <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/474613283.png</picture>
         <description>16 см общая длина / 3.5 см диаметр</description>
+      </collection>
+      <collection id="491483858">
+        <name>Реалистичная попка "Люси Мью"</name>
+        <url>https://pinkypunk.ru/catalog/masturbatori/lyusi-myu</url>
+        <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/491483858.png</picture>
+        <description>Большая, сочная и нежная</description>
       </collection>
       <collection id="474535086">
         <name>Толстый член "Пузанище" XL</name>
