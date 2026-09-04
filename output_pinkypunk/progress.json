@@ -577,7 +577,7 @@
             "price": "490",
             "image": "https://static.tildacdn.com/stor3232-3738-4861-b163-363665666262/69507832.jpg",
             "description": "Строгая классика, никаких добавок, только чистый кайф",
-            "available": true,
+            "available": false,
             "properties": [
                 {
                     "name": "Категория",
@@ -653,7 +653,7 @@
             "price": "790",
             "image": "https://static.tildacdn.com/stor6136-3632-4435-b061-303834303265/52401313.jpg",
             "description": "Зачем брать один, когда можно взять сразу два по охерительной цене? А?",
-            "available": true,
+            "available": false,
             "properties": [
                 {
                     "name": "Категория",
@@ -729,7 +729,7 @@
             "price": "49000",
             "image": "https://static.tildacdn.com/stor3037-3166-4138-b334-666539633336/51554904.jpg",
             "description": "19кг - это как 30, но на 11 легче :)",
-            "available": false,
+            "available": true,
             "properties": [
                 {
                     "name": "Категория",
@@ -1489,7 +1489,7 @@
             "price": "1690",
             "image": "https://static.tildacdn.com/stor3832-6531-4865-b936-363061333538/a5baab26715db7858c6da04fff692e20.png",
             "description": "16 см общая длина / 3.5 см диаметр",
-            "available": true,
+            "available": false,
             "properties": [
                 {
                     "name": "Категория",
@@ -2511,7 +2511,7 @@
             "price": "2900",
             "image": "https://static.tildacdn.com/stor6636-6135-4733-b437-383938373764/dd54ae5dd3993379ce7648b3c17eed34.jpg",
             "description": "Маски сняты. Встречайте третью модель из Незнакомцев - Артист дачного театра.",
-            "available": true,
+            "available": false,
             "properties": [
                 {
                     "name": "Категория",
@@ -3225,6 +3225,44 @@
             "additional_images": [],
             "categoryId": "3",
             "categoryName": "Мастурбаторы"
+        },
+        {
+            "name": "Секс-кукла «Футанари» с членом, вагиной и анусом",
+            "vendorCode": "1266661210",
+            "link": "https://pinkypunk.ru/catalog/sex-kukli/futunari",
+            "price": "59900",
+            "image": "https://static.tildacdn.com/stor6464-6431-4935-a539-376331653266/a8440809de0d27ce66dd891f529efbfd.jpg",
+            "description": "Фута.. кто?",
+            "available": true,
+            "properties": [
+                {
+                    "name": "Категория",
+                    "value": "Секс-куклы"
+                },
+                {
+                    "name": "Бренд",
+                    "value": "Секспедиция"
+                },
+                {
+                    "name": "Вес брутто",
+                    "value": "22000 г"
+                },
+                {
+                    "name": "Длина упаковки",
+                    "value": "680 мм"
+                },
+                {
+                    "name": "Ширина упаковки",
+                    "value": "370 мм"
+                },
+                {
+                    "name": "Высота упаковки",
+                    "value": "300 мм"
+                }
+            ],
+            "additional_images": [],
+            "categoryId": "4",
+            "categoryName": "Секс-куклы"
         }
     ]
 }
