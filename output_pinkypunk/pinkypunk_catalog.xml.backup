@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<yml_catalog date="2026-09-03 22:52">
+<yml_catalog date="2026-09-04 22:36">
   <shop>
     <name>Секспедиция</name>
     <company>Секспедиция</company>
@@ -320,7 +320,7 @@
         <property name="Ширина упаковки">150 мм</property>
         <property name="Высота упаковки">150 мм</property>
       </offer>
-      <offer id="52819167" available="true">
+      <offer id="52819167" available="false">
         <name>Интимная гель-смазка Классическая 100мл</name>
         <vendor>Секспедиция</vendor>
         <vendorCode>52819167</vendorCode>
@@ -328,7 +328,6 @@
         <currencyId>RUB</currencyId>
         <categoryId>5</categoryId>
         <picture>https://static.tildacdn.com/stor3232-3738-4861-b163-363665666262/69507832.jpg</picture>
-        <collectionId>52819167</collectionId>
         <url>https://pinkypunk.ru/catalog/lubrikanty/classic-100ml</url>
         <description>Строгая классика, никаких добавок, только чистый кайф</description>
         <sales_notes>Официальный сайт Секспедиция.</sales_notes>
@@ -360,7 +359,7 @@
         <property name="Ширина упаковки">50 мм</property>
         <property name="Высота упаковки">50 мм</property>
       </offer>
-      <offer id="DvaLubrika" available="true">
+      <offer id="DvaLubrika" available="false">
         <name>Два лубрика: Вишня + Классика</name>
         <vendor>Секспедиция</vendor>
         <vendorCode>DvaLubrika</vendorCode>
@@ -368,7 +367,6 @@
         <currencyId>RUB</currencyId>
         <categoryId>5</categoryId>
         <picture>https://static.tildacdn.com/stor6136-3632-4435-b061-303834303265/52401313.jpg</picture>
-        <collectionId>DvaLubrika</collectionId>
         <url>https://pinkypunk.ru/catalog/lubrikanty/set-vishnya-klassika</url>
         <description>Зачем брать один, когда можно взять сразу два по охерительной цене? А?</description>
         <sales_notes>Официальный сайт Секспедиция.</sales_notes>
@@ -400,7 +398,7 @@
         <property name="Ширина упаковки">450 мм</property>
         <property name="Высота упаковки">330 мм</property>
       </offer>
-      <offer id="489065280" available="false">
+      <offer id="489065280" available="true">
         <name>Секс-кукла "19кг радости"</name>
         <vendor>Секспедиция</vendor>
         <vendorCode>489065280</vendorCode>
@@ -408,6 +406,7 @@
         <currencyId>RUB</currencyId>
         <categoryId>4</categoryId>
         <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/489065280.png</picture>
+        <collectionId>489065280</collectionId>
         <url>https://pinkypunk.ru/catalog/sex-kukli/19kg-radosti</url>
         <description>19кг - это как 30, но на 11 легче :)</description>
         <sales_notes>Официальный сайт Секспедиция.</sales_notes>
@@ -798,7 +797,7 @@
         <property name="Ширина упаковки">90 мм</property>
         <property name="Высота упаковки">80 мм</property>
       </offer>
-      <offer id="474613283" available="true">
+      <offer id="474613283" available="false">
         <name>Мальчик с пальчик L</name>
         <vendor>Секспедиция</vendor>
         <vendorCode>474613283</vendorCode>
@@ -806,7 +805,6 @@
         <currencyId>RUB</currencyId>
         <categoryId>2</categoryId>
         <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/474613283.png</picture>
-        <collectionId>474613283</collectionId>
         <url>https://pinkypunk.ru/catalog/falloimitators/malchik-s-palchik-l</url>
         <description>16 см общая длина / 3.5 см диаметр</description>
         <sales_notes>Официальный сайт Секспедиция.</sales_notes>
@@ -1333,7 +1331,7 @@
         <property name="Ширина упаковки">95 мм</property>
         <property name="Высота упаковки">95 мм</property>
       </offer>
-      <offer id="995287364" available="true">
+      <offer id="995287364" available="false">
         <name>Проект «Незнакомцы». Объект №3. Он же "Артист дачного театра"</name>
         <vendor>Секспедиция</vendor>
         <vendorCode>995287364</vendorCode>
@@ -1341,7 +1339,6 @@
         <currencyId>RUB</currencyId>
         <categoryId>9</categoryId>
         <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/995287364.png</picture>
-        <collectionId>995287364</collectionId>
         <url>https://pinkypunk.ru/catalog/neznakomci/object3-02</url>
         <description>Маски сняты. Встречайте третью модель из Незнакомцев - Артист дачного театра.</description>
         <sales_notes>Официальный сайт Секспедиция.</sales_notes>
@@ -1712,6 +1709,26 @@
         <property name="Ширина упаковки">95 мм</property>
         <property name="Высота упаковки">95 мм</property>
       </offer>
+      <offer id="1266661210" available="true">
+        <name>Секс-кукла «Футанари» с членом, вагиной и анусом</name>
+        <vendor>Секспедиция</vendor>
+        <vendorCode>1266661210</vendorCode>
+        <price>59900</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>4</categoryId>
+        <picture>https://static.tildacdn.com/stor6464-6431-4935-a539-376331653266/a8440809de0d27ce66dd891f529efbfd.jpg</picture>
+        <collectionId>1266661210</collectionId>
+        <url>https://pinkypunk.ru/catalog/sex-kukli/futunari</url>
+        <description>Фута.. кто?</description>
+        <sales_notes>Официальный сайт Секспедиция.</sales_notes>
+        <custom_label_0>Секс-куклы</custom_label_0>
+        <property name="Категория">Секс-куклы</property>
+        <property name="Бренд">Секспедиция</property>
+        <property name="Вес брутто">22000 г</property>
+        <property name="Длина упаковки">680 мм</property>
+        <property name="Ширина упаковки">370 мм</property>
+        <property name="Высота упаковки">300 мм</property>
+      </offer>
     </offers>
     <collections>
       <collection id="287449573">
@@ -1798,29 +1815,23 @@
         <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/262501210.png</picture>
         <description>Батя в здании и он пришел раздать не по-детски</description>
       </collection>
-      <collection id="52819167">
-        <name>Интимная гель-смазка Классическая 100мл</name>
-        <url>https://pinkypunk.ru/catalog/lubrikanty/classic-100ml</url>
-        <picture>https://static.tildacdn.com/stor3232-3738-4861-b163-363665666262/69507832.jpg</picture>
-        <description>Строгая классика, никаких добавок, только чистый кайф</description>
-      </collection>
       <collection id="466514947">
         <name>Интимная гель-смазка Вишневая 100мл</name>
         <url>https://pinkypunk.ru/catalog/lubrikanty/vishnya-100ml</url>
         <picture>https://static.tildacdn.com/stor6137-6563-4161-b933-316165353539/96236198.jpg</picture>
         <description>Сладенького захотелось?</description>
       </collection>
-      <collection id="DvaLubrika">
-        <name>Два лубрика: Вишня + Классика</name>
-        <url>https://pinkypunk.ru/catalog/lubrikanty/set-vishnya-klassika</url>
-        <picture>https://static.tildacdn.com/stor6136-3632-4435-b061-303834303265/52401313.jpg</picture>
-        <description>Зачем брать один, когда можно взять сразу два по охерительной цене? А?</description>
-      </collection>
       <collection id="471859805">
         <name>Секс-кукла "30кг радости"</name>
         <url>https://pinkypunk.ru/catalog/sex-kukli/30kg-radosti</url>
         <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/471859805.png</picture>
         <description>Даже и добавить нечего.</description>
+      </collection>
+      <collection id="489065280">
+        <name>Секс-кукла "19кг радости"</name>
+        <url>https://pinkypunk.ru/catalog/sex-kukli/19kg-radosti</url>
+        <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/489065280.png</picture>
+        <description>19кг - это как 30, но на 11 легче :)</description>
       </collection>
       <collection id="474354054">
         <name>Фаллоимитатор "Пирамидоголовый" / Размер S</name>
@@ -1929,12 +1940,6 @@
         <url>https://pinkypunk.ru/catalog/falloimitators/malchik-s-palchik-m</url>
         <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/474613282.png</picture>
         <description>15 см общая длина / 3.2 см диаметр</description>
-      </collection>
-      <collection id="474613283">
-        <name>Мальчик с пальчик L</name>
-        <url>https://pinkypunk.ru/catalog/falloimitators/malchik-s-palchik-l</url>
-        <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/474613283.png</picture>
-        <description>16 см общая длина / 3.5 см диаметр</description>
       </collection>
       <collection id="491483858">
         <name>Реалистичная попка "Люси Мью"</name>
@@ -2062,12 +2067,6 @@
         <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/995231694.png</picture>
         <description>Фаллоимитатор «Два-Крепыш» — когда хочется почувствовать настоящий масштаб.</description>
       </collection>
-      <collection id="995287364">
-        <name>Проект «Незнакомцы». Объект №3. Он же "Артист дачного театра"</name>
-        <url>https://pinkypunk.ru/catalog/neznakomci/object3-02</url>
-        <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/995287364.png</picture>
-        <description>Маски сняты. Встречайте третью модель из Незнакомцев - Артист дачного театра.</description>
-      </collection>
       <collection id="995287365">
         <name>Проект «Незнакомцы». Объект №3. Он же "Артист большого театра"</name>
         <url>https://pinkypunk.ru/catalog/neznakomci/object3-03</url>
@@ -2169,6 +2168,12 @@
         <url>https://pinkypunk.ru/catalog/masturbatori/skvoznyak-pro-max</url>
         <picture>https://static.tildacdn.com/stor3633-3661-4065-b865-303132653730/10fab7b4ff45f9883ddb47d3d1d19cdc.jpg</picture>
         <description>Версия «Сквозняка» 2.0</description>
+      </collection>
+      <collection id="1266661210">
+        <name>Секс-кукла «Футанари» с членом, вагиной и анусом</name>
+        <url>https://pinkypunk.ru/catalog/sex-kukli/futunari</url>
+        <picture>https://static.tildacdn.com/stor6464-6431-4935-a539-376331653266/a8440809de0d27ce66dd891f529efbfd.jpg</picture>
+        <description>Фута.. кто?</description>
       </collection>
     </collections>
   </shop>
