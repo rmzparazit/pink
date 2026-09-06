@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<yml_catalog date="2026-09-05 22:25">
+<yml_catalog date="2026-09-06 22:31">
   <shop>
     <name>Секспедиция</name>
     <company>Секспедиция</company>
@@ -378,7 +378,7 @@
         <property name="Ширина упаковки">100 мм</property>
         <property name="Высота упаковки">100 мм</property>
       </offer>
-      <offer id="471859805" available="true">
+      <offer id="471859805" available="false">
         <name>Секс-кукла "30кг радости"</name>
         <vendor>Секспедиция</vendor>
         <vendorCode>471859805</vendorCode>
@@ -386,7 +386,6 @@
         <currencyId>RUB</currencyId>
         <categoryId>4</categoryId>
         <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/471859805.png</picture>
-        <collectionId>471859805</collectionId>
         <url>https://pinkypunk.ru/catalog/sex-kukli/30kg-radosti</url>
         <description>Даже и добавить нечего.</description>
         <sales_notes>Официальный сайт Секспедиция.</sales_notes>
@@ -1820,12 +1819,6 @@
         <url>https://pinkypunk.ru/catalog/lubrikanty/vishnya-100ml</url>
         <picture>https://static.tildacdn.com/stor6137-6563-4161-b933-316165353539/96236198.jpg</picture>
         <description>Сладенького захотелось?</description>
-      </collection>
-      <collection id="471859805">
-        <name>Секс-кукла "30кг радости"</name>
-        <url>https://pinkypunk.ru/catalog/sex-kukli/30kg-radosti</url>
-        <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/471859805.png</picture>
-        <description>Даже и добавить нечего.</description>
       </collection>
       <collection id="489065280">
         <name>Секс-кукла "19кг радости"</name>

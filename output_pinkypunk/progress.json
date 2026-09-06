@@ -691,7 +691,7 @@
             "price": "75900",
             "image": "https://static.tildacdn.com/stor3733-3738-4131-b930-376464373231/67625212.jpg",
             "description": "Даже и добавить нечего.",
-            "available": true,
+            "available": false,
             "properties": [
                 {
                     "name": "Категория",
