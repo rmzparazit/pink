@@ -1489,7 +1489,7 @@
             "price": "1690",
             "image": "https://static.tildacdn.com/stor3832-6531-4865-b936-363061333538/a5baab26715db7858c6da04fff692e20.png",
             "description": "16 см общая длина / 3.5 см диаметр",
-            "available": false,
+            "available": true,
             "properties": [
                 {
                     "name": "Категория",
@@ -1979,7 +1979,7 @@
             "price": "2290",
             "image": "https://static.tildacdn.com/stor3966-3134-4436-a431-343962356333/35825dbdc7bd8136d10ba7ca90cf6200.png",
             "description": "Сунь-Подсунь куда угодно для новых ощущений :)",
-            "available": false,
+            "available": true,
             "properties": [
                 {
                     "name": "Категория",
@@ -2473,7 +2473,7 @@
             "price": "2200",
             "image": "https://static.tildacdn.com/stor3964-3037-4632-a537-366233373762/3748d4f12cf656a65c9f5034d9fbea16.jpg",
             "description": "Маски сняты. Встречайте третью модель из Незнакомцев - Артист малого театра.",
-            "available": false,
+            "available": true,
             "properties": [
                 {
                     "name": "Категория",
@@ -2511,7 +2511,7 @@
             "price": "2900",
             "image": "https://static.tildacdn.com/stor6636-6135-4733-b437-383938373764/dd54ae5dd3993379ce7648b3c17eed34.jpg",
             "description": "Маски сняты. Встречайте третью модель из Незнакомцев - Артист дачного театра.",
-            "available": false,
+            "available": true,
             "properties": [
                 {
                     "name": "Категория",
