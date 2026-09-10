@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<yml_catalog date="2026-09-08 23:02">
+<yml_catalog date="2026-09-09 22:49">
   <shop>
     <name>Секспедиция</name>
     <company>Секспедиция</company>
@@ -796,7 +796,7 @@
         <property name="Ширина упаковки">90 мм</property>
         <property name="Высота упаковки">80 мм</property>
       </offer>
-      <offer id="474613283" available="false">
+      <offer id="474613283" available="true">
         <name>Мальчик с пальчик L</name>
         <vendor>Секспедиция</vendor>
         <vendorCode>474613283</vendorCode>
@@ -804,6 +804,7 @@
         <currencyId>RUB</currencyId>
         <categoryId>2</categoryId>
         <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/474613283.png</picture>
+        <collectionId>474613283</collectionId>
         <url>https://pinkypunk.ru/catalog/falloimitators/malchik-s-palchik-l</url>
         <description>16 см общая длина / 3.5 см диаметр</description>
         <sales_notes>Официальный сайт Секспедиция.</sales_notes>
@@ -1052,7 +1053,7 @@
         <property name="Ширина упаковки">90 мм</property>
         <property name="Высота упаковки">50 мм</property>
       </offer>
-      <offer id="833467546" available="false">
+      <offer id="833467546" available="true">
         <name>"Сунь-Подсунь" тонкий и длинный фаллоимитатор</name>
         <vendor>Секспедиция</vendor>
         <vendorCode>833467546</vendorCode>
@@ -1060,6 +1061,7 @@
         <currencyId>RUB</currencyId>
         <categoryId>2</categoryId>
         <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/833467546.png</picture>
+        <collectionId>833467546</collectionId>
         <url>https://pinkypunk.ru/catalog/falloimitators/sun-podsun-23-3-2</url>
         <description>Сунь-Подсунь куда угодно для новых ощущений :)</description>
         <sales_notes>Официальный сайт Секспедиция.</sales_notes>
@@ -1309,7 +1311,7 @@
         <property name="Ширина упаковки">95 мм</property>
         <property name="Высота упаковки">95 мм</property>
       </offer>
-      <offer id="995294539" available="false">
+      <offer id="995294539" available="true">
         <name>Проект «Незнакомцы». Объект №3. Он же "Артист малого театра"</name>
         <vendor>Секспедиция</vendor>
         <vendorCode>995294539</vendorCode>
@@ -1317,6 +1319,7 @@
         <currencyId>RUB</currencyId>
         <categoryId>9</categoryId>
         <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/995294539.png</picture>
+        <collectionId>995294539</collectionId>
         <url>https://pinkypunk.ru/catalog/neznakomci/object3-01</url>
         <description>Маски сняты. Встречайте третью модель из Незнакомцев - Артист малого театра.</description>
         <sales_notes>Официальный сайт Секспедиция.</sales_notes>
@@ -1328,7 +1331,7 @@
         <property name="Ширина упаковки">95 мм</property>
         <property name="Высота упаковки">95 мм</property>
       </offer>
-      <offer id="995287364" available="false">
+      <offer id="995287364" available="true">
         <name>Проект «Незнакомцы». Объект №3. Он же "Артист дачного театра"</name>
         <vendor>Секспедиция</vendor>
         <vendorCode>995287364</vendorCode>
@@ -1336,6 +1339,7 @@
         <currencyId>RUB</currencyId>
         <categoryId>9</categoryId>
         <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/995287364.png</picture>
+        <collectionId>995287364</collectionId>
         <url>https://pinkypunk.ru/catalog/neznakomci/object3-02</url>
         <description>Маски сняты. Встречайте третью модель из Незнакомцев - Артист дачного театра.</description>
         <sales_notes>Официальный сайт Секспедиция.</sales_notes>
@@ -1932,6 +1936,12 @@
         <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/474613282.png</picture>
         <description>15 см общая длина / 3.2 см диаметр</description>
       </collection>
+      <collection id="474613283">
+        <name>Мальчик с пальчик L</name>
+        <url>https://pinkypunk.ru/catalog/falloimitators/malchik-s-palchik-l</url>
+        <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/474613283.png</picture>
+        <description>16 см общая длина / 3.5 см диаметр</description>
+      </collection>
       <collection id="474535086">
         <name>Толстый член "Пузанище" XL</name>
         <url>https://pinkypunk.ru/catalog/falloimitators/puzanishe-xl</url>
@@ -1985,6 +1995,12 @@
         <url>https://pinkypunk.ru/catalog/masturbatori/palochka-dlya-sushki</url>
         <picture>https://static.tildacdn.com/stor3439-3662-4337-b461-646461303863/29497857.webp</picture>
         <description>Мастурбатор будет сухой и счастливый</description>
+      </collection>
+      <collection id="833467546">
+        <name>"Сунь-Подсунь" тонкий и длинный фаллоимитатор</name>
+        <url>https://pinkypunk.ru/catalog/falloimitators/sun-podsun-23-3-2</url>
+        <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/833467546.png</picture>
+        <description>Сунь-Подсунь куда угодно для новых ощущений :)</description>
       </collection>
       <collection id="833442267">
         <name>Фаллоимитатор "Сутулый". Эпизод I.</name>
@@ -2045,6 +2061,18 @@
         <url>https://pinkypunk.ru/catalog/neznakomci/object2-02</url>
         <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/995231694.png</picture>
         <description>Фаллоимитатор «Два-Крепыш» — когда хочется почувствовать настоящий масштаб.</description>
+      </collection>
+      <collection id="995294539">
+        <name>Проект «Незнакомцы». Объект №3. Он же "Артист малого театра"</name>
+        <url>https://pinkypunk.ru/catalog/neznakomci/object3-01</url>
+        <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/995294539.png</picture>
+        <description>Маски сняты. Встречайте третью модель из Незнакомцев - Артист малого театра.</description>
+      </collection>
+      <collection id="995287364">
+        <name>Проект «Незнакомцы». Объект №3. Он же "Артист дачного театра"</name>
+        <url>https://pinkypunk.ru/catalog/neznakomci/object3-02</url>
+        <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/995287364.png</picture>
+        <description>Маски сняты. Встречайте третью модель из Незнакомцев - Артист дачного театра.</description>
       </collection>
       <collection id="995287365">
         <name>Проект «Незнакомцы». Объект №3. Он же "Артист большого театра"</name>

@@ -1599,7 +1599,7 @@
             "price": "19900",
             "image": "https://static.tildacdn.com/stor3535-3061-4063-b630-343866356361/40170309.png",
             "description": "Большая, сочная и нежная",
-            "available": false,
+            "available": true,
             "properties": [
                 {
                     "name": "Категория",
