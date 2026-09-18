@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<yml_catalog date="2026-09-17 23:11">
+<yml_catalog date="2026-09-18 22:54">
   <shop>
     <name>Секспедиция</name>
     <company>Секспедиция</company>
@@ -41,7 +41,7 @@
         <property name="Ширина упаковки">310 мм</property>
         <property name="Высота упаковки">310 мм</property>
       </offer>
-      <offer id="449723250" available="true">
+      <offer id="449723250" available="false">
         <name>Реалистичная попка "Хани Дью"</name>
         <vendor>Секспедиция</vendor>
         <vendorCode>449723250</vendorCode>
@@ -49,7 +49,6 @@
         <currencyId>RUB</currencyId>
         <categoryId>3</categoryId>
         <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/449723250.png</picture>
-        <collectionId>449723250</collectionId>
         <url>https://pinkypunk.ru/catalog/masturbatori/hani-dyu</url>
         <description>Нежная и невероятно развратная</description>
         <sales_notes>Официальный сайт Секспедиция.</sales_notes>
@@ -1738,12 +1737,6 @@
         <url>https://pinkypunk.ru/catalog/masturbatori/meri-syu</url>
         <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/287449573.png</picture>
         <description>Невозможно описать словами те эмоции, которая дарит Мэри</description>
-      </collection>
-      <collection id="449723250">
-        <name>Реалистичная попка "Хани Дью"</name>
-        <url>https://pinkypunk.ru/catalog/masturbatori/hani-dyu</url>
-        <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/449723250.png</picture>
-        <description>Нежная и невероятно развратная</description>
       </collection>
       <collection id="449791367">
         <name>Мастурбатор грудь с вагиной "ПисьДаСись"</name>
