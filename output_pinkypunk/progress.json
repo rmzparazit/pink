@@ -691,7 +691,7 @@
             "price": "75900",
             "image": "https://static.tildacdn.com/stor6466-6339-4131-b833-636537646535/3308b26fb3c99eaf9dd710c62c108246.jpg",
             "description": "Даже и добавить нечего.",
-            "available": false,
+            "available": true,
             "properties": [
                 {
                     "name": "Категория",
@@ -2207,7 +2207,7 @@
             "price": "3900",
             "image": "https://static.tildacdn.com/stor6537-6365-4465-a462-653266373032/fcc6a93e7a2340c1d1cd48cdfae04622.jpg",
             "description": "Два входа - два сценария",
-            "available": false,
+            "available": true,
             "properties": [
                 {
                     "name": "Категория",
