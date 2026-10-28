@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<yml_catalog date="2026-10-27 00:07">
+<yml_catalog date="2026-10-28 00:07">
   <shop>
     <name>Секспедиция</name>
     <company>Секспедиция</company>
@@ -1634,7 +1634,7 @@
         <property name="Ширина упаковки">95 мм</property>
         <property name="Высота упаковки">95 мм</property>
       </offer>
-      <offer id="1266661210" available="true">
+      <offer id="1266661210" available="false">
         <name>Секс-кукла «Футанари» с членом, вагиной и анусом</name>
         <vendor>Секспедиция</vendor>
         <vendorCode>1266661210</vendorCode>
@@ -1642,7 +1642,6 @@
         <currencyId>RUB</currencyId>
         <categoryId>4</categoryId>
         <picture>https://sexpedition.ru/bluriki-production-20261011/closed/b23d134f20c699baa33e8b50a4681bdf.webp</picture>
-        <collectionId>1266661210</collectionId>
         <url>https://pinkypunk.ru/catalog/sex-kukli/futunari</url>
         <sales_notes>Официальный сайт Секспедиция.</sales_notes>
         <custom_label_0>Секс-куклы</custom_label_0>
@@ -2073,11 +2072,6 @@
         <name>Сквозной мастурбатор «Сквозняк PRO MAX»</name>
         <url>https://pinkypunk.ru/catalog/masturbatori/skvoznyak-pro-max</url>
         <picture>https://sexpedition.ru/bluriki-production-20261011/closed/92867edc1fdce79d9fb21a853abc731f.webp</picture>
-      </collection>
-      <collection id="1266661210">
-        <name>Секс-кукла «Футанари» с членом, вагиной и анусом</name>
-        <url>https://pinkypunk.ru/catalog/sex-kukli/futunari</url>
-        <picture>https://sexpedition.ru/bluriki-production-20261011/closed/b23d134f20c699baa33e8b50a4681bdf.webp</picture>
       </collection>
       <collection id="1708646285">
         <name>Толстый огромный член "Пузатрон" XXL</name>
