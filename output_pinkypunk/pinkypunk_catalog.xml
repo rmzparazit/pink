@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<yml_catalog date="2026-11-02 00:00">
+<yml_catalog date="2026-11-03 02:42">
   <shop>
     <name>Секспедиция</name>
     <company>Секспедиция</company>
@@ -1084,7 +1084,7 @@
         <property name="Ширина упаковки">90 мм</property>
         <property name="Высота упаковки">90 мм</property>
       </offer>
-      <offer id="876932250" available="false">
+      <offer id="876932250" available="true">
         <name>"Сам себе Шляпник" Размер S-M</name>
         <vendor>Секспедиция</vendor>
         <vendorCode>876932250</vendorCode>
@@ -1092,6 +1092,7 @@
         <currencyId>RUB</currencyId>
         <categoryId>8</categoryId>
         <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/876932250.png</picture>
+        <collectionId>876932250</collectionId>
         <url>https://pinkypunk.ru/catalog/nasadki/sam-sebe-shlyapnik-s-m</url>
         <sales_notes>Официальный сайт Секспедиция.</sales_notes>
         <custom_label_0>Насадки</custom_label_0>
@@ -1387,7 +1388,7 @@
         <property name="Ширина упаковки">160 мм</property>
         <property name="Высота упаковки">130 мм</property>
       </offer>
-      <offer id="1185870660" available="true">
+      <offer id="1185870660" available="false">
         <name>Надувная пробка «Большая Шишка» в форме члена</name>
         <vendor>Секспедиция</vendor>
         <vendorCode>1185870660</vendorCode>
@@ -1395,7 +1396,6 @@
         <currencyId>RUB</currencyId>
         <categoryId>7</categoryId>
         <picture>https://static.tildacdn.com/stor3762-6531-4235-b831-386336346431/4cd6a985ff25dff9fb8a6bd1db74f6ca.jpg</picture>
-        <collectionId>1185870660</collectionId>
         <url>https://pinkypunk.ru/catalog/probki/bolshaya-shishka</url>
         <sales_notes>Официальный сайт Секспедиция.</sales_notes>
         <custom_label_0>Анальные пробки</custom_label_0>
@@ -1934,6 +1934,11 @@
         <url>https://pinkypunk.ru/catalog/nasadki/sam-sebe-shlyapnik-m-l</url>
         <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/876932251.png</picture>
       </collection>
+      <collection id="876932250">
+        <name>"Сам себе Шляпник" Размер S-M</name>
+        <url>https://pinkypunk.ru/catalog/nasadki/sam-sebe-shlyapnik-s-m</url>
+        <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/876932250.png</picture>
+      </collection>
       <collection id="982219466">
         <name>Фаллоимитатор огромный "Голиаф"</name>
         <url>https://pinkypunk.ru/catalog/falloimitators/goliaf-37-9</url>
@@ -2008,11 +2013,6 @@
         <name>Фаллоимитатор гибкий "Долговязый"</name>
         <url>https://pinkypunk.ru/catalog/falloimitators/dolgovyaziy-31-5-5</url>
         <picture>https://raw.githubusercontent.com/rmzparazit/pink/main/images/1109901167.png</picture>
-      </collection>
-      <collection id="1185870660">
-        <name>Надувная пробка «Большая Шишка» в форме члена</name>
-        <url>https://pinkypunk.ru/catalog/probki/bolshaya-shishka</url>
-        <picture>https://static.tildacdn.com/stor3762-6531-4235-b831-386336346431/4cd6a985ff25dff9fb8a6bd1db74f6ca.jpg</picture>
       </collection>
       <collection id="1185870657">
         <name>Надувная пробка «Двойняшки» с двумя металлическими шариками</name>
