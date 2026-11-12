@@ -1185,7 +1185,7 @@
             "price": "3190",
             "image": "https://sexpedition.ru/bluriki-production-20261011/closed/30a00b9d7443ba9e002dfeae0595d1fd.webp",
             "description": "",
-            "available": true,
+            "available": false,
             "properties": [
                 {
                     "name": "Категория",
@@ -1599,7 +1599,7 @@
             "price": "19900",
             "image": "https://sexpedition.ru/bluriki-production-20261011/closed/9a35c7f0296c0c4d47deb088bc1a972e.webp",
             "description": "",
-            "available": false,
+            "available": true,
             "properties": [
                 {
                     "name": "Категория",
@@ -2739,7 +2739,7 @@
             "price": "2990",
             "image": "https://static.tildacdn.com/stor3762-6531-4235-b831-386336346431/4cd6a985ff25dff9fb8a6bd1db74f6ca.jpg",
             "description": "",
-            "available": false,
+            "available": true,
             "properties": [
                 {
                     "name": "Категория",
