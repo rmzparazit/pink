@@ -2131,7 +2131,7 @@
             "price": "1490",
             "image": "https://sexpedition.ru/bluriki-production-20261011/closed/c40dbc137aa19e3497c586a73326195d.webp",
             "description": "",
-            "available": true,
+            "available": false,
             "properties": [
                 {
                     "name": "Категория",
